@@ -931,7 +931,7 @@
       body: body ? JSON.stringify(body) : undefined,
       signal: ctrl ? ctrl.signal : undefined,
       cache: 'no-cache',
-      credentials: 'omit'
+      credentials: 'same-origin'   /* same-origin API; lets protected previews pass their access cookie */
     }).then(function (r) {
       return r.json().catch(function () { return {}; }).then(function (data) {
         if (!r.ok) {
@@ -949,7 +949,8 @@
     base: BASE,
     get: function (path) { return request('GET', path); },
     post: function (path, body) { return request('POST', path, body); },
-    bootstrap: function () { return request('GET', '/bootstrap'); }
+    /* a server waking from sleep can take a while: wait longer for the catalogue than for other calls */
+    bootstrap: function () { return request('GET', '/bootstrap', null, 30000); }
   };
 })(window.KADR = window.KADR || {});
 
@@ -3973,6 +3974,7 @@
     });
 
     window.addEventListener('hashchange', function () {
+      if (!lastLoad) { start(); return; }   /* catalogue never arrived: retry instead of showing an empty shop */
       render();
       window.scrollTo(0, 0);
     });
