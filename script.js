@@ -3975,8 +3975,17 @@
 
     window.addEventListener('hashchange', function () {
       if (!lastLoad) { start(); return; }   /* catalogue never arrived: retry instead of showing an empty shop */
+      var r = parse();
+      if (r.name === 'product' && !S.byId(r.params.id) && Date.now() - lastLoad > 3000) {
+        /* a link to a piece published after this tab loaded: fetch the catalogue before saying "not found" */
+        loadingScreen();
+        loadCatalog().then(render, render);
+        window.scrollTo(0, 0);
+        return;
+      }
       render();
       window.scrollTo(0, 0);
+      refreshIfStale(30000);
     });
   }
 
@@ -3985,11 +3994,17 @@
   /* ---------- catalogue from the back office ------------------------------------ */
 
   var lastLoad = 0;
+  var lastSig = '';
+  /* Resolves true when the back office had something new (the page then needs a re-render). */
   function loadCatalog() {
     return K.api.bootstrap().then(function (boot) {
+      lastLoad = Date.now();
+      var sig = JSON.stringify(boot);
+      if (sig === lastSig) return false;
+      lastSig = sig;
       S.setCatalog(D.load(boot));
       K.search.build();
-      lastLoad = Date.now();
+      return true;
     });
   }
   function loadingScreen() {
@@ -4005,13 +4020,22 @@
     loadingScreen();
     loadCatalog().then(render, errorScreen);
   }
-  /* Back-office changes reach an open tab too: refresh when the customer comes back to it. */
-  function refreshIfStale() {
-    if (document.visibilityState !== 'visible' || !lastLoad || Date.now() - lastLoad < 60000) return;
-    loadCatalog().then(function () {
+  /* Back-office changes reach an open tab too: the catalogue is re-checked when the customer moves
+     around the site, comes back to the tab, and once a minute while the tab is visible. An unchanged
+     catalogue costs a 304; the page is redrawn only when something really changed, and never in the
+     middle of checkout or a configuration the customer is building. */
+  var refreshing = null;
+  function refreshIfStale(maxAge) {
+    if (document.visibilityState !== 'visible' || !lastLoad || refreshing) return refreshing;
+    if (Date.now() - lastLoad < maxAge) return null;
+    refreshing = loadCatalog().then(function (changed) {
+      refreshing = null;
+      if (!changed) return false;
       if (['checkout', 'builder', 'composer'].indexOf(current.name) < 0) rerender();
       else U.qs('#head').innerHTML = header();
-    }, function () { /* keep what is on screen */ });
+      return true;
+    }, function () { refreshing = null; return false; /* keep what is on screen */ });
+    return refreshing;
   }
 
   function boot() {
@@ -4025,7 +4049,8 @@
     U.qs('#menu').innerHTML = menuDrawer();
     bindGlobal();
     document.addEventListener('click', function (e) { if (e.target.closest('[data-action="retry-load"]')) start(); });
-    document.addEventListener('visibilitychange', refreshIfStale);
+    document.addEventListener('visibilitychange', function () { refreshIfStale(30000); });
+    setInterval(function () { refreshIfStale(60000); }, 60000);
     start();
 
     /* the storefront reflects admin changes without a reload */
