@@ -60,8 +60,8 @@
     'home.brand.p1d':       ['Nothing is printed until you buy it.', 'Ոչինչ չի տպվում մինչև գնումը։', 'Ничего не печатается до покупки.'],
     'home.brand.p2':        ['Every budget', 'Ցանկացած բյուջե', 'Любой бюджет'],
     'home.brand.p2d':       ['Paper prints to museum canvas in oak.', 'Թղթից մինչև կտավ կաղնու շրջանակում։', 'От бумаги до холста в дубовой раме.'],
-    'home.brand.p3':        ['Free delivery', 'Անվճար առաքում', 'Бесплатная доставка'],
-    'home.brand.p3d':       ['Included in every price. No surprises at checkout.', 'Ներառված է գնի մեջ։', 'Уже включена в цену.'],
+    'home.brand.p3':        ['Delivery across Armenia', 'Առաքում ամբողջ Հայաստանում', 'Доставка по всей Армении'],
+    'home.brand.p3d':       ['Courier to your door. The delivery price is shown before you confirm.', 'Առաքիչը մինչև դուռ։ Առաքման գինը երևում է մինչև հաստատումը։', 'Курьер до двери. Цена доставки видна до подтверждения.'],
     'home.inspiration':     ['Rooms we made', 'Սենյակներ, որ մենք ստեղծել ենք', 'Комнаты, которые мы собрали'],
     'home.inspiration.sub': ['Every scene is shoppable — tap to see what is on the wall.', 'Յուրաքանչյուր տեսարան գնելի է։', 'Каждая сцена доступна к покупке.'],
     'home.new':             ['New this week', 'Այս շաբաթվա նորույթները', 'Новое на этой неделе'],
@@ -115,7 +115,7 @@
     'p.delivery':           ['Delivery', 'Առաքում', 'Доставка'],
     'p.inHands':            ['In your hands', 'Ձեր ձեռքում', 'У вас на руках'],
     'p.days':               ['business days', 'աշխատանքային օր', 'рабочих дня'],
-    'p.free':               ['Free delivery included', 'Անվճար առաքումը ներառված է', 'Бесплатная доставка включена'],
+    'p.free':               ['Delivery priced at checkout', 'Առաքման գինը՝ պատվերի ժամանակ', 'Доставка рассчитывается при оформлении'],
     'p.details':            ['Details', 'Մանրամասներ', 'Детали'],
     'p.spec':               ['Specification', 'Բնութագրեր', 'Характеристики'],
     'p.customise':          ['Customise this', 'Անհատականացնել', 'Настроить'],
@@ -170,16 +170,16 @@
     'co.payCard':           ['Card', 'Քարտ', 'Карта'],
     'co.payApple':          ['Apple Pay', 'Apple Pay', 'Apple Pay'],
     'co.payGoogle':         ['Google Pay', 'Google Pay', 'Google Pay'],
-    'co.payManual':         ['Arrange with us directly', 'Պայմանավորվել մեզ հետ', 'Договориться напрямую'],
-    'co.payOff':            ['Online payment is temporarily unavailable.', 'Առցանց վճարումը ժամանակավորապես անհասանելի է։', 'Онлайн-оплата временно недоступна.'],
-    'co.payOffBody':        ['Send us the order and we will confirm payment and delivery personally — usually within an hour.',
-                             'Ուղարկեք պատվերը, և մենք անձամբ կհաստատենք վճարումն ու առաքումը։',
-                             'Отправьте заказ — мы лично подтвердим оплату и доставку.'],
+    'co.payManual':         ['Bank transfer', 'Բանկային փոխանցում', 'Банковский перевод'],
+    'co.payOff':            ['Payment by bank transfer.', 'Վճարում բանկային փոխանցումով։', 'Оплата банковским переводом.'],
+    'co.payOffBody':        ['Right after you place the order you get the bank details, the amount and your order code. Transfer the amount with the code in the purpose and send us a screenshot.',
+                             'Պատվերից անմիջապես հետո կստանաք վճարման տվյալները, գումարը և պատվերի կոդը։ Փոխանցեք գումարը՝ նշելով կոդը, և ուղարկեք մեզ սքրինշոթը։',
+                             'Сразу после заказа вы увидите реквизиты, сумму и код заказа. Переведите сумму с кодом в назначении платежа и пришлите нам скриншот.'],
     'co.placeOrder':        ['Place order', 'Հաստատել պատվերը', 'Подтвердить заказ'],
     'co.sendOrder':         ['Send order request', 'Ուղարկել պատվերի հարցում', 'Отправить заявку'],
-    'co.confirmed':         ['Order confirmed', 'Պատվերը հաստատված է', 'Заказ подтверждён'],
+    'co.confirmed':         ['Order received', 'Պատվերն ընդունված է', 'Заказ принят'],
     'co.orderNo':           ['Order number', 'Պատվերի համար', 'Номер заказа'],
-    'co.thanks':            ['Thank you. We start production tomorrow morning.', 'Շնորհակալություն։ Արտադրությունը սկսվում է վաղը։', 'Спасибо. Производство начнём завтра утром.'],
+    'co.thanks':            ['Thank you. Production starts as soon as the payment arrives — every status change comes to your email.', 'Շնորհակալություն։ Արտադրությունը սկսվում է վճարումը ստանալուն պես, կարգավիճակի յուրաքանչյուր փոփոխություն կգա ձեր էլ. փոստին։', 'Спасибо. Производство начнётся, как только придёт оплата, — о каждом изменении статуса мы напишем на почту.'],
     'co.track':             ['Track this order', 'Հետևել պատվերին', 'Отследить заказ'],
     'co.guest':             ['Continue as guest', 'Շարունակել որպես հյուր', 'Продолжить как гость'],
     'co.createAccount':     ['Create an account to track this order', 'Ստեղծեք հաշիվ պատվերին հետևելու համար', 'Создайте аккаунт, чтобы отслеживать заказ'],
@@ -554,19 +554,22 @@
 })(window.KADR = window.KADR || {});
 
 /* ============================================================================
-   CATALOGUE — categories, attributes, product types, rules, pricing
+   CATALOGUE — filled from the KADR back office (products, options, prices…)
    ============================================================================ */
 
 /* KADR — catalogue model.
-   Deliberately shaped like the real thing: attributes, options and rules are
-   DATA, not code, so an admin can add a product type the front end has never
-   heard of and the builder/filters/pricing keep working. */
+   Everything a customer sees comes from the back office through one request
+   (/api/public/bootstrap): products, their options, prices, categories, tags,
+   collections, homepage blocks, delivery and contacts. Change it there and the
+   site follows on the next page load. Prices depend only on the option
+   combination, so one price table prices any configuration instantly. */
 (function (K) {
   'use strict';
   var art = K.art;
 
   /* ---------- money -------------------------------------------------------- */
 
+  /* rate = units of the currency per 1 AMD; replaced by the Central Bank rate */
   var CURRENCIES = {
     AMD: { code: 'AMD', symbol: '֏', rate: 1,        dec: 0, pos: 'after' },
     USD: { code: 'USD', symbol: '$', rate: 0.00258,  dec: 2, pos: 'before' },
@@ -574,345 +577,64 @@
     RUB: { code: 'RUB', symbol: '₽', rate: 0.205,    dec: 0, pos: 'after' }
   };
 
-  /* ---------- categories --------------------------------------------------- */
-
-  var CATEGORIES = [
-    { id: 'wall-decor', slug: 'wall-decor', name: { en: 'Wall decor', hy: 'Պատի ձևավորում', ru: 'Декор стен' }, parent: null },
-    { id: 'posters',    slug: 'posters',    name: { en: 'Posters', hy: 'Պաստառներ', ru: 'Постеры' }, parent: 'wall-decor' },
-    { id: 'framed',     slug: 'framed-prints', name: { en: 'Framed prints', hy: 'Շրջանակված տպագրություն', ru: 'Постеры в раме' }, parent: 'wall-decor' },
-    { id: 'canvas',     slug: 'canvas',     name: { en: 'Canvas', hy: 'Կտավ', ru: 'Холст' }, parent: 'wall-decor' },
-    { id: 'flags',      slug: 'flags',      name: { en: 'Flags & banners', hy: 'Դրոշներ', ru: 'Флаги и баннеры' }, parent: 'wall-decor' },
-    { id: 'room-decor', slug: 'room-decor', name: { en: 'Room decor', hy: 'Սենյակի դեկոր', ru: 'Декор комнаты' }, parent: null },
-    { id: 'objects',    slug: 'objects',    name: { en: 'Decorative objects', hy: 'Դեկորատիվ առարկաներ', ru: 'Декоративные объекты' }, parent: 'room-decor' }
-  ];
-
-  /* ---------- dynamic attributes ------------------------------------------
-     type: select | multi | number | bool | text. Values carry their own price
-     effect and preview hints; nothing here is poster-specific. */
-
-  var ATTRIBUTES = {
-    size: {
-      id: 'size', type: 'select', filterable: true,
-      name: { en: 'Size', hy: 'Չափս', ru: 'Размер' },
-      values: [
-        { id: '30x40', label: { en: '30 × 40 cm', hy: '30 × 40 սմ', ru: '30 × 40 см' }, factor: 1,    ratio: 0.75 },
-        { id: '50x70', label: { en: '50 × 70 cm', hy: '50 × 70 սմ', ru: '50 × 70 см' }, factor: 1.55, ratio: 0.714 },
-        { id: '61x91', label: { en: '61 × 91 cm', hy: '61 × 91 սմ', ru: '61 × 91 см' }, factor: 2.05, ratio: 0.67 },
-        { id: '70x100', label: { en: '70 × 100 cm', hy: '70 × 100 սմ', ru: '70 × 100 см' }, factor: 2.6, ratio: 0.7 }
-      ]
-    },
-    material: {
-      id: 'material', type: 'select', filterable: true,
-      name: { en: 'Material', hy: 'Նյութ', ru: 'Материал' },
-      values: [
-        { id: 'paper',    label: { en: 'Matte paper 200g', hy: 'Փայլատ թուղթ 200գ', ru: 'Матовая бумага 200г' }, add: 0 },
-        { id: 'premium',  label: { en: 'Museum paper 250g', hy: 'Թանգարանային թուղթ 250գ', ru: 'Музейная бумага 250г' }, add: 1400 },
-        { id: 'canvas',   label: { en: 'Canvas, stretched', hy: 'Կտավ, ձգված', ru: 'Холст на подрамнике' }, add: 3600 },
-        { id: 'pcanvas',  label: { en: 'Premium canvas', hy: 'Պրեմիում կտավ', ru: 'Премиум холст' }, add: 6200 }
-      ]
-    },
-    frame: {
-      id: 'frame', type: 'select', filterable: true,
-      name: { en: 'Frame', hy: 'Շրջանակ', ru: 'Рама' },
-      values: [
-        { id: 'none',   label: { en: 'No frame', hy: 'Առանց շրջանակի', ru: 'Без рамы' }, add: 0, swatch: 'transparent' },
-        { id: 'black',  label: { en: 'Black', hy: 'Սև', ru: 'Чёрная' }, add: 4200, swatch: '#15151a' },
-        { id: 'white',  label: { en: 'White', hy: 'Սպիտակ', ru: 'Белая' }, add: 4200, swatch: '#f2efe8' },
-        { id: 'oak',    label: { en: 'Oak', hy: 'Կաղնի', ru: 'Дуб' }, add: 6800, swatch: '#c9a273' },
-        { id: 'walnut', label: { en: 'Walnut', hy: 'Ընկուզենի', ru: 'Орех' }, add: 8400, swatch: '#6c4327' }
-      ]
-    },
-    finish: {
-      id: 'finish', type: 'select', filterable: false,
-      name: { en: 'Finish', hy: 'Մակերես', ru: 'Покрытие' },
-      values: [
-        { id: 'matte', label: { en: 'Matte', hy: 'Փայլատ', ru: 'Матовое' }, add: 0 },
-        { id: 'satin', label: { en: 'Satin', hy: 'Սատին', ru: 'Сатин' }, add: 800 }
-      ]
-    },
-    flagSize: {
-      id: 'flagSize', type: 'select', filterable: true,
-      name: { en: 'Size', hy: 'Չափս', ru: 'Размер' },
-      values: [
-        { id: '90x150',  label: { en: '90 × 150 cm', hy: '90 × 150 սմ', ru: '90 × 150 см' }, factor: 1, ratio: 0.6 },
-        { id: '150x240', label: { en: '150 × 240 cm', hy: '150 × 240 սմ', ru: '150 × 240 см' }, factor: 1.9, ratio: 0.62 }
-      ]
-    },
-    flagMaterial: {
-      id: 'flagMaterial', type: 'select', filterable: true,
-      name: { en: 'Material', hy: 'Նյութ', ru: 'Материал' },
-      values: [
-        { id: 'poly',    label: { en: 'Polyester 110g', hy: 'Պոլիեսթեր 110գ', ru: 'Полиэстер 110г' }, add: 0 },
-        { id: 'blockout', label: { en: 'Blockout, double-sided', hy: 'Երկկողմանի', ru: 'Двусторонний блокаут' }, add: 5200 }
-      ]
-    },
-    mounting: {
-      id: 'mounting', type: 'select', filterable: false,
-      name: { en: 'Mounting', hy: 'Ամրացում', ru: 'Крепление' },
-      values: [
-        { id: 'grommets', label: { en: 'Metal grommets', hy: 'Մետաղյա օղակներ', ru: 'Металлические люверсы' }, add: 0 },
-        { id: 'sleeve',   label: { en: 'Pole sleeve', hy: 'Ձողի պատյան', ru: 'Карман для древка' }, add: 900 },
-        { id: 'hidden',   label: { en: 'Hidden rail', hy: 'Թաքնված ռելս', ru: 'Скрытая планка' }, add: 2400 }
-      ]
-    },
-    placement: {
-      id: 'placement', type: 'select', filterable: true,
-      name: { en: 'Placement', hy: 'Տեղադրում', ru: 'Размещение' },
-      values: [
-        { id: 'indoor',  label: { en: 'Indoor', hy: 'Ներսում', ru: 'В помещении' }, add: 0 },
-        { id: 'outdoor', label: { en: 'Outdoor, UV coated', hy: 'Դրսում, UV', ru: 'Улица, UV' }, add: 3100 }
-      ]
-    },
-    panelMaterial: {
-      id: 'panelMaterial', type: 'select', filterable: true,
-      name: { en: 'Material', hy: 'Նյութ', ru: 'Материал' },
-      values: [
-        { id: 'alu',  label: { en: 'Brushed aluminium', hy: 'Ալյումին', ru: 'Шлифованный алюминий' }, add: 0 },
-        { id: 'birch', label: { en: 'Birch ply', hy: 'Կեչի', ru: 'Берёзовая фанера' }, add: 2600 },
-        { id: 'acryl', label: { en: 'Acrylic, backlit-ready', hy: 'Ակրիլ', ru: 'Акрил' }, add: 7400 }
-      ]
-    },
-    objectFinish: {
-      id: 'objectFinish', type: 'select', filterable: true,
-      name: { en: 'Finish', hy: 'Հարդարանք', ru: 'Отделка' },
-      values: [
-        { id: 'sand',  label: { en: 'Sand', hy: 'Ավազ', ru: 'Песочный' }, add: 0, swatch: '#d8c9ae' },
-        { id: 'ink',   label: { en: 'Ink', hy: 'Թանաք', ru: 'Чернильный' }, add: 0, swatch: '#1f2229' },
-        { id: 'clay',  label: { en: 'Clay', hy: 'Կավ', ru: 'Терракота' }, add: 1200, swatch: '#b4634a' },
-        { id: 'brass', label: { en: 'Brass', hy: 'Արույր', ru: 'Латунь' }, add: 5400, swatch: '#b98f3e' }
-      ]
-    }
+  var KINDS = ['size', 'material', 'frame', 'glass'];
+  var KIND_NAMES = {
+    size:     { en: 'Size', hy: 'Չափս', ru: 'Размер' },
+    material: { en: 'Material', hy: 'Նյութ', ru: 'Материал' },
+    frame:    { en: 'Frame', hy: 'Շրջանակ', ru: 'Рама' },
+    glass:    { en: 'Glass', hy: 'Ապակի', ru: 'Стекло' }
   };
 
-  /* ---------- product types = builder blueprints ---------------------------
-     Each type lists its components (ordered builder steps) and the rules that
-     make options depend on each other. Adding a type needs no code change. */
+  /* Filled by load(); arrays are replaced in place so every module sees them. */
+  var CATEGORIES = [];
+  var ATTRIBUTES = {};
+  var PRODUCT_TYPES = {};
+  var TAGS = [];
+  var TAG_COLORS = {};
+  var COLLECTIONS = [];
+  var PRICES = {};
+  var HOME = [];
+  var PAGES = {};
+  var BACKOFFICE = { settings: null };
 
-  var PRODUCT_TYPES = {
-    poster: {
-      id: 'poster', categoryId: 'posters',
-      name: { en: 'Poster', hy: 'Պաստառ', ru: 'Постер' },
-      components: ['size', 'material', 'frame', 'finish'],
-      defaults: { size: '50x70', material: 'paper', frame: 'none', finish: 'matte' },
-      rules: [
-        { when: { size: '30x40' }, disable: { material: ['canvas', 'pcanvas'], frame: ['walnut'] },
-          why: { en: 'Canvas and walnut start at 50 × 70.', hy: 'Կտավը սկսվում է 50 × 70-ից։', ru: 'Холст и орех — от 50 × 70.' } },
-        { when: { material: ['canvas', 'pcanvas'] }, disable: { frame: ['black', 'white', 'oak', 'walnut'] },
-          why: { en: 'Stretched canvas ships ready to hang, without a frame.', hy: 'Ձգված կտավը գալիս է առանց շրջանակի։', ru: 'Холст на подрамнике поставляется без рамы.' } },
-        { when: { material: 'pcanvas' }, disable: { size: ['30x40', '50x70'] },
-          why: { en: 'Premium canvas is made from 61 × 91 up.', hy: 'Պրեմիում կտավը՝ 61 × 91-ից։', ru: 'Премиум холст — от 61 × 91.' } }
-      ]
-    },
-    flag: {
-      id: 'flag', categoryId: 'flags',
-      name: { en: 'Flag', hy: 'Դրոշ', ru: 'Флаг' },
-      components: ['flagSize', 'flagMaterial', 'mounting', 'placement'],
-      defaults: { flagSize: '90x150', flagMaterial: 'poly', mounting: 'grommets', placement: 'indoor' },
-      rules: [
-        { when: { placement: 'outdoor' }, disable: { flagMaterial: ['poly'], mounting: ['hidden'] },
-          why: { en: 'Outdoor flags need the heavier double-sided fabric.', hy: 'Դրսի դրոշները պահանջում են ավելի ծանր գործվածք։', ru: 'Уличным флагам нужна плотная двусторонняя ткань.' } }
-      ]
-    },
-    panel: {
-      id: 'panel', categoryId: 'wall-decor',
-      name: { en: 'Wall panel', hy: 'Պատի վահանակ', ru: 'Настенная панель' },
-      components: ['size', 'panelMaterial', 'mounting'],
-      defaults: { size: '50x70', panelMaterial: 'alu', mounting: 'hidden' },
-      rules: [
-        { when: { panelMaterial: 'acryl' }, disable: { size: ['30x40'] },
-          why: { en: 'Acrylic starts at 50 × 70.', hy: 'Ակրիլը սկսվում է 50 × 70-ից։', ru: 'Акрил — от 50 × 70.' } }
-      ]
-    },
-    object: {
-      id: 'object', categoryId: 'objects',
-      name: { en: 'Object', hy: 'Առարկա', ru: 'Объект' },
-      components: ['objectFinish'],
-      defaults: { objectFinish: 'sand' },
-      rules: []
-    }
-  };
-
-  /* ---------- tags: first-class entities, not strings ---------------------- */
-
-  function tag(id, en, hy, ru, group) {
-    return { id: id, slug: id, group: group || 'theme', name: { en: en, hy: hy, ru: ru } };
-  }
-  var TAGS = [
-    tag('anime', 'Anime', 'Անիմե', 'Аниме'), tag('cars', 'Cars', 'Մեքենաներ', 'Машины'),
-    tag('music', 'Music', 'Երաժշտություն', 'Музыка'), tag('gaming', 'Gaming', 'Գեյմինգ', 'Гейминг'),
-    tag('cinema', 'Cinema', 'Կինո', 'Кино'), tag('nature', 'Nature', 'Բնություն', 'Природа'),
-    tag('space', 'Space', 'Տիեզերք', 'Космос'), tag('sport', 'Sport', 'Սպորտ', 'Спорт'),
-    tag('architecture', 'Architecture', 'Ճարտարապետություն', 'Архитектура'),
-    tag('typography', 'Typography', 'Տիպոգրաֆիա', 'Типографика'),
-    tag('botanical', 'Botanical', 'Բուսական', 'Ботаника'),
-    tag('bmw', 'BMW', 'BMW', 'BMW', 'brand'), tag('porsche', 'Porsche', 'Porsche', 'Porsche', 'brand'),
-    tag('vinyl', 'Vinyl', 'Վինիլ', 'Винил', 'brand'), tag('yerevan', 'Yerevan', 'Երևան', 'Ереван', 'place'),
-    tag('tokyo', 'Tokyo', 'Տոկիո', 'Токио', 'place'), tag('ararat', 'Ararat', 'Արարատ', 'Арарат', 'place'),
-    /* styles */
-    tag('minimal', 'Minimal', 'Մինիմալ', 'Минимализм', 'style'),
-    tag('dark-academia', 'Dark academia', 'Մուգ ակադեմիա', 'Dark academia', 'style'),
-    tag('japandi', 'Japandi', 'Ճապանդի', 'Джапанди', 'style'),
-    tag('vintage', 'Vintage', 'Վինտաժ', 'Винтаж', 'style'),
-    tag('bauhaus', 'Bauhaus', 'Բաուհաուս', 'Баухаус', 'style'),
-    tag('brutalist', 'Brutalist', 'Բրուտալիզմ', 'Брутализм', 'style'),
-    tag('retro-futurism', 'Retro-futurism', 'Ռետրո-ֆուտուրիզմ', 'Ретрофутуризм', 'style'),
-    tag('cyber', 'Cyber', 'Կիբեր', 'Кибер', 'style'),
-    /* moods */
-    tag('calm', 'Calm', 'Հանգիստ', 'Спокойное', 'mood'), tag('cozy', 'Cozy', 'Հարմարավետ', 'Уютное', 'mood'),
-    tag('energetic', 'Energetic', 'Եռանդուն', 'Энергичное', 'mood'), tag('luxury', 'Luxury', 'Շքեղ', 'Роскошное', 'mood'),
-    tag('creative', 'Creative', 'Ստեղծագործ', 'Творческое', 'mood'), tag('moody', 'Moody', 'Մռայլ', 'Мрачное', 'mood'),
-    /* rooms */
-    tag('bedroom', 'Bedroom', 'Ննջասենյակ', 'Спальня', 'room'), tag('living', 'Living room', 'Հյուրասենյակ', 'Гостиная', 'room'),
-    tag('gaming-room', 'Gaming room', 'Գեյմինգ սենյակ', 'Игровая', 'room'), tag('office', 'Office', 'Գրասենյակ', 'Офис', 'room'),
-    tag('dorm', 'Dorm', 'Հանրակացարան', 'Общежитие', 'room'), tag('cafe', 'Café & bar', 'Սրճարան', 'Кафе и бар', 'room'),
-    /* colours */
-    tag('c-black', 'Black', 'Սև', 'Чёрный', 'color'), tag('c-white', 'White', 'Սպիտակ', 'Белый', 'color'),
-    tag('c-beige', 'Beige', 'Բեժ', 'Бежевый', 'color'), tag('c-green', 'Green', 'Կանաչ', 'Зелёный', 'color'),
-    tag('c-blue', 'Blue', 'Կապույտ', 'Синий', 'color'), tag('c-red', 'Red', 'Կարմիր', 'Красный', 'color'),
-    tag('c-gold', 'Gold', 'Ոսկեգույն', 'Золотой', 'color'), tag('c-pink', 'Pink', 'Վարդագույն', 'Розовый', 'color')
-  ];
-  var TAG_COLORS = {
-    'c-black': '#191919', 'c-white': '#f3f0e9', 'c-beige': '#ded0b6', 'c-green': '#4d6b4f',
-    'c-blue': '#2f4a73', 'c-red': '#b5372a', 'c-gold': '#c19a3d', 'c-pink': '#d99aa6'
-  };
-
-  /* ---------- themes: palette + tag DNA for generated products ------------- */
+  /* ---------- themes: palettes for illustrations ---------------------------
+     Room scenes and products without a picture are drawn procedurally; a
+     product borrows the palette of the theme its tags match best. */
 
   var THEMES = [
-    { id: 'anime',    tags: ['anime', 'cyber', 'energetic', 'bedroom', 'c-pink'],        tier: 1, palette: { bg: '#f4e6ee', a: '#e0538a', b: '#2b2350', c: '#f2b8c6', ink: '#1b1630' } },
-    { id: 'cars',     tags: ['cars', 'bmw', 'minimal', 'energetic', 'gaming-room', 'c-red'], tier: 2, palette: { bg: '#ecebe8', a: '#b5372a', b: '#20242b', c: '#8b9199', ink: '#101318' } },
-    { id: 'music',    tags: ['music', 'vinyl', 'vintage', 'cozy', 'living', 'c-gold'],   tier: 1, palette: { bg: '#f3e9d8', a: '#c08a2e', b: '#2a2018', c: '#8c6b3f', ink: '#191309' } },
-    { id: 'gaming',   tags: ['gaming', 'cyber', 'energetic', 'gaming-room', 'c-black'],  tier: 1, palette: { bg: '#12141b', a: '#5ce1a0', b: '#7a4bd0', c: '#1f2430', ink: '#e7edf5' } },
-    { id: 'cinema',   tags: ['cinema', 'dark-academia', 'moody', 'living', 'c-black'],   tier: 2, palette: { bg: '#14120f', a: '#c9b072', b: '#3a332a', c: '#7d6c50', ink: '#eee6d4' } },
-    { id: 'nature',   tags: ['nature', 'botanical', 'calm', 'bedroom', 'c-green'],       tier: 1, palette: { bg: '#eae7dc', a: '#5b7355', b: '#2f3a2c', c: '#a8b09a', ink: '#1d231b' } },
-    { id: 'space',    tags: ['space', 'retro-futurism', 'creative', 'office', 'c-blue'], tier: 2, palette: { bg: '#131a2b', a: '#e8863f', b: '#3d5a99', c: '#25314f', ink: '#e9eef7' } },
-    { id: 'japandi',  tags: ['japandi', 'tokyo', 'minimal', 'calm', 'bedroom', 'c-beige'], tier: 3, palette: { bg: '#efe9df', a: '#c3452c', b: '#20211d', c: '#c7bda9', ink: '#191a16' } },
-    { id: 'bauhaus',  tags: ['bauhaus', 'architecture', 'creative', 'office', 'c-red'],  tier: 2, palette: { bg: '#f0ece3', a: '#c8452b', b: '#20487a', c: '#e0b33c', ink: '#15161a' } },
-    { id: 'brutal',   tags: ['brutalist', 'architecture', 'moody', 'office', 'c-white'], tier: 3, palette: { bg: '#d9d7d2', a: '#4b4d4f', b: '#8b8d8c', c: '#22242a', ink: '#111214' } },
-    { id: 'sport',    tags: ['sport', 'minimal', 'energetic', 'dorm', 'c-blue'],         tier: 1, palette: { bg: '#eef1f4', a: '#1f4fa3', b: '#e8622a', c: '#2b3440', ink: '#111820' } },
-    { id: 'yerevan',  tags: ['yerevan', 'ararat', 'vintage', 'calm', 'cafe', 'c-beige'], tier: 3, palette: { bg: '#f0e6d6', a: '#b2643a', b: '#5c7a86', c: '#d7c3a4', ink: '#241d16' } },
-    { id: 'type',     tags: ['typography', 'minimal', 'creative', 'office', 'c-black'],  tier: 2, palette: { bg: '#f5f3ee', a: '#191919', b: '#b23a2e', c: '#c9c5bb', ink: '#0f0f0f' } },
-    { id: 'lux',      tags: ['luxury', 'dark-academia', 'cinema', 'living', 'c-gold'],   tier: 4, palette: { bg: '#171512', a: '#c8a24d', b: '#2c2822', c: '#8a7550', ink: '#f0e8d8' } }
+    { id: 'anime',    tags: ['anime', 'cyber', 'energetic', 'bedroom', 'c-pink'],        palette: { bg: '#f4e6ee', a: '#e0538a', b: '#2b2350', c: '#f2b8c6', ink: '#1b1630' } },
+    { id: 'cars',     tags: ['cars', 'bmw', 'minimal', 'energetic', 'gaming-room', 'c-red'], palette: { bg: '#ecebe8', a: '#b5372a', b: '#20242b', c: '#8b9199', ink: '#101318' } },
+    { id: 'music',    tags: ['music', 'vinyl', 'vintage', 'cozy', 'living', 'c-gold'],   palette: { bg: '#f3e9d8', a: '#c08a2e', b: '#2a2018', c: '#8c6b3f', ink: '#191309' } },
+    { id: 'gaming',   tags: ['gaming', 'cyber', 'energetic', 'gaming-room', 'c-black'],  palette: { bg: '#12141b', a: '#5ce1a0', b: '#7a4bd0', c: '#1f2430', ink: '#e7edf5' } },
+    { id: 'cinema',   tags: ['cinema', 'dark-academia', 'moody', 'living', 'c-black'],   palette: { bg: '#14120f', a: '#c9b072', b: '#3a332a', c: '#7d6c50', ink: '#eee6d4' } },
+    { id: 'nature',   tags: ['nature', 'botanical', 'calm', 'bedroom', 'c-green'],       palette: { bg: '#eae7dc', a: '#5b7355', b: '#2f3a2c', c: '#a8b09a', ink: '#1d231b' } },
+    { id: 'space',    tags: ['space', 'retro-futurism', 'creative', 'office', 'c-blue'], palette: { bg: '#131a2b', a: '#e8863f', b: '#3d5a99', c: '#25314f', ink: '#e9eef7' } },
+    { id: 'japandi',  tags: ['japandi', 'tokyo', 'minimal', 'calm', 'bedroom', 'c-beige'], palette: { bg: '#efe9df', a: '#c3452c', b: '#20211d', c: '#c7bda9', ink: '#191a16' } },
+    { id: 'bauhaus',  tags: ['bauhaus', 'architecture', 'creative', 'office', 'c-red'],  palette: { bg: '#f0ece3', a: '#c8452b', b: '#20487a', c: '#e0b33c', ink: '#15161a' } },
+    { id: 'brutal',   tags: ['brutalist', 'architecture', 'moody', 'office', 'c-white'], palette: { bg: '#d9d7d2', a: '#4b4d4f', b: '#8b8d8c', c: '#22242a', ink: '#111214' } },
+    { id: 'sport',    tags: ['sport', 'minimal', 'energetic', 'dorm', 'c-blue'],         palette: { bg: '#eef1f4', a: '#1f4fa3', b: '#e8622a', c: '#2b3440', ink: '#111820' } },
+    { id: 'yerevan',  tags: ['yerevan', 'ararat', 'vintage', 'calm', 'cafe', 'c-beige'], palette: { bg: '#f0e6d6', a: '#b2643a', b: '#5c7a86', c: '#d7c3a4', ink: '#241d16' } },
+    { id: 'type',     tags: ['typography', 'minimal', 'creative', 'office', 'c-black'],  palette: { bg: '#f5f3ee', a: '#191919', b: '#b23a2e', c: '#c9c5bb', ink: '#0f0f0f' } },
+    { id: 'lux',      tags: ['luxury', 'dark-academia', 'cinema', 'living', 'c-gold'],   palette: { bg: '#171512', a: '#c8a24d', b: '#2c2822', c: '#8a7550', ink: '#f0e8d8' } }
   ];
 
-  /* ---------- title word banks (3 languages) ------------------------------- */
-
-  var ADJ = [
-    { en: 'Quiet',   hy: 'Հանգիստ',   ru: 'Тихий' },
-    { en: 'Midnight', hy: 'Կեսգիշեր',  ru: 'Полночный' },
-    { en: 'Paper',   hy: 'Թղթե',      ru: 'Бумажный' },
-    { en: 'Golden',  hy: 'Ոսկե',      ru: 'Золотой' },
-    { en: 'Second',  hy: 'Երկրորդ',   ru: 'Второй' },
-    { en: 'Slow',    hy: 'Դանդաղ',    ru: 'Медленный' },
-    { en: 'Electric', hy: 'Էլեկտրական', ru: 'Электрический' },
-    { en: 'Northern', hy: 'Հյուսիսային', ru: 'Северный' },
-    { en: 'Small',   hy: 'Փոքր',      ru: 'Малый' },
-    { en: 'Faded',   hy: 'Խամրած',    ru: 'Выцветший' },
-    { en: 'Loud',    hy: 'Բարձր',     ru: 'Громкий' },
-    { en: 'Late',    hy: 'Ուշ',       ru: 'Поздний' },
-    { en: 'Concrete', hy: 'Բետոնե',   ru: 'Бетонный' },
-    { en: 'Velvet',  hy: 'Թավշյա',    ru: 'Бархатный' }
-  ];
-  var NOUN = [
-    { en: 'Horizon', hy: 'Հորիզոն',  ru: 'Горизонт' },
-    { en: 'Signal',  hy: 'Ազդանշան', ru: 'Сигнал' },
-    { en: 'Garden',  hy: 'Այգի',     ru: 'Сад' },
-    { en: 'Engine',  hy: 'Շարժիչ',   ru: 'Двигатель' },
-    { en: 'Chorus',  hy: 'Երգչախումբ', ru: 'Хор' },
-    { en: 'Window',  hy: 'Պատուհան', ru: 'Окно' },
-    { en: 'Orbit',   hy: 'Ուղեծիր',  ru: 'Орбита' },
-    { en: 'Street',  hy: 'Փողոց',    ru: 'Улица' },
-    { en: 'Archive', hy: 'Արխիվ',    ru: 'Архив' },
-    { en: 'Mountain', hy: 'Լեռ',     ru: 'Гора' },
-    { en: 'Room',    hy: 'Սենյակ',   ru: 'Комната' },
-    { en: 'Machine', hy: 'Մեքենա',   ru: 'Машина' },
-    { en: 'Letter',  hy: 'Նամակ',    ru: 'Письмо' },
-    { en: 'Season',  hy: 'Եղանակ',   ru: 'Сезон' },
-    { en: 'Shadow',  hy: 'Ստվեր',    ru: 'Тень' },
-    { en: 'Balcony', hy: 'Պատշգամբ', ru: 'Балкон' },
-    { en: 'Silence', hy: 'Լռություն', ru: 'Тишина' },
-    { en: 'Voltage', hy: 'Լարում',   ru: 'Напряжение' }
-  ];
-
-  /* ---------- catalogue generator ------------------------------------------ */
-
-  var CATALOG_SIZE = 260;          /* raise freely — the UI never loads it all */
-  var TYPE_MIX = ['poster', 'poster', 'poster', 'poster', 'poster', 'poster', 'flag', 'panel', 'object'];
-  var DAY = 86400000;
-
-  function makeProducts(now) {
-    var out = [];
-    for (var i = 0; i < CATALOG_SIZE; i++) {
-      var r = art.rng(art.hash('kadr-product-' + i));
-      var theme = THEMES[Math.floor(r() * THEMES.length)];
-      var type = PRODUCT_TYPES[TYPE_MIX[Math.floor(r() * TYPE_MIX.length)]];
-      var adj = ADJ[Math.floor(r() * ADJ.length)], noun = NOUN[Math.floor(r() * NOUN.length)];
-      var comp = art.compositions[Math.floor(r() * art.compositions.length)];
-      var num = String(i + 1).padStart(4, '0');
-      var base = Math.round((2400 + theme.tier * 900 + r() * 3600) / 50) * 50;
-      if (type.id === 'object') base = Math.round((7800 + r() * 12000) / 50) * 50;
-      if (type.id === 'panel') base = Math.round((9200 + r() * 9000) / 50) * 50;
-
-      var extraTags = [];
-      var pool = TAGS.filter(function (t) { return t.group === 'theme' || t.group === 'style'; });
-      for (var k = 0; k < 2; k++) { var t = pool[Math.floor(r() * pool.length)]; if (theme.tags.indexOf(t.id) < 0) extraTags.push(t.id); }
-
-      out.push({
-        id: 'p' + i,
-        sku: 'KDR-' + type.id.slice(0, 3).toUpperCase() + '-' + theme.id.slice(0, 3).toUpperCase() + '-' + num,
-        typeId: type.id,
-        categoryId: type.categoryId,
-        themeId: theme.id,
-        comp: comp,
-        word: noun.en.toUpperCase(),
-        palette: theme.palette,
-        title: { en: adj.en + ' ' + noun.en, hy: adj.hy + ' ' + noun.hy, ru: adj.ru + ' ' + noun.ru },
-        description: {
-          en: 'Printed to order on archival stock, colour-matched by hand before it leaves the studio. ' +
-              'Part of the ' + theme.id + ' line — it sits well in a room that is already half-finished.',
-          hy: 'Տպվում է պատվերով արխիվային հիմքի վրա՝ ձեռքով գունային ստուգումով։',
-          ru: 'Печатается под заказ на архивной основе, цвет проверяется вручную перед отправкой.'
-        },
-        tags: theme.tags.concat(extraTags).filter(function (v, ix, a) { return a.indexOf(v) === ix; }),
-        basePrice: base,
-        createdAt: now - Math.floor(r() * 120) * DAY,
-        stats: { views: Math.floor(r() * 900), favs: Math.floor(r() * 120), carts: Math.floor(r() * 60), orders: Math.floor(r() * 30) },
-        status: r() < 0.03 ? 'draft' : 'live',
-        productionDays: [2, 4],
-        deliveryDays: [1, 2],
-        images: null,        /* generated lazily */
-        files: [
-          { name: 'print-' + num + '-CMYK.pdf', kind: 'print', size: (8 + Math.floor(r() * 40)) + ' MB' },
-          { name: 'proof-' + num + '.jpg', kind: 'proof', size: (1 + Math.floor(r() * 3)) + ' MB' }
-        ]
-      });
-    }
-    return out;
+  function themeFor(tags) {
+    var best = THEMES[0], score = -1;
+    THEMES.forEach(function (th) {
+      var s = th.tags.filter(function (x) { return tags.indexOf(x) >= 0; }).length;
+      if (s > score) { score = s; best = th; }
+    });
+    return best;
   }
 
-  /* ---------- collections --------------------------------------------------- */
-
-  var COLLECTIONS = [
-    { id: 'dark-academia', title: { en: 'Dark Academia', hy: 'Մուգ ակադեմիա', ru: 'Dark Academia' }, tags: ['dark-academia', 'cinema'], featured: true },
-    { id: 'japandi',       title: { en: 'Japandi Calm', hy: 'Ճապանդի հանգիստ', ru: 'Джапанди' }, tags: ['japandi', 'calm'], featured: true },
-    { id: 'garage',        title: { en: 'The Garage', hy: 'Ավտոտնակ', ru: 'Гараж' }, tags: ['cars', 'bmw'], featured: true },
-    { id: 'night-shift',   title: { en: 'Night Shift', hy: 'Գիշերային հերթափոխ', ru: 'Ночная смена' }, tags: ['gaming', 'cyber'], featured: true },
-    { id: 'sound-system',  title: { en: 'Sound System', hy: 'Ձայնային համակարգ', ru: 'Sound System' }, tags: ['music', 'vinyl'], featured: true },
-    { id: 'green-room',    title: { en: 'Green Room', hy: 'Կանաչ սենյակ', ru: 'Зелёная комната' }, tags: ['botanical', 'nature'], featured: true },
-    { id: 'first-wall',    title: { en: 'First Wall — under 6,000 ֏', hy: 'Առաջին պատը', ru: 'Первая стена' }, tags: ['minimal'], maxPrice: 6000, featured: true },
-    { id: 'for-business',  title: { en: 'For cafés & offices', hy: 'Սրճարանների համար', ru: 'Для кафе и офисов' }, tags: ['architecture', 'brutalist'], featured: false },
-    { id: 'yerevan',       title: { en: 'Made in Yerevan', hy: 'Պատրաստված Երևանում', ru: 'Сделано в Ереване' }, tags: ['yerevan', 'ararat'], featured: true },
-    { id: 'type-only',     title: { en: 'Words Only', hy: 'Միայն բառեր', ru: 'Только слова' }, tags: ['typography'], featured: false }
-  ];
-
-  /* ---------- room scenes --------------------------------------------------- */
+  /* ---------- room scenes (editorial illustrations) ------------------------ */
 
   var SCENES = [
     { id: 's1', room: 'bedroom', style: 'japandi', mood: 'calm', title: { en: 'Quiet bedroom, three prints', hy: 'Հանգիստ ննջասենյակ', ru: 'Тихая спальня' }, tags: ['japandi', 'bedroom', 'calm', 'c-beige'], themes: ['japandi', 'nature'] },
     { id: 's2', room: 'gaming', style: 'cyber', mood: 'energetic', title: { en: 'Setup that earns the desk', hy: 'Գեյմինգ անկյուն', ru: 'Игровой угол' }, tags: ['gaming', 'gaming-room', 'cyber', 'c-black'], themes: ['gaming', 'space'] },
     { id: 's3', room: 'living', style: 'dark-academia', mood: 'moody', title: { en: 'Living room after ten', hy: 'Հյուրասենյակ տասից հետո', ru: 'Гостиная после десяти' }, tags: ['dark-academia', 'living', 'moody', 'c-gold'], themes: ['cinema', 'lux'] },
     { id: 's4', room: 'office', style: 'bauhaus', mood: 'creative', title: { en: 'Studio wall, primary colours', hy: 'Ստուդիայի պատ', ru: 'Стена студии' }, tags: ['bauhaus', 'office', 'creative', 'c-red'], themes: ['bauhaus', 'type'] },
-    { id: 's5', room: 'dorm', style: 'minimal', mood: 'cozy', title: { en: 'Dorm wall for 12,000 ֏', hy: 'Հանրակացարանի պատ', ru: 'Стена в общежитии' }, tags: ['dorm', 'minimal', 'cozy'], themes: ['sport', 'music'] },
+    { id: 's5', room: 'dorm', style: 'minimal', mood: 'cozy', title: { en: 'A first wall on a budget', hy: 'Առաջին պատը՝ խնայողաբար', ru: 'Первая стена без лишних трат' }, tags: ['dorm', 'minimal', 'cozy'], themes: ['sport', 'music'] },
     { id: 's6', room: 'cafe', style: 'vintage', mood: 'cozy', title: { en: 'Café on Saryan street', hy: 'Սրճարան Սարյան փողոցում', ru: 'Кафе на Сарьяна' }, tags: ['cafe', 'vintage', 'yerevan', 'cozy'], themes: ['yerevan', 'music'] },
     { id: 's7', room: 'bedroom', style: 'anime', mood: 'energetic', title: { en: 'Pink hour', hy: 'Վարդագույն ժամ', ru: 'Розовый час' }, tags: ['anime', 'bedroom', 'c-pink', 'energetic'], themes: ['anime'] },
     { id: 's8', room: 'living', style: 'brutalist', mood: 'calm', title: { en: 'Concrete and one plant', hy: 'Բետոն և մեկ բույս', ru: 'Бетон и одно растение' }, tags: ['brutalist', 'living', 'calm', 'c-white'], themes: ['brutal', 'nature'] },
@@ -920,7 +642,7 @@
     { id: 's10', room: 'gaming', style: 'retro-futurism', mood: 'creative', title: { en: 'Second monitor, first flag', hy: 'Երկրորդ մոնիտոր', ru: 'Второй монитор' }, tags: ['gaming-room', 'retro-futurism', 'space'], themes: ['space', 'gaming'] }
   ];
 
-  /* ---------- default settings (everything the admin can flip) ------------- */
+  /* ---------- settings: storefront features + what the back office sends ---- */
 
   var DEFAULT_SETTINGS = {
     features: {
@@ -934,33 +656,138 @@
     currencies: { AMD: true, USD: true, EUR: false, RUB: true },
     languages: { en: true, hy: true, ru: true },
     delivery: {
-      zones: [
-        { id: 'yerevan', name: { en: 'Yerevan', hy: 'Երևան', ru: 'Ереван' }, enabled: true, days: [1, 2] },
-        { id: 'armenia', name: { en: 'Armenia — regions', hy: 'Հայաստան՝ մարզեր', ru: 'Армения — регионы' }, enabled: true, days: [2, 4] },
-        { id: 'ru', name: { en: 'Russia', hy: 'Ռուսաստան', ru: 'Россия' }, enabled: false, days: [7, 12] },
-        { id: 'cis', name: { en: 'CIS', hy: 'ԱՊՀ', ru: 'СНГ' }, enabled: false, days: [10, 18] }
-      ],
+      enabled: true, pickup: false, pickupAddress: '', freeAbove: null,
+      zones: [],
       slots: ['10:00–13:00', '13:00–16:00', '16:00–19:00', '19:00–22:00'],
       productionDays: [2, 4]
     },
-    contact: { instagram: '@kadr.studio', whatsapp: '+374 00 000000', email: 'hello@kadr.studio' },
-    homepage: [
-      { id: 'hero',        on: true,  label: { en: 'Hero', hy: 'Հերո', ru: 'Первый экран' } },
-      { id: 'brand',       on: true,  label: { en: 'Brand intro', hy: 'Բրենդի ներկայացում', ru: 'О бренде' } },
-      { id: 'inspiration', on: true,  label: { en: 'Room scenes', hy: 'Սենյակների տեսարաններ', ru: 'Сцены комнат' } },
-      { id: 'personalize', on: true,  label: { en: 'Build your room CTA', hy: 'Կառուցիր սենյակդ', ru: 'Собери комнату' } },
-      { id: 'new',         on: true,  label: { en: 'New arrivals', hy: 'Նոր ժամանածներ', ru: 'Новинки' } },
-      { id: 'collections', on: true,  label: { en: 'Collections', hy: 'Հավաքածուներ', ru: 'Коллекции' } },
-      { id: 'trending',    on: true,  label: { en: 'Trending', hy: 'Թրենդային', ru: 'Популярное' } },
-      { id: 'business',    on: false, label: { en: 'For business', hy: 'Բիզնեսի համար', ru: 'Для бизнеса' } }
-    ],
+    contact: { instagram: '@kadr.studio', whatsapp: '', email: 'hello@kadr.am' },
+    homepage: [],
     seo: {
       title: 'KADR — posters & room decor, made to order in Armenia',
-      description: 'Made-to-order posters, framed prints, flags and objects. Explore rooms, customise your print, free delivery across Armenia.'
+      description: 'Made-to-order posters, framed prints, flags and objects. Explore rooms, customise your print, delivery across Armenia.'
     }
   };
 
-  /* ---------- pricing ------------------------------------------------------- */
+  function same(text) { return { en: text, hy: text, ru: text }; }
+  function replace(arr, items) { arr.length = 0; Array.prototype.push.apply(arr, items); }
+  function replaceObj(obj, src) { Object.keys(obj).forEach(function (k) { delete obj[k]; }); Object.assign(obj, src); }
+
+  /* ---------- load: back-office payload → storefront model ------------------ */
+
+  function load(boot) {
+    var S0 = boot.settings || {};
+    BACKOFFICE.settings = S0;
+
+    replace(CATEGORIES, (boot.categories || []).map(function (c) {
+      return { id: c.id, slug: c.id, name: c.name, parent: null };
+    }));
+    replace(TAGS, (boot.tags || []).map(function (t) {
+      return { id: t.id, slug: t.id, group: t.group || 'theme', name: t.name };
+    }));
+    var colors = {};
+    (boot.tags || []).forEach(function (t) { if (t.color) colors[t.id] = t.color; });
+    replaceObj(TAG_COLORS, colors);
+
+    var attrs = {};
+    KINDS.forEach(function (k) {
+      var rows = (boot.options || {})[k] || [];
+      attrs[k] = {
+        id: k, type: 'select', filterable: k !== 'glass', name: KIND_NAMES[k],
+        values: rows.map(function (o) {
+          var v = { id: o.id, label: o.name };
+          if (o.w && o.h) v.ratio = o.w / o.h;
+          if (o.swatch) v.swatch = o.swatch;
+          return v;
+        })
+      };
+    });
+    replaceObj(ATTRIBUTES, attrs);
+    replaceObj(PRICES, boot.prices || {});
+
+    var types = {};
+    var products = (boot.products || []).map(function (bp) {
+      var theme = themeFor(bp.tags || []);
+      var typeId = 'pt:' + bp.id;
+      var cat = CATEGORIES.filter(function (c) { return c.id === bp.category; })[0];
+      types[typeId] = {
+        id: typeId, categoryId: bp.category,
+        name: cat ? cat.name : same('Print'),
+        components: KINDS.filter(function (k) { return (bp.options[k] || []).length; }),
+        defaults: Object.assign({}, bp['default']),
+        rules: []
+      };
+      var r = art.rng(art.hash(bp.id));
+      return {
+        id: bp.id, sku: bp.id, typeId: typeId, categoryId: bp.category,
+        themeId: theme.id, palette: theme.palette,
+        comp: art.compositions[Math.floor(r() * art.compositions.length)],
+        word: (bp.title.en || 'KADR').split(' ').pop().toUpperCase(),
+        title: bp.title, description: bp.description,
+        tags: bp.tags || [],
+        optionSets: bp.options,
+        images: bp.images || [],
+        basePrice: bp.from, priceFrom: bp.from, priceTo: bp.to,
+        createdAt: Date.parse(bp.added) || Date.now(),
+        stats: { views: 0, favs: 0, carts: 0, orders: bp.sold || 0 },
+        status: 'live',
+        productionDays: null, deliveryDays: null,
+        files: []
+      };
+    });
+    replaceObj(PRODUCT_TYPES, types);
+
+    /* collections and homepage order are managed in Settings → Site texts */
+    HOME.length = 0;
+    var cols = [];
+    (boot.home || []).forEach(function (b) {
+      if (b.kind === 'collection') {
+        /* block titles are typed once in the back office; other languages fall back to the tag's translated name */
+        var tg = TAGS.filter(function (x) { return x.id === b.tag; })[0];
+        var title = tg && tg.name ? { en: b.title, hy: tg.name.hy || b.title, ru: tg.name.ru || b.title } : same(b.title);
+        if (!cols.some(function (c) { return c.id === b.tag; })) cols.push({ id: b.tag, title: title, tags: [b.tag], featured: true });
+        if (HOME.indexOf('collections') < 0) HOME.push('collections');
+      } else {
+        var id = { room_scenes: 'inspiration', new_arrivals: 'new', popular: 'trending' }[b.kind];
+        if (id && HOME.indexOf(id) < 0) HOME.push(id);
+      }
+    });
+    replace(COLLECTIONS, cols);
+    replaceObj(PAGES, boot.pages || {});
+
+    var rates = S0.rates || {};
+    ['USD', 'EUR', 'RUB'].forEach(function (c) {
+      var amdPerUnit = parseFloat(rates[c]);
+      if (amdPerUnit > 0) CURRENCIES[c].rate = 1 / amdPerUnit;
+    });
+    return products;
+  }
+
+  /* Settings the storefront shows, taken from the back office. */
+  function backofficeSettings() {
+    var s = BACKOFFICE.settings || {};
+    var d = s.delivery || {};
+    var prod = s.production_days || 4;
+    var out = {
+      delivery: {
+        enabled: d.enabled !== false, pickup: !!d.pickup, pickupAddress: d.pickup_address || '',
+        freeAbove: d.free_above || null,
+        zones: (d.zones || []).map(function (z) {
+          return { id: String(z.id), backendId: z.id, name: same(z.name), enabled: true, price: z.price, days: [z.days, z.days + 1] };
+        }),
+        productionDays: [prod, prod + 1]
+      },
+      payments: { card: !!s.online_payment, applePay: false, googlePay: false, manual: true },
+      onlinePayment: !!s.online_payment,
+      homepage: ['hero', 'brand'].concat(HOME.slice(0, 1), ['personalize'], HOME.slice(1), ['business']).map(function (id) {
+        return { id: id, on: true };
+      })
+    };
+    if (s.contact) out.contact = s.contact;
+    return out;
+  }
+
+  /* ---------- pricing over the back-office price table ---------------------- */
 
   function attrFor(compId) { return ATTRIBUTES[compId]; }
   function valueOf(compId, valId) {
@@ -968,120 +795,161 @@
     for (var i = 0; i < a.values.length; i++) if (a.values[i].id === valId) return a.values[i];
     return null;
   }
+  function typeOf(product) { return PRODUCT_TYPES[product.typeId] || { components: KINDS, defaults: {}, rules: [] }; }
+  function keyOf(product, options) {
+    var d = typeOf(product).defaults;
+    return KINDS.map(function (k) { return (options && options[k]) || d[k] || ''; }).join('|');
+  }
+  function offers(product, kind, valId) {
+    return ((product.optionSets || {})[kind] || []).indexOf(valId) >= 0;
+  }
 
-  /* price = (base × size factor) + option adds (scaled by size) */
+  /* exact price of a configuration; never typed by hand, computed in the back office */
   function price(product, options) {
-    var type = PRODUCT_TYPES[product.typeId];
-    var opts = options || type.defaults;
-    var factor = 1, add = 0;
-    type.components.forEach(function (c) {
-      var v = valueOf(c, opts[c]);
-      if (!v) return;
-      if (v.factor) factor = v.factor;
-    });
-    type.components.forEach(function (c) {
-      var v = valueOf(c, opts[c]);
-      if (v && v.add) add += v.add * (0.6 + factor * 0.4);
-    });
-    return Math.round((product.basePrice * factor + add) / 50) * 50;
+    var v = PRICES[keyOf(product, options)];
+    return v != null ? v : product.priceFrom;
+  }
+  function priceRange(product) { return { min: product.priceFrom, max: product.priceTo }; }
+
+  function isAllowed(product, options) {
+    var key = keyOf(product, options);
+    if (PRICES[key] == null) return false;
+    var parts = key.split('|');
+    return KINDS.every(function (k, i) { return offers(product, k, parts[i]); });
   }
 
-  function priceRange(product) {
-    var type = PRODUCT_TYPES[product.typeId];
-    var min = price(product, type.defaults);
-    var max = min;
-    /* cheapest / dearest legal combination, honouring rules */
-    var combos = [type.defaults];
-    type.components.forEach(function (c) {
-      var a = ATTRIBUTES[c]; if (!a) return;
+  /* All sellable combinations of one product (cached). */
+  var comboCache = {};
+  function combos(product) {
+    if (comboCache[product.id]) return comboCache[product.id];
+    var out = [{}];
+    KINDS.forEach(function (k) {
       var next = [];
-      combos.forEach(function (base) {
-        a.values.forEach(function (v) {
-          var o = Object.assign({}, base); o[c] = v.id;
-          if (isAllowed(product, o)) next.push(o);
-        });
+      out.forEach(function (base) {
+        ((product.optionSets || {})[k] || []).forEach(function (v) { var o = Object.assign({}, base); o[k] = v; next.push(o); });
       });
-      combos = next.length ? next.slice(0, 40) : combos;
+      out = next;
     });
-    combos.forEach(function (o) { var p = price(product, o); if (p < min) min = p; if (p > max) max = p; });
-    return { min: min, max: max };
+    out = out.filter(function (o) { return PRICES[keyOf(product, o)] != null; });
+    comboCache[product.id] = out;
+    return out;
   }
 
-  /* Rule engine: returns the set of disabled values given a partial selection */
+  var WHY = { en: 'Not available with the current selection.', hy: 'Հասանելի չէ ընթացիկ ընտրությամբ։', ru: 'Недоступно с текущим выбором.' };
+
+  /* A value is off when no sellable combination has it together with the other current picks. */
   function disabledMap(product, options) {
-    var type = PRODUCT_TYPES[product.typeId];
     var out = {}, reasons = {};
-    (type.rules || []).forEach(function (rule) {
-      var hit = Object.keys(rule.when).every(function (k) {
-        var want = rule.when[k];
-        return Array.isArray(want) ? want.indexOf(options[k]) >= 0 : options[k] === want;
-      });
-      if (!hit) return;
-      Object.keys(rule.disable).forEach(function (k) {
-        out[k] = (out[k] || []).concat(rule.disable[k]);
-        rule.disable[k].forEach(function (v) { reasons[k + ':' + v] = rule.why; });
+    var all = combos(product);
+    typeOf(product).components.forEach(function (c) {
+      (product.optionSets[c] || []).forEach(function (v) {
+        var ok = all.some(function (o) {
+          if (o[c] !== v) return false;
+          return KINDS.every(function (k) { return k === c || !options[k] || o[k] === options[k]; });
+        });
+        if (!ok) { (out[c] || (out[c] = [])).push(v); reasons[c + ':' + v] = WHY; }
       });
     });
     return { disabled: out, reasons: reasons };
   }
-  function isAllowed(product, options) {
-    var d = disabledMap(product, options).disabled;
-    return Object.keys(d).every(function (k) { return d[k].indexOf(options[k]) < 0; });
-  }
-  /* Repair a selection after a change so the user is never stuck on a dead combo */
+
+  /* Repair a selection after a change so the customer is never stuck on a dead combination. */
   function reconcile(product, options, changedKey) {
-    var type = PRODUCT_TYPES[product.typeId];
-    var o = Object.assign({}, options);
-    for (var pass = 0; pass < 4; pass++) {
-      var d = disabledMap(product, o).disabled;
-      var fixed = true;
-      type.components.forEach(function (c) {
-        if (c === changedKey) return;
-        if (d[c] && d[c].indexOf(o[c]) >= 0) {
-          var a = ATTRIBUTES[c];
-          for (var i = 0; i < a.values.length; i++) {
-            if (d[c].indexOf(a.values[i].id) < 0) { o[c] = a.values[i].id; fixed = false; break; }
-          }
-        }
-      });
-      if (fixed) break;
-    }
-    return o;
+    if (isAllowed(product, options)) return Object.assign({}, options);
+    var best = null, bestScore = -1;
+    combos(product).forEach(function (o) {
+      if (changedKey && options[changedKey] && o[changedKey] !== options[changedKey]) return;
+      var score = KINDS.filter(function (k) { return o[k] === options[k]; }).length;
+      if (score > bestScore) { bestScore = score; best = o; }
+    });
+    return Object.assign({}, best || typeOf(product).defaults);
   }
 
   function optionRatio(product, options) {
-    var type = PRODUCT_TYPES[product.typeId];
-    for (var i = 0; i < type.components.length; i++) {
-      var v = valueOf(type.components[i], options[type.components[i]]);
-      if (v && v.ratio) return v.ratio;
-    }
-    return product.typeId === 'object' ? 1 : 0.72;
+    var o = options || typeOf(product).defaults;
+    var v = valueOf('size', o.size);
+    return v && v.ratio ? v.ratio : 0.72;
   }
 
+  /* the back office's catalogue images; procedural art only when a product has none */
   function imageFor(product, options, w) {
-    var o = options || PRODUCT_TYPES[product.typeId].defaults;
+    var img = (product.images || [])[0];
+    if (img) return (w || 600) <= 520 ? img.thumb : img.medium;
+    var o = options || typeOf(product).defaults;
     var ratio = optionRatio(product, o);
     var width = w || 600;
-    return art.url({
-      seed: product.id + (o.frame || '') + (o.material || ''),
-      palette: product.palette,
-      comp: product.comp,
-      word: product.word,
-      frame: product.typeId === 'poster' ? (o.frame || 'none') : 'none',
-      w: width, h: Math.round(width / ratio)
-    });
+    return art.url({ seed: product.id, palette: product.palette, comp: product.comp, word: product.word,
+      frame: 'none', w: width, h: Math.round(width / ratio) });
+  }
+  function hasPhoto(product) { return !!(product.images && product.images.length); }
+
+  /* CSS frame + passe-partout around a real photo, from the chosen frame's colour */
+  function frameStyle(options) {
+    var v = options && valueOf('frame', options.frame);
+    if (!v || !v.swatch || v.swatch === 'transparent') return '';
+    return 'border:clamp(8px,2.4vw,18px) solid ' + v.swatch + ';padding:clamp(6px,1.8vw,14px);background:#faf8f3;' +
+      'box-shadow:0 18px 40px rgba(0,0,0,.18);box-sizing:border-box';
   }
 
   K.data = {
     CURRENCIES: CURRENCIES, CATEGORIES: CATEGORIES, ATTRIBUTES: ATTRIBUTES,
     PRODUCT_TYPES: PRODUCT_TYPES, TAGS: TAGS, TAG_COLORS: TAG_COLORS, THEMES: THEMES,
-    COLLECTIONS: COLLECTIONS, SCENES: SCENES, DEFAULT_SETTINGS: DEFAULT_SETTINGS,
-    CATALOG_SIZE: CATALOG_SIZE,
-    makeProducts: makeProducts,
+    COLLECTIONS: COLLECTIONS, SCENES: SCENES, DEFAULT_SETTINGS: DEFAULT_SETTINGS, PAGES: PAGES,
+    KINDS: KINDS,
+    load: load, backofficeSettings: backofficeSettings,
     price: price, priceRange: priceRange, disabledMap: disabledMap, isAllowed: isAllowed,
     reconcile: reconcile, valueOf: valueOf, attrFor: attrFor, imageFor: imageFor, optionRatio: optionRatio,
+    offers: offers, hasPhoto: hasPhoto, frameStyle: frameStyle, combos: combos,
+    resetCaches: function () { comboCache = {}; },
+    defaultsFor: function (p) { return Object.assign({}, typeOf(p).defaults); },
     tagById: function (id) { for (var i = 0; i < TAGS.length; i++) if (TAGS[i].id === id) return TAGS[i]; return null; },
-    catById: function (id) { for (var i = 0; i < CATEGORIES.length; i++) if (CATEGORIES[i].id === id) return CATEGORIES[i]; return null; }
+    catById: function (id) {
+      for (var i = 0; i < CATEGORIES.length; i++) if (CATEGORIES[i].id === id) return CATEGORIES[i];
+      return { id: id, slug: id, name: same(id || ''), parent: null };
+    }
+  };
+})(window.KADR = window.KADR || {});
+
+/* ============================================================================
+   API — the KADR back office (catalogue, orders, pages)
+   ============================================================================ */
+
+/* KADR — back-office client. One small fetch wrapper: timeouts, JSON errors,
+   and a base URL that defaults to the same site (the host proxies /api/public
+   to the back office) or comes from <meta name="kadr-api" content="https://…">. */
+(function (K) {
+  'use strict';
+  var meta = document.querySelector('meta[name="kadr-api"]');
+  var BASE = ((meta && meta.content) || '').replace(/\/$/, '') + '/api/public';
+
+  function request(method, path, body, timeoutMs) {
+    var ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+    var timer = ctrl ? setTimeout(function () { ctrl.abort(); }, timeoutMs || 15000) : null;
+    return fetch(BASE + path, {
+      method: method,
+      headers: body ? { 'Content-Type': 'application/json' } : {},
+      body: body ? JSON.stringify(body) : undefined,
+      signal: ctrl ? ctrl.signal : undefined,
+      cache: 'no-cache',
+      credentials: 'omit'
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (data) {
+        if (!r.ok) {
+          var err = { code: data.error || (r.status === 422 ? 'invalid' : 'http'), status: r.status, detail: data.detail, data: data };
+          throw err;
+        }
+        return data;
+      });
+    }, function () {
+      throw { code: 'network' };
+    }).finally(function () { if (timer) clearTimeout(timer); });
+  }
+
+  K.api = {
+    base: BASE,
+    get: function (path) { return request('GET', path); },
+    post: function (path, body) { return request('POST', path, body); },
+    bootstrap: function () { return request('GET', '/bootstrap'); }
   };
 })(window.KADR = window.KADR || {});
 
@@ -1090,9 +958,9 @@
    ============================================================================ */
 
 /* KADR — client state.
-   Stands in for the API: everything here would be server-side in production
-   (cart, orders, events, settings). Kept behind one interface so swapping in
-   fetch() calls later touches only this file. */
+   Products, prices and settings come from the back office (K.api); the cart,
+   favourites, taste profile and the list of your own order codes stay in the
+   browser. Orders themselves live in the back office. */
 (function (K) {
   'use strict';
   var D = K.data;
@@ -1126,10 +994,21 @@
   var listeners = [];
   function emit(what) { listeners.forEach(function (fn) { fn(what); }); }
 
-  var now = Date.now();
-  var products = D.makeProducts(now);
+  var products = [];
   var productIndex = {};
-  products.forEach(function (p) { productIndex[p.id] = p; });
+
+  /* Replace the catalogue with what the back office just sent. */
+  var catalogLoaded = false;   /* until then no cart line can be judged, so none is dropped */
+  function setCatalog(list) {
+    catalogLoaded = true;
+    products.length = 0;
+    Array.prototype.push.apply(products, list);
+    productIndex = {};
+    products.forEach(function (p) { productIndex[p.id] = p; });
+    D.resetCaches();
+    state.settings = deepMerge(JSON.parse(JSON.stringify(D.DEFAULT_SETTINGS)), D.backofficeSettings());
+    emit('products');
+  }
 
   var state = {
     lang: load('lang', 'en'),
@@ -1140,23 +1019,14 @@
     recent: load('recent', []),
     prefs: load('prefs', null),
     affinity: load('affinity', {}),
-    orders: load('orders', []),
+    orders: load('orders', []).filter(function (o) { return o && o.token; }),  /* only orders the back office knows */
     addresses: load('addresses', []),
     user: load('user', null),
     events: load('events', []),
     searches: load('searches', []),
-    settings: deepMerge(D.DEFAULT_SETTINGS, load('settings', {})),
-    wall: load('wall', null),
-    productPatch: load('productPatch', {})   /* admin edits over generated catalogue */
+    settings: JSON.parse(JSON.stringify(D.DEFAULT_SETTINGS)),
+    wall: load('wall', null)
   };
-
-  /* admin edits are applied on top of the generated catalogue */
-  function applyPatches() {
-    Object.keys(state.productPatch).forEach(function (id) {
-      if (productIndex[id]) Object.assign(productIndex[id], state.productPatch[id]);
-    });
-  }
-  applyPatches();
 
   /* ---------- money -------------------------------------------------------- */
 
@@ -1233,11 +1103,12 @@
   }
   function addToCart(productId, options, qty) {
     var p = productIndex[productId]; if (!p) return;
-    var opts = options || Object.assign({}, D.PRODUCT_TYPES[p.typeId].defaults);
+    var opts = options || D.defaultsFor(p);
     var key = lineKey(productId, opts);
     var line = state.cart.filter(function (l) { return l.key === key; })[0];
     if (line) line.qty += (qty || 1);
-    else state.cart.push({ key: key, productId: productId, options: opts, qty: qty || 1, addedAt: Date.now() });
+    /* `unit` remembers the price the customer saw, so a later change is shown, never hidden */
+    else state.cart.push({ key: key, productId: productId, options: opts, qty: qty || 1, addedAt: Date.now(), unit: D.price(p, opts), title: p.title });
     save('cart', state.cart);
     track('cart', { productId: productId });
     emit('cart');
@@ -1252,78 +1123,106 @@
   }
   function clearCart() { state.cart = []; save('cart', state.cart); emit('cart'); }
   function cartCount() { return state.cart.reduce(function (n, l) { return n + l.qty; }, 0); }
+  /* a line can stop being sellable: the product was hidden or an option switched off */
+  function lineValid(line) {
+    var p = productIndex[line.productId];
+    return !!p && D.isAllowed(p, line.options);
+  }
   function linePrice(line) {
-    var p = productIndex[line.productId]; if (!p) return 0;
+    var p = productIndex[line.productId]; if (!p || !lineValid(line)) return 0;
     return D.price(p, line.options) * line.qty;
   }
   function cartTotal() { return state.cart.reduce(function (n, l) { return n + linePrice(l); }, 0); }
+  /* lines whose price moved since they were added — shown explicitly before paying */
+  function priceChanges() {
+    return state.cart.filter(lineValid).map(function (l) {
+      var now = D.price(productIndex[l.productId], l.options);
+      return { line: l, was: l.unit, now: now };
+    }).filter(function (c) { return c.was != null && c.was !== c.now; });
+  }
+  function ackPrices() {
+    state.cart.forEach(function (l) { if (lineValid(l)) l.unit = D.price(productIndex[l.productId], l.options); });
+    save('cart', state.cart);
+  }
+  function dropInvalid() {
+    if (!catalogLoaded) return 0;
+    var before = state.cart.length;
+    state.cart = state.cart.filter(lineValid);
+    if (state.cart.length !== before) { save('cart', state.cart); emit('cart'); }
+    return before - state.cart.length;
+  }
 
-  /* ---------- orders -------------------------------------------------------- */
+  /* ---------- orders (stored in the back office) ---------------------------- */
 
-  var STATUSES = ['new', 'confirmed', 'production', 'ready', 'shipped', 'out', 'delivered', 'cancelled', 'refunded'];
+  var STATUSES = ['awaiting_payment', 'paid', 'accepted', 'in_production', 'ready', 'in_delivery', 'delivered', 'cancelled'];
   var STATUS_LABEL = {
-    new:        { en: 'New', hy: 'Նոր', ru: 'Новый' },
-    confirmed:  { en: 'Confirmed', hy: 'Հաստատված', ru: 'Подтверждён' },
-    production: { en: 'In production', hy: 'Արտադրության մեջ', ru: 'В производстве' },
-    ready:      { en: 'Ready', hy: 'Պատրաստ', ru: 'Готов' },
-    shipped:    { en: 'Shipped', hy: 'Ուղարկված', ru: 'Отправлен' },
-    out:        { en: 'Out for delivery', hy: 'Առաքման ճանապարհին', ru: 'Курьер в пути' },
-    delivered:  { en: 'Delivered', hy: 'Առաքված', ru: 'Доставлен' },
-    cancelled:  { en: 'Cancelled', hy: 'Չեղարկված', ru: 'Отменён' },
-    refunded:   { en: 'Refunded', hy: 'Վերադարձված', ru: 'Возвращён' }
+    awaiting_payment: { en: 'Awaiting payment', hy: 'Սպասում է վճարման', ru: 'Ожидает оплаты' },
+    paid:          { en: 'Paid', hy: 'Վճարված', ru: 'Оплачен' },
+    accepted:      { en: 'Order accepted', hy: 'Պատվերն ընդունված է', ru: 'Заказ принят' },
+    in_production: { en: 'In production', hy: 'Արտադրության մեջ', ru: 'В производстве' },
+    ready:         { en: 'Ready', hy: 'Պատրաստ է', ru: 'Готов' },
+    in_delivery:   { en: 'In delivery', hy: 'Առաքման մեջ', ru: 'В доставке' },
+    delivered:     { en: 'Delivered', hy: 'Առաքված', ru: 'Доставлен' },
+    cancelled:     { en: 'Cancelled', hy: 'Չեղարկված', ru: 'Отменён' }
   };
 
-  function nextOrderNo() {
-    var year = new Date().getFullYear();
-    var n = 183 + state.orders.length + 1;
-    return 'ORD-' + year + '-' + String(n).padStart(6, '0');
-  }
+  /* Sends the cart to the back office. Resolves with the saved order, or rejects with
+     {code:'price_changed'|'invalid'|'network', ...} so checkout can explain what happened. */
   function createOrder(payload) {
-    var order = {
-      id: nextOrderNo(),
-      at: Date.now(),
-      status: payload.paymentStatus === 'paid' ? 'confirmed' : 'new',
-      paymentStatus: payload.paymentStatus,
-      paymentMethod: payload.paymentMethod,
-      customer: payload.customer,
-      address: payload.address,
-      slot: payload.slot || null,
-      items: state.cart.map(function (l) {
-        var p = productIndex[l.productId];
-        return {
-          productId: l.productId, sku: skuFor(p, l.options), title: p.title,
-          options: l.options, qty: l.qty, unit: D.price(p, l.options),
-          files: p.files, typeId: p.typeId
-        };
+    var lines = state.cart.filter(lineValid);
+    if (!catalogLoaded || !lines.length || lines.length !== state.cart.length) return Promise.reject({ code: 'cart_invalid' });
+    var body = {
+      lines: lines.map(function (l) {
+        var o = l.options;
+        /* the price the customer was shown; if the back office changed it since, the server answers 409 */
+        var seen = l.unit != null ? l.unit : D.price(productIndex[l.productId], o);
+        return { code: l.productId, size: o.size, material: o.material, frame: o.frame, glass: o.glass,
+                 qty: l.qty, expected_price: seen };
       }),
-      total: cartTotal(),
-      currency: state.currency,
-      history: [{ status: payload.paymentStatus === 'paid' ? 'confirmed' : 'new', at: Date.now() }]
+      name: payload.customer.name, phone: payload.customer.phone, email: payload.customer.email,
+      language: K.i18n.lang, delivery: payload.delivery, zone_id: payload.zoneId,
+      address: payload.address, delivery_window: payload.slot || '',
+      consent_contact: !!payload.consent,
+      currency: ['AMD', 'USD', 'RUB'].indexOf(state.currency) >= 0 ? state.currency : 'AMD',
+      client_ref: payload.ref
     };
-    state.orders.unshift(order);
-    save('orders', state.orders);
-    track('purchase', { tags: order.items.reduce(function (a, i) { return a.concat(productIndex[i.productId].tags); }, []) });
-    clearCart();
-    emit('orders');
-    return order;
-  }
-  function setOrderStatus(id, status) {
-    state.orders = state.orders.map(function (o) {
-      if (o.id !== id) return o;
-      return Object.assign({}, o, { status: status, history: o.history.concat([{ status: status, at: Date.now() }]) });
+    return K.api.post('/orders', body).then(function (r) {
+      var order = {
+        id: r.code, token: r.token, at: Date.now(), status: r.status,
+        total: r.total, delivery: r.delivery, itemsTotal: r.items_total,
+        promised: r.promised_date, bank: r.bank_details, online: r.online_payment,
+        items: lines.map(function (l) {
+          var p = productIndex[l.productId];
+          return { productId: l.productId, sku: skuFor(p, l.options), title: p.title, options: l.options, qty: l.qty,
+                   unit: D.price(p, l.options) };
+        })
+      };
+      state.orders.unshift(order);
+      save('orders', state.orders);
+      track('purchase', { tags: order.items.reduce(function (a, i) { return a.concat((productIndex[i.productId] || { tags: [] }).tags); }, []) });
+      clearCart();
+      emit('orders');
+      return order;
     });
-    save('orders', state.orders); emit('orders');
+  }
+  /* Refresh one of your orders from the back office (status, promised date, bank details). */
+  function refreshOrder(code) {
+    var o = state.orders.filter(function (x) { return x.id === code; })[0];
+    if (!o || !o.token) return Promise.reject({ code: 'unknown' });
+    return K.api.get('/orders/' + encodeURIComponent(o.token) + '?lang=' + K.i18n.lang).then(function (r) {
+      Object.assign(o, { status: r.status, statusLabel: r.status_label, steps: r.steps, promised: r.promised_date,
+        total: r.total, delivery: r.delivery, itemsTotal: r.items_total, bank: r.bank_details, online: r.online_payment, page: r.page, remote: r.items });
+      save('orders', state.orders);
+      return o;
+    });
   }
 
   /* Variant SKU: base SKU plus a deterministic option suffix, so the factory
      brief is unambiguous without a lookup. */
   function skuFor(product, options) {
-    var type = D.PRODUCT_TYPES[product.typeId];
-    var parts = type.components.map(function (c) {
-      var v = options && options[c]; if (!v) return '';
-      return String(v).replace(/[^a-z0-9]/gi, '').slice(0, 4).toUpperCase();
-    }).filter(Boolean);
-    return product.sku + (parts.length ? '-' + parts.join('-') : '');
+    if (!product) return '';
+    var o = Object.assign(D.defaultsFor(product), options || {});
+    return [product.sku].concat(D.KINDS.map(function (k) { return o[k]; }).filter(Boolean)).join('-');
   }
 
   /* ---------- addresses / auth (mock) -------------------------------------- */
@@ -1343,28 +1242,7 @@
   }
   function signOut() { state.user = null; save('user', null); emit('user'); }
 
-  /* ---------- settings (admin) --------------------------------------------- */
-
-  function updateSettings(patch) {
-    state.settings = deepMerge(state.settings, patch);
-    save('settings', state.settings);
-    emit('settings');
-  }
-  function resetSettings() {
-    state.settings = JSON.parse(JSON.stringify(D.DEFAULT_SETTINGS));
-    save('settings', {});
-    emit('settings');
-  }
-  function patchProduct(id, patch) {
-    state.productPatch[id] = Object.assign({}, state.productPatch[id], patch);
-    save('productPatch', state.productPatch);
-    Object.assign(productIndex[id], patch);
-    emit('products');
-  }
-  function paymentOn() {
-    var p = state.settings.payments;
-    return !!(p.card || p.applePay || p.googlePay);
-  }
+  function paymentOn() { return !!state.settings.onlinePayment; }
 
   function setLang(l) { state.lang = l; save('lang', l); K.i18n.set(l); emit('lang'); }
   function setCurrency(c) { state.currency = c; save('currency', c); emit('currency'); }
@@ -1388,11 +1266,11 @@
     setPrefs: setPrefs, resetPrefs: resetPrefs, affinityScore: affinityScore,
     isFav: isFav, toggleFav: toggleFav, pushRecent: pushRecent,
     addToCart: addToCart, setQty: setQty, removeLine: removeLine, clearCart: clearCart,
-    cartCount: cartCount, cartTotal: cartTotal, linePrice: linePrice, lineKey: lineKey,
-    createOrder: createOrder, setOrderStatus: setOrderStatus, STATUSES: STATUSES, STATUS_LABEL: STATUS_LABEL,
-    skuFor: skuFor,
+    cartCount: cartCount, cartTotal: cartTotal, linePrice: linePrice, lineKey: lineKey, lineValid: lineValid,
+    priceChanges: priceChanges, ackPrices: ackPrices, dropInvalid: dropInvalid,
+    createOrder: createOrder, refreshOrder: refreshOrder, STATUSES: STATUSES, STATUS_LABEL: STATUS_LABEL,
+    skuFor: skuFor, setCatalog: setCatalog,
     saveAddress: saveAddress, removeAddress: removeAddress, signIn: signIn, signOut: signOut,
-    updateSettings: updateSettings, resetSettings: resetSettings, patchProduct: patchProduct,
     paymentOn: paymentOn,
     setLang: setLang, setCurrency: setCurrency, setTheme: setTheme, setWall: setWall,
     rememberSearch: rememberSearch
@@ -1487,6 +1365,7 @@
         langs.forEach(function (l) {
           tokens(a.name[l]).forEach(function (t) { addToken(t, p.id, FIELD_WEIGHT.attr); });
           a.values.forEach(function (v) {
+            if (!D.offers(p, c, v.id)) return;
             tokens(v.label[l]).forEach(function (t) { addToken(t, p.id, FIELD_WEIGHT.attr); });
             addToken(norm(v.id), p.id, FIELD_WEIGHT.attr);
           });
@@ -1679,20 +1558,9 @@
       if (f.price[0] != null && r.max < f.price[0]) return false;
       if (f.price[1] != null && r.min > f.price[1]) return false;
     }
-    if (f.sizes && f.sizes.length) {
-      var type = D.PRODUCT_TYPES[p.typeId];
-      var sizeComp = type.components.indexOf('size') >= 0 ? 'size' : (type.components.indexOf('flagSize') >= 0 ? 'flagSize' : null);
-      if (!sizeComp) return false;
-      var avail = D.ATTRIBUTES[sizeComp].values.map(function (v) { return v.id; });
-      if (!f.sizes.some(function (s) { return avail.indexOf(s) >= 0; })) return false;
-    }
-    if (f.materials && f.materials.length) {
-      var t2 = D.PRODUCT_TYPES[p.typeId];
-      var mc = ['material', 'flagMaterial', 'panelMaterial'].filter(function (c) { return t2.components.indexOf(c) >= 0; })[0];
-      if (!mc) return false;
-      var av = D.ATTRIBUTES[mc].values.map(function (v) { return v.id; });
-      if (!f.materials.some(function (s) { return av.indexOf(s) >= 0; })) return false;
-    }
+    /* a product matches when it is actually offered in one of the chosen sizes / materials */
+    if (f.sizes && f.sizes.length && !f.sizes.some(function (v) { return D.offers(p, 'size', v); })) return false;
+    if (f.materials && f.materials.length && !f.materials.some(function (v) { return D.offers(p, 'material', v); })) return false;
     return true;
   }
 
@@ -1760,7 +1628,7 @@
   function similar(p, n) {
     return S.live().filter(function (o) { return o.id !== p.id; })
       .map(function (o) {
-        var s = overlap(p.tags, o.tags) * 10 + (o.themeId === p.themeId ? 6 : 0) + (o.typeId === p.typeId ? 2 : 0);
+        var s = overlap(p.tags, o.tags) * 10 + (o.themeId === p.themeId ? 6 : 0) + (o.categoryId === p.categoryId ? 2 : 0);
         return { o: o, s: s };
       })
       .sort(function (a, b) { return b.s - a.s; }).slice(0, n || 8).map(function (x) { return x.o; });
@@ -1786,18 +1654,18 @@
     var moodColor = p.tags.filter(function (t) {
       var tg = D.tagById(t); return tg && (tg.group === 'mood' || tg.group === 'color' || tg.group === 'room');
     });
-    return S.live().filter(function (o) { return o.typeId !== p.typeId; })
-      .map(function (o) { return { o: o, s: overlap(moodColor, o.tags) * 10 + (o.themeId === p.themeId ? 3 : 0) + Math.log1p(pop(o)) * 0.5 }; })
+    return S.live().filter(function (o) { return o.id !== p.id && o.themeId !== p.themeId; })
+      .map(function (o) { return { o: o, s: overlap(moodColor, o.tags) * 10 + (o.categoryId !== p.categoryId ? 3 : 0) + Math.log1p(pop(o)) * 0.5 }; })
       .sort(function (a, b) { return b.s - a.s; }).slice(0, n || 6).map(function (x) { return x.o; });
   }
   function sceneProducts(scene) {
     var list = S.live().filter(function (p) { return scene.themes.indexOf(p.themeId) >= 0; });
     var byType = {};
-    list.forEach(function (p) { (byType[p.typeId] || (byType[p.typeId] = [])).push(p); });
+    list.forEach(function (p) { (byType[p.categoryId] || (byType[p.categoryId] = [])).push(p); });
     var out = [];
     Object.keys(byType).forEach(function (t) {
       byType[t].sort(function (a, b) { return K.art.hash(scene.id + a.id) - K.art.hash(scene.id + b.id); });
-      out = out.concat(byType[t].slice(0, t === 'poster' ? 3 : 1));
+      out = out.concat(byType[t].slice(0, t === 'posters' ? 4 : 1));
     });
     return out.slice(0, 6);
   }
@@ -1863,7 +1731,7 @@
     return '<img class="art ' + (cls || '') + '" alt="' + esc(tc(p.title)) + '" loading="lazy" decoding="async"' +
       ' data-pid="' + p.id + '" data-w="' + (w || 520) + '"' +
       (opts ? ' data-opts=\'' + esc(JSON.stringify(opts)) + '\'' : '') +
-      ' style="aspect-ratio:' + ratio.toFixed(3) + '">';
+      ' style="aspect-ratio:' + ratio.toFixed(3) + ';object-fit:cover">';
   }
 
   /* ---------- pieces -------------------------------------------------------- */
@@ -2034,11 +1902,23 @@
       total: [prod[0] + zone.days[0], prod[1] + zone.days[1]]
     };
   }
+  /* "Delivery from 1 000 ֏" / "Free delivery above …" — from the back office's zones */
+  function deliveryNote() {
+    var d = S.state.settings.delivery;
+    if (!d.enabled && d.pickup) return tc({ en: 'Self-pickup', hy: 'Ինքնաառաքում', ru: 'Самовывоз' });
+    var prices = d.zones.map(function (z) { return z.price; });
+    if (!prices.length) return t('p.free');
+    var min = Math.min.apply(null, prices);
+    if (min === 0) return tc({ en: 'Free delivery', hy: 'Անվճար առաքում', ru: 'Бесплатная доставка' });
+    var s = tc({ en: 'Delivery from ', hy: 'Առաքում՝ սկսած ', ru: 'Доставка от ' }) + money(min);
+    if (d.freeAbove) s += ' · ' + tc({ en: 'free above ', hy: 'անվճար՝ սկսած ', ru: 'бесплатно от ' }) + money(d.freeAbove);
+    return s;
+  }
   function optionSummary(p, options) {
     var type = D.PRODUCT_TYPES[p.typeId];
     return type.components.map(function (c) {
       var v = D.valueOf(c, options[c]);
-      return v ? tc(v.label) : null;
+      return v ? esc(tc(v.label)) : null;   /* names are free text in the back office */
     }).filter(Boolean).join(' · ');
   }
   function skeleton(n) {
@@ -2052,7 +1932,8 @@
     artImg: artImg, hydrateImages: hydrateImages, paint: paint, icon: icon, heart: heart,
     empty: empty, tagChip: tagChip, crumbs: crumbs, toast: toast, modal: modal,
     closeModal: closeModal, drawer: drawer, setMeta: setMeta, productLd: productLd,
-    priceLabel: priceLabel, estimate: estimate, optionSummary: optionSummary, skeleton: skeleton
+    priceLabel: priceLabel, estimate: estimate, optionSummary: optionSummary, skeleton: skeleton,
+    deliveryNote: deliveryNote
   };
 })(window.KADR = window.KADR || {});
 
@@ -2078,13 +1959,14 @@
 
   function sceneArt(scene, products) {
     var list = products || SR.sceneProducts(scene);
+    if (!list.length) return [];   /* nothing in the catalogue fits this room yet */
     var lay = LAYOUTS[Math.min(6, Math.max(1, list.length))] || LAYOUTS[3];
     return lay.map(function (pos, i) {
       var p = list[i % list.length];
       return {
         x: pos.x, y: pos.y, w: pos.w, h: pos.h, seed: scene.id + p.id,
         palette: p.palette, comp: p.comp,
-        frame: p.typeId === 'poster' ? ['black', 'oak', 'white', 'none'][i % 4] : 'none'
+        frame: (p.optionSets.frame || []).length > 1 ? ['black', 'oak', 'white', 'none'][i % 4] : 'none'
       };
     });
   }
@@ -2137,6 +2019,11 @@
   var D = K.data, S = K.store, U = K.ui, SR = K.search, VH = K.vh;
   var t = function (k, v) { return K.i18n.t(k, v); }, tc = function (o) { return K.i18n.tc(o); };
 
+  function cheapest() {
+    var min = S.live().reduce(function (m, p) { return Math.min(m, p.priceFrom); }, Infinity);
+    return min === Infinity ? 0 : min;
+  }
+
   function hero() {
     var scene = D.SCENES[0];
     return '<section class="hero"><div class="wrap"><div class="hero__grid">' +
@@ -2150,8 +2037,8 @@
         '</div>' +
         '<div class="hero__facts">' +
           '<div class="hero__fact"><b class="num">' + S.live().length + '+</b><span>' + tc({ en: 'pieces ready to print', hy: 'գործ պատրաստ տպագրության', ru: 'работ готовы к печати' }) + '</span></div>' +
-          '<div class="hero__fact"><b class="num">3–6</b><span>' + tc({ en: 'days to your wall', hy: 'օր մինչև պատը', ru: 'дней до стены' }) + '</span></div>' +
-          '<div class="hero__fact"><b>' + U.money(2900) + '</b><span>' + tc({ en: 'first wall starts at', hy: 'առաջին պատը՝ սկսած', ru: 'первая стена от' }) + '</span></div>' +
+          '<div class="hero__fact"><b class="num">' + U.estimate(null).total.join('–') + '</b><span>' + tc({ en: 'days to your wall', hy: 'օր մինչև պատը', ru: 'дней до стены' }) + '</span></div>' +
+          '<div class="hero__fact"><b>' + U.money(cheapest()) + '</b><span>' + tc({ en: 'first wall starts at', hy: 'առաջին պատը՝ սկսած', ru: 'первая стена от' }) + '</span></div>' +
         '</div>' +
       '</div>' +
       '<div class="hero__scene rv rv-2">' +
@@ -2280,11 +2167,12 @@
       products = products.filter(function (p) { return SR.matches(p, { tags: feedFilter }); });
     }
     var slice = products.slice(page * 28, page * 28 + 28);
+    if (!slice.length) return [];
     var items = slice.map(function (p) { return { kind: 'product', p: p }; });
     /* seed inspiration into the feed so discovery is not only products */
     if (D.SCENES[page % D.SCENES.length]) items.splice(4, 0, { kind: 'scene', scene: D.SCENES[page % D.SCENES.length] });
     if (D.SCENES[(page + 3) % D.SCENES.length]) items.splice(17, 0, { kind: 'scene', scene: D.SCENES[(page + 3) % D.SCENES.length] });
-    if (page % 2 === 0) items.splice(11, 0, { kind: 'collection', col: D.COLLECTIONS[page % D.COLLECTIONS.length] });
+    if (page % 2 === 0 && D.COLLECTIONS.length) items.splice(11, 0, { kind: 'collection', col: D.COLLECTIONS[page % D.COLLECTIONS.length] });
     return items;
   }
 
@@ -2705,6 +2593,12 @@
   var shot = 0;     /* gallery index */
 
   function gallery(p) {
+    /* the back office's photos first; a stylised room view only for products without photos */
+    if (D.hasPhoto(p)) {
+      var shots = p.images.map(function (im) { return { k: 'product', url: im.medium, framed: true }; });
+      shots.push({ k: 'detail', url: p.images[0].medium, detail: true });
+      return shots;
+    }
     return [
       { k: 'product', url: D.imageFor(p, sel, 900) },
       { k: 'room', url: K.art.sceneUrl({ room: 'bedroom', seed: 'pdp' + p.id, w: 1000, h: 700,
@@ -2724,7 +2618,7 @@
       var off = dm.disabled[c] || [];
       var current = D.valueOf(c, sel[c]);
       var whyShown = null;
-      var vals = attr.values.map(function (v) {
+      var vals = attr.values.filter(function (v) { return D.offers(p, c, v.id); }).map(function (v) {
         var isOff = off.indexOf(v.id) >= 0;
         if (isOff && dm.reasons[c + ':' + v.id]) whyShown = dm.reasons[c + ':' + v.id];
         var delta = '';
@@ -2751,7 +2645,7 @@
   function priceBlock(p) {
     var est = U.estimate(p);
     return '<div class="pdp__price" id="price">' + U.money(D.price(p, sel)) +
-      '<small>' + t('p.free') + ' · ' + t('p.inHands') + ' ' + est.total[0] + '–' + est.total[1] + ' ' + t('p.days') + '</small></div>';
+      '<small>' + U.deliveryNote() + ' · ' + t('p.inHands') + ' ' + est.total[0] + '–' + est.total[1] + ' ' + t('p.days') + '</small></div>';
   }
 
   function facts(p) {
@@ -2759,7 +2653,7 @@
     return '<div class="facts">' +
       '<div class="fact"><b>' + t('p.sku') + '</b><span class="num" id="sku">' + S.skuFor(p, sel) + '</span></div>' +
       '<div class="fact"><b>' + t('p.madeToOrder') + '</b><span>' + t('p.production') + ' ' + est.production[0] + '–' + est.production[1] + ' ' + t('p.days') + '</span></div>' +
-      '<div class="fact"><b>' + t('p.delivery') + '</b><span>' + est.delivery[0] + '–' + est.delivery[1] + ' ' + t('p.days') + ' · ' + t('p.free') + '</span></div>' +
+      '<div class="fact"><b>' + t('p.delivery') + '</b><span>' + est.delivery[0] + '–' + est.delivery[1] + ' ' + t('p.days') + ' · ' + U.deliveryNote() + '</span></div>' +
       '<div class="fact"><b>' + t('filter.category') + '</b><span><a class="link" href="#/shop?cat=' + p.categoryId + '">' + U.esc(tc(D.catById(p.categoryId).name)) + '</a></span></div>' +
       '</div>';
   }
@@ -2780,7 +2674,9 @@
     var g = gallery(p);
     var stage = U.qs('#stage', root);
     if (stage) {
-      stage.innerHTML = '<img src="' + g[shot].url + '" alt="' + U.esc(tc(p.title)) + '"' + (g[shot].detail ? ' style="transform:scale(1.8);transform-origin:28% 32%"' : '') + '>';
+      if (shot >= g.length) shot = 0;
+      var st = g[shot].detail ? 'transform:scale(1.8);transform-origin:28% 32%' : (g[shot].framed ? D.frameStyle(sel) : '');
+      stage.innerHTML = '<img src="' + g[shot].url + '" alt="' + U.esc(tc(p.title)) + '"' + (st ? ' style="' + st + '"' : '') + '>';
     }
     var th = U.qs('#thumbs', root);
     if (th) th.innerHTML = g.map(function (x, i) {
@@ -2811,6 +2707,7 @@
       if (a === 'zoom') { var st = U.qs('#stage', root); if (st) st.classList.toggle('is-zoom'); }
       if (a === 'qty') { qty = Math.max(1, qty + parseInt(b.dataset.d, 10)); repaint(root, p); }
       if (a === 'buy') {
+        if (!D.isAllowed(p, sel)) { sel = D.reconcile(p, sel); repaint(root, p); return; }
         S.addToCart(p.id, Object.assign({}, sel), qty);
         U.toast(t('p.added') + ' · ' + U.money(D.price(p, sel) * qty), { href: '#/cart', cta: t('cart.checkout') });
         qty = 1; repaint(root, p);
@@ -2883,7 +2780,7 @@
       return '<div class="wrap">' +
         U.crumbs([{ label: 'KADR', href: '#/' }, { label: tc(p.title), href: '#/p/' + p.id }, { label: t('p.customise') }]) +
         '<div class="builder">' +
-        '<div class="builder__preview"><img id="bimg" src="' + D.imageFor(p, sel, 700) + '" alt=""></div>' +
+        '<div class="builder__preview"><img id="bimg" src="' + D.imageFor(p, sel, 700) + '" alt="" style="' + D.frameStyle(sel) + '"></div>' +
         '<div>' +
           '<p class="eyebrow">' + t('p.customise') + '</p>' +
           '<h1 class="h2" style="margin:14px 0 6px">' + U.esc(tc(p.title)) + '</h1>' +
@@ -2911,7 +2808,7 @@
       bindOptions(root, p);
       K.app.bind('click', function () {
         var img = U.qs('#bimg', root);
-        if (img) img.src = D.imageFor(p, sel, 700);
+        if (img) { img.src = D.imageFor(p, sel, 700); img.setAttribute('style', D.frameStyle(sel)); }
       });
       U.hydrateImages(root);
     }
@@ -2957,11 +2854,19 @@
     return out.slice(0, 30);
   }
 
+  /* the configuration a wall item is bought in: product defaults + the frame chosen on the wall */
+  function itemOpts(p, it) {
+    var o = D.defaultsFor(p);
+    if (it.frame && D.offers(p, 'frame', it.frame)) o.frame = it.frame;
+    return D.reconcile(p, o, 'frame');
+  }
+
   function itemHtml(it, i) {
     var p = S.byId(it.pid); if (!p) return '';
-    var ratio = D.optionRatio(p, { size: '50x70' });
+    var opts = itemOpts(p, it);
+    var ratio = D.optionRatio(p, opts);
     return '<div class="witem' + (i === selected ? ' is-sel' : '') + '" data-i="' + i + '" style="left:' + it.x + '%;top:' + it.y + '%;width:' + it.w + '%;aspect-ratio:' + ratio.toFixed(3) + '">' +
-      '<img src="' + K.art.url({ seed: p.id + it.frame, palette: p.palette, comp: p.comp, frame: it.frame, w: 300, h: Math.round(300 / ratio) }) + '" alt="' + U.esc(tc(p.title)) + '" draggable="false">' +
+      '<img src="' + D.imageFor(p, opts, 300) + '" alt="' + U.esc(tc(p.title)) + '" draggable="false" style="width:100%;height:100%;object-fit:cover;' + D.frameStyle(opts) + '">' +
       (i === selected ? '<button class="witem__x" data-action="w-del" data-i="' + i + '" aria-label="' + t('ui.delete') + '">✕</button><span class="witem__h" data-action="w-resize" data-i="' + i + '"></span>' : '') +
       '</div>';
   }
@@ -2969,7 +2874,7 @@
   function wallTotal() {
     return wall.items.reduce(function (n, it) {
       var p = S.byId(it.pid); if (!p) return n;
-      return n + D.price(p, Object.assign({}, D.PRODUCT_TYPES[p.typeId].defaults, it.frame !== 'none' ? { frame: it.frame } : {}));
+      return n + D.price(p, itemOpts(p, it));
     }, 0);
   }
 
@@ -3063,8 +2968,8 @@
         var a = b.dataset.action;
         if (a === 'w-add') {
           var p = S.byId(b.dataset.id);
-          var frames = ['none', 'black', 'oak', 'white'];
-          wall.items.push({ pid: p.id, x: 20 + (wall.items.length * 9) % 50, y: 14 + (wall.items.length * 7) % 26, w: 16, frame: frames[wall.items.length % 4] });
+          var frames = p.optionSets.frame && p.optionSets.frame.length ? p.optionSets.frame : [null];
+          wall.items.push({ pid: p.id, x: 20 + (wall.items.length * 9) % 50, y: 14 + (wall.items.length * 7) % 26, w: 16, frame: frames[wall.items.length % frames.length] });
           selected = wall.items.length - 1;
           S.track('view', { productId: p.id });
           redraw();
@@ -3075,8 +2980,7 @@
         if (a === 'w-review') {
           var rows = wall.items.map(function (it, i) {
             var p = S.byId(it.pid);
-            var opts = Object.assign({}, D.PRODUCT_TYPES[p.typeId].defaults);
-            if (D.PRODUCT_TYPES[p.typeId].components.indexOf('frame') >= 0) opts.frame = it.frame;
+            var opts = itemOpts(p, it);
             var price = D.price(p, opts);
             return '<div class="line">' + U.artImg(p, opts, 160) +
               '<div><b>' + U.esc(tc(p.title)) + '</b><div class="line__opts">' + U.optionSummary(p, opts) + '</div>' +
@@ -3093,8 +2997,7 @@
         if (a === 'w-confirm') {
           wall.items.forEach(function (it) {
             var p = S.byId(it.pid);
-            var opts = Object.assign({}, D.PRODUCT_TYPES[p.typeId].defaults);
-            if (D.PRODUCT_TYPES[p.typeId].components.indexOf('frame') >= 0) opts.frame = it.frame;
+            var opts = itemOpts(p, it);
             S.addToCart(p.id, opts, 1);
           });
           U.closeModal();
@@ -3110,7 +3013,9 @@
    ============================================================================ */
 
 /* Cart, checkout and order confirmation.
-   Deliberately slow at the last step: nothing is bought without a full review. */
+   Deliberately slow at the last step: nothing is bought without a full review.
+   The order is created in the back office; prices are re-checked there and a
+   changed price is shown to the customer, never charged silently. */
 (function (K) {
   'use strict';
   var D = K.data, S = K.store, U = K.ui;
@@ -3119,32 +3024,66 @@
 
   /* ---------- cart ---------------------------------------------------------- */
 
-  function lineRow(l) {
-    var p = S.byId(l.productId); if (!p) return '';
+  function lineRow(l, readOnly) {
+    var p = S.byId(l.productId);
+    if (!p || !S.lineValid(l)) {
+      return '<div class="line"><div></div><div><b>' + U.esc(p ? tc(p.title) : (l.title ? tc(l.title) : l.productId)) + '</b>' +
+        '<div class="note" style="margin-top:8px">' + tc({ en: 'No longer available in this configuration.', hy: 'Այս տարբերակով այլևս հասանելի չէ։', ru: 'Больше не доступно в этой конфигурации.' }) + '</div>' +
+        (readOnly ? '' : '<button class="chip" style="margin-top:10px" data-action="line-remove" data-k="' + l.key + '">' + t('cart.remove') + '</button>') +
+        '</div><div></div></div>';
+    }
     return '<div class="line">' +
       '<a href="#/p/' + p.id + '">' + U.artImg(p, l.options, 220) + '</a>' +
       '<div><a class="card__title" href="#/p/' + p.id + '">' + U.esc(tc(p.title)) + '</a>' +
         '<div class="line__opts">' + U.optionSummary(p, l.options) + '</div>' +
         '<div class="line__sku">' + S.skuFor(p, l.options) + '</div>' +
+        (readOnly ? '<div class="line__sku">× ' + l.qty + '</div>' :
         '<div class="pillrow" style="margin-top:10px">' +
           '<span class="qty"><button data-action="line-qty" data-k="' + l.key + '" data-d="-1">−</button>' +
           '<span>' + l.qty + '</span><button data-action="line-qty" data-k="' + l.key + '" data-d="1">+</button></span>' +
           '<button class="chip" data-action="line-remove" data-k="' + l.key + '">' + t('cart.remove') + '</button>' +
-        '</div></div>' +
+        '</div>') + '</div>' +
       '<div style="text-align:right"><b class="num">' + U.money(S.linePrice(l)) + '</b>' +
       (l.qty > 1 ? '<div class="mono">' + U.money(S.linePrice(l) / l.qty) + ' ' + t('cart.each') + '</div>' : '') + '</div>' +
       '</div>';
   }
 
+  /* "It was X, it is now Y" — shown once, then the new price is accepted */
+  function priceNotice() {
+    var ch = S.priceChanges();
+    if (!ch.length) return '';
+    var html = '<div class="note" role="status" style="margin-bottom:18px"><b>' +
+      tc({ en: 'Prices changed since you added these:', hy: 'Գները փոխվել են ավելացնելուց հետո՝', ru: 'Цены изменились с момента добавления:' }) + '</b><br>' +
+      ch.map(function (c) {
+        var p = S.byId(c.line.productId);
+        return U.esc(tc(p.title)) + ' — ' + tc({ en: 'was', hy: 'էր', ru: 'было' }) + ' ' + U.money(c.was) + ', ' +
+          tc({ en: 'now', hy: 'հիմա', ru: 'стало' }) + ' ' + U.money(c.now);
+      }).join('<br>') + '</div>';
+    S.ackPrices();
+    return html;
+  }
+
+  function deliveryCost() {
+    var d = S.state.settings.delivery;
+    if (!co || co.delivery !== 'courier') return 0;
+    var z = d.zones.filter(function (x) { return x.id === co.address.zone; })[0];
+    if (!z) return null;
+    if (d.freeAbove && S.cartTotal() >= d.freeAbove) return 0;
+    return z.price;
+  }
+
   function summary(showCta) {
     var total = S.cartTotal();
+    var dc = showCta ? null : deliveryCost();
+    var delivRow = dc == null ? U.deliveryNote() : (dc === 0 ? tc({ en: 'Free', hy: 'Անվճար', ru: 'Бесплатно' }) : U.money(dc));
     return '<div class="summary">' +
       '<div class="srow"><span>' + t('cart.subtotal') + '</span><span class="num">' + U.money(total) + '</span></div>' +
-      '<div class="srow"><span>' + t('cart.delivery') + '</span><span>' + t('home.brand.p3') + '</span></div>' +
-      '<div class="srow srow--total"><span>' + t('cart.total') + '</span><span class="num">' + U.money(total) + '</span></div>' +
+      '<div class="srow"><span>' + t('cart.delivery') + '</span><span>' + U.esc(delivRow) + '</span></div>' +
+      '<div class="srow srow--total"><span>' + t('cart.total') + '</span><span class="num">' + U.money(total + (dc || 0)) + '</span></div>' +
       (showCta ? '<a class="btn btn--oxide btn--full" style="margin-top:16px" href="#/checkout">' + t('cart.checkout') + '</a>' +
         '<a class="btn btn--ghost btn--full" style="margin-top:9px" href="#/shop">' + t('cart.continue') + '</a>' : '') +
-      '<p class="mono" style="margin-top:14px;text-transform:none;letter-spacing:0">' + t('p.madeToOrder') + ' · ' + t('p.free') + '</p>' +
+      '<p class="mono" style="margin-top:14px;text-transform:none;letter-spacing:0">' + t('p.madeToOrder') + ' · ' +
+        tc({ en: 'charged in AMD', hy: 'վճարումը՝ դրամով', ru: 'оплата в драмах' }) + '</p>' +
       '</div>';
   }
 
@@ -3156,9 +3095,10 @@
           U.empty('cart.empty', '#/explore', t('cart.emptyCta')) + '</div>';
       }
       return '<div class="wrap">' + K.vh.pageHead(t('cart.title'), S.cartCount() + ' ' + tc({ en: 'items', hy: 'ապրանք', ru: 'товаров' })) +
-        '<div class="cart"><div id="lines">' + S.state.cart.map(lineRow).join('') + '</div>' + summary(true) + '</div></div>';
+        priceNotice() +
+        '<div class="cart"><div id="lines">' + S.state.cart.map(function (l) { return lineRow(l); }).join('') + '</div>' + summary(true) + '</div></div>';
     },
-    mount: function (root) {
+    mount: function () {
       K.app.bind('click', function (e) {
         var b = e.target.closest('[data-action]'); if (!b) return;
         if (b.dataset.action === 'line-qty') {
@@ -3174,29 +3114,33 @@
   /* ---------- checkout ------------------------------------------------------ */
 
   var co = null;
+  var placing = false;
+  var EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+
+  function newRef() {
+    var a = new Uint8Array(12);
+    (window.crypto || window.msCrypto).getRandomValues(a);
+    return Array.prototype.map.call(a, function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
+  }
+
   function freshCo() {
     var a = S.state.addresses[0];
+    var zones = S.state.settings.delivery.zones;
+    var address = a ? Object.assign({}, a) : { label: '', city: 'Yerevan', street: '', building: '', entrance: '', floor: '', apartment: '', intercom: '', elevator: true, courier: '', zone: '' };
+    /* a saved address may name a zone the back office has since removed */
+    if (!zones.some(function (z) { return z.id === address.zone; })) address.zone = '';
     return {
+      ref: newRef(),   /* one per checkout: a resend after a timeout can never create a second order */
       step: 0,
       customer: { name: (S.state.user && S.state.user.name) || '', email: (S.state.user && S.state.user.email) || '', phone: '' },
-      address: a ? Object.assign({}, a) : { label: '', street: '', building: '', entrance: '', floor: '', apartment: '', intercom: '', elevator: true, courier: '', lat: 40.183, lng: 44.515, zone: 'yerevan' },
-      slot: null, day: null, payment: null, saveAs: ''
+      address: address,
+      delivery: S.state.settings.delivery.enabled ? 'courier' : 'pickup',
+      slot: null, day: null, payment: null, saveAs: '', consent: false, error: ''
     };
   }
 
   var STREETS = ['Abovyan', 'Saryan', 'Mashtots ave.', 'Tumanyan', 'Pushkin', 'Amiryan', 'Baghramyan ave.', 'Komitas ave.',
     'Nalbandyan', 'Teryan', 'Isahakyan', 'Koghbatsi', 'Arshakunyats ave.', 'Halabyan', 'Vardanants'];
-
-  function mapSvg() {
-    var g = '';
-    for (var i = 1; i < 9; i++) g += '<line x1="' + i * 60 + '" y1="0" x2="' + (i * 60 - 30) + '" y2="300" stroke="var(--line)" stroke-width="1"/>';
-    for (var j = 1; j < 6; j++) g += '<line x1="0" y1="' + j * 50 + '" x2="520" y2="' + (j * 50 + 8) + '" stroke="var(--line)" stroke-width="1"/>';
-    return '<svg viewBox="0 0 520 300" preserveAspectRatio="none">' +
-      '<rect width="520" height="300" fill="var(--paper-2)"/>' + g +
-      '<circle cx="250" cy="150" r="46" fill="none" stroke="var(--line)" stroke-width="1"/>' +
-      '<path d="M60 250 Q 200 210 460 240" fill="none" stroke="var(--line)" stroke-width="6" opacity=".6"/>' +
-      '<text x="252" y="146" font-size="9" fill="var(--ink-3)" text-anchor="middle" letter-spacing="2">REPUBLIC SQ.</text></svg>';
-  }
 
   function stepNav() {
     var labels = ['co.step.address', 'co.step.delivery', 'co.step.payment', 'co.step.review'];
@@ -3207,21 +3151,20 @@
 
   function stepAddress() {
     var saved = S.state.addresses;
+    var courier = co.delivery === 'courier';
     return '<h2 class="h3" style="margin-bottom:18px">' + t('co.step.address') + '</h2>' +
       (saved.length ? '<p class="mono">' + t('co.saved') + '</p><div class="chips" style="margin:8px 0 22px">' +
         saved.map(function (a) { return '<button class="chip" data-action="use-addr" data-l="' + U.esc(a.label) + '">' + U.esc(a.label) + ' — ' + U.esc(a.street) + '</button>'; }).join('') + '</div>' : '') +
-      '<label class="field"><span>' + t('co.name') + '</span><input id="cname" value="' + U.esc(co.customer.name) + '" autocomplete="name"></label>' +
-      '<label class="field field--half"><span>' + t('co.email') + '</span><input id="cemail" type="email" value="' + U.esc(co.customer.email) + '" autocomplete="email"></label>' +
-      '<label class="field field--half"><span>' + t('co.phone') + '</span><input id="cphone" type="tel" placeholder="+374 …" value="' + U.esc(co.customer.phone) + '" autocomplete="tel"></label>' +
-      '<div class="pillrow" style="margin:10px 0 12px">' +
-        '<button class="pill" data-action="geo">' + t('co.useLocation') + '</button>' +
-        '<input class="select" id="astreet" list="streets" placeholder="' + t('co.searchAddress') + '" value="' + U.esc(co.address.street) + '" style="padding:8px 14px;min-width:220px">' +
+      '<label class="field"><span>' + t('co.name') + ' *</span><input id="cname" value="' + U.esc(co.customer.name) + '" autocomplete="name" required></label>' +
+      '<label class="field field--half"><span>' + t('co.email') + ' *</span><input id="cemail" type="email" value="' + U.esc(co.customer.email) + '" autocomplete="email" required></label>' +
+      '<label class="field field--half"><span>' + t('co.phone') + ' *</span><input id="cphone" type="tel" placeholder="+374 …" value="' + U.esc(co.customer.phone) + '" autocomplete="tel" required></label>' +
+      '<p class="mono" style="text-transform:none;letter-spacing:0;margin:-4px 0 16px">' +
+        tc({ en: 'Every status change of your order is sent to this email.', hy: 'Պատվերի կարգավիճակի յուրաքանչյուր փոփոխություն կուղարկվի այս էլ. հասցեին։', ru: 'О каждом изменении статуса заказа мы напишем на эту почту.' }) + '</p>' +
+      (courier ?
+      '<div style="margin-top:6px">' +
+        '<label class="field"><span>' + tc({ en: 'City', hy: 'Քաղաք', ru: 'Город' }) + '</span><input id="acity" value="' + U.esc(co.address.city || '') + '"></label>' +
+        '<label class="field"><span>' + tc({ en: 'Street', hy: 'Փողոց', ru: 'Улица' }) + ' *</span><input id="astreet" list="streets" value="' + U.esc(co.address.street) + '" autocomplete="address-line1"></label>' +
         '<datalist id="streets">' + STREETS.map(function (s) { return '<option value="' + s + '">'; }).join('') + '</datalist>' +
-      '</div>' +
-      '<div class="map" id="map">' + mapSvg() +
-        '<div class="map__pin" id="pin" style="left:50%;top:52%">' + U.icon('pin') + '</div>' +
-        '<span class="map__hint">' + t('co.pinHint') + '</span></div>' +
-      '<div style="margin-top:18px">' +
         '<label class="field field--half"><span>' + t('co.building') + '</span><input id="abuilding" value="' + U.esc(co.address.building) + '"></label>' +
         '<label class="field field--half"><span>' + t('co.entrance') + '</span><input id="aentrance" value="' + U.esc(co.address.entrance) + '"></label>' +
         '<label class="field field--half"><span>' + t('co.floor') + '</span><input id="afloor" value="' + U.esc(co.address.floor) + '"></label>' +
@@ -3230,100 +3173,153 @@
         '<label class="field field--half"><span>' + t('co.saveAddress') + '</span><input id="asave" placeholder="Home / Work" value="' + U.esc(co.saveAs) + '"></label>' +
         '<label class="fopt"><input type="checkbox" id="aelev"' + (co.address.elevator ? ' checked' : '') + '> ' + t('co.elevator') + '</label>' +
         '<label class="field"><span>' + t('co.courier') + '</span><textarea id="acourier" rows="2">' + U.esc(co.address.courier) + '</textarea></label>' +
-      '</div>';
+      '</div>' : '') +
+      '<label class="fopt" style="margin-top:12px"><input type="checkbox" id="cconsent"' + (co.consent ? ' checked' : '') + '> ' +
+        tc({ en: 'You may contact me if I do not finish this purchase.', hy: 'Կարող եք կապվել ինձ հետ, եթե չավարտեմ գնումը։', ru: 'Можно связаться со мной, если я не завершу покупку.' }) + '</label>';
   }
 
   function stepDelivery() {
-    var s = S.state.settings.delivery;
-    var zones = s.zones.filter(function (z) { return z.enabled; });
+    var d = S.state.settings.delivery;
     var days = [];
-    for (var i = 3; i < 8; i++) {
-      var d = new Date(Date.now() + i * 86400000);
-      days.push({ k: d.toISOString().slice(0, 10), label: d.toLocaleDateString(K.i18n.lang === 'ru' ? 'ru-RU' : 'en-GB', { weekday: 'short', day: 'numeric', month: 'short' }) });
+    var first = (d.productionDays[1] || 3) + 1;   /* nothing can arrive before it is made */
+    for (var i = first; i < first + 5; i++) {
+      var dt = new Date(Date.now() + i * 86400000);
+      days.push({ k: dt.toISOString().slice(0, 10), label: dt.toLocaleDateString(K.i18n.lang === 'ru' ? 'ru-RU' : (K.i18n.lang === 'hy' ? 'hy-AM' : 'en-GB'), { weekday: 'short', day: 'numeric', month: 'short' }) });
     }
-    return '<h2 class="h3" style="margin-bottom:18px">' + t('co.step.delivery') + '</h2>' +
+    var methods = '';
+    if (d.enabled && d.pickup) {
+      methods = '<div class="fgroup"><div class="fgroup__title">' + tc({ en: 'How to receive it', hy: 'Ինչպես ստանալ', ru: 'Как получить' }) + '</div>' +
+        '<label class="fopt"><input type="radio" name="dmethod" value="courier"' + (co.delivery === 'courier' ? ' checked' : '') + '>' + tc({ en: 'Courier', hy: 'Առաքիչ', ru: 'Курьер' }) + '</label>' +
+        '<label class="fopt"><input type="radio" name="dmethod" value="pickup"' + (co.delivery === 'pickup' ? ' checked' : '') + '>' + tc({ en: 'Self-pickup', hy: 'Ինքնաառաքում', ru: 'Самовывоз' }) +
+        (d.pickupAddress ? '<em class="n">' + U.esc(d.pickupAddress) + '</em>' : '') + '</label></div>';
+    }
+    var zones = co.delivery === 'courier' ?
       '<div class="fgroup"><div class="fgroup__title">' + tc({ en: 'Zone', hy: 'Գոտի', ru: 'Зона' }) + '</div>' +
-        zones.map(function (z) {
+        d.zones.map(function (z) {
+          var free = d.freeAbove && S.cartTotal() >= d.freeAbove;
           return '<label class="fopt"><input type="radio" name="zone" value="' + z.id + '"' + (co.address.zone === z.id ? ' checked' : '') + '>' +
-            U.esc(tc(z.name)) + '<em class="n">' + z.days[0] + '–' + z.days[1] + ' ' + t('p.days') + '</em></label>';
-        }).join('') + '</div>' +
-      (S.state.settings.features.deliverySlots ?
+            U.esc(tc(z.name)) + '<em class="n">' + (free ? tc({ en: 'free', hy: 'անվճար', ru: 'бесплатно' }) : U.money(z.price)) + ' · ' + z.days[0] + '–' + z.days[1] + ' ' + t('p.days') + '</em></label>';
+        }).join('') + '</div>' : '';
+    return '<h2 class="h3" style="margin-bottom:18px">' + t('co.step.delivery') + '</h2>' + methods + zones +
+      (co.delivery === 'courier' && S.state.settings.features.deliverySlots ?
         '<div style="margin-top:22px"><p class="mono">' + t('co.slot') + '</p>' +
-        '<div class="chips" style="margin:10px 0 14px">' + days.map(function (d) {
-          return '<button class="chip' + (co.day === d.k ? ' is-on' : '') + '" data-action="co-day" data-k="' + d.k + '">' + d.label + '</button>';
+        '<div class="chips" style="margin:10px 0 14px">' + days.map(function (x) {
+          return '<button class="chip' + (co.day === x.k ? ' is-on' : '') + '" data-action="co-day" data-k="' + x.k + '">' + x.label + '</button>';
         }).join('') + '</div>' +
-        '<div class="slots">' + S.state.settings.delivery.slots.map(function (sl) {
-          return '<button class="slot' + (co.slot === sl ? ' is-on' : '') + '" data-action="co-slot" data-k="' + U.esc(sl) + '"><b>' + sl + '</b><span>' + t('p.free') + '</span></button>';
+        '<div class="slots">' + d.slots.map(function (sl) {
+          return '<button class="slot' + (co.slot === sl ? ' is-on' : '') + '" data-action="co-slot" data-k="' + U.esc(sl) + '"><b>' + sl + '</b></button>';
         }).join('') + '</div></div>'
-        : '<p class="note">' + t('co.slotAny') + '</p>') +
-      '<div class="note">' + t('p.madeToOrder') + ' — ' + t('p.production') + ' ' +
-        S.state.settings.delivery.productionDays.join('–') + ' ' + t('p.days') + '.</div>';
+        : (co.delivery === 'courier' ? '<p class="note">' + t('co.slotAny') + '</p>' : '')) +
+      '<div class="note">' + t('p.madeToOrder') + ' — ' + t('p.production') + ' ' + d.productionDays.join('–') + ' ' + t('p.days') + '.</div>';
   }
+
+  var PAY_ONLINE = { en: 'Card payment online', hy: 'Քարտով վճարում առցանց', ru: 'Оплата картой онлайн' };
+  var PAY_ONLINE_BODY = { en: 'Place the order and we send a secure payment link to your email. Production starts once it is paid.',
+    hy: 'Ձևակերպեք պատվերը, և մենք ձեր էլ. հասցեին կուղարկենք վճարման անվտանգ հղում։ Արտադրությունը սկսվում է վճարումից հետո։',
+    ru: 'Оформите заказ — мы пришлём на почту защищённую ссылку для оплаты. Производство начнётся после оплаты.' };
 
   function stepPayment() {
-    var pm = S.state.settings.payments;
-    var on = S.paymentOn();
     var c = S.state.settings.contact;
-    if (!on) {
-      /* Payment-disabled mode: no dead UI, a real route to a human instead. */
-      return '<h2 class="h3" style="margin-bottom:18px">' + t('co.step.payment') + '</h2>' +
-        '<div class="panel" style="border-color:var(--oxide)">' +
-        '<h3 class="h3">' + t('co.payOff') + '</h3><p style="color:var(--ink-2)">' + t('co.payOffBody') + '</p>' +
-        '<div class="contactrow">' +
-          '<a class="btn btn--sm" href="https://instagram.com/" target="_blank" rel="noopener">Instagram ' + U.esc(c.instagram) + '</a>' +
-          '<a class="btn btn--sm btn--ghost" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp ' + U.esc(c.whatsapp) + '</a>' +
-          '<a class="btn btn--sm btn--ghost" href="mailto:' + U.esc(c.email) + '">' + U.esc(c.email) + '</a>' +
-        '</div></div>' +
-        '<p class="mono" style="margin-top:16px;text-transform:none;letter-spacing:0">' +
-        tc({ en: 'Your order is saved and sent to us as a request — we confirm payment personally.',
-             hy: 'Ձեր պատվերը պահվում է որպես հարցում։', ru: 'Заказ сохраняется и отправляется нам как заявка.' }) + '</p>';
-    }
-    var opts = [];
-    if (pm.card) opts.push(['card', t('co.payCard'), '•••• 4242']);
-    if (pm.applePay) opts.push(['applePay', t('co.payApple'), '']);
-    if (pm.googlePay) opts.push(['googlePay', t('co.payGoogle'), '']);
-    if (pm.manual) opts.push(['manual', t('co.payManual'), '']);
+    var online = S.paymentOn();
     return '<h2 class="h3" style="margin-bottom:18px">' + t('co.step.payment') + '</h2>' +
-      '<div class="pay">' + opts.map(function (o) {
-        return '<label class="payopt' + (co.payment === o[0] ? ' is-on' : '') + '" data-action="co-pay" data-k="' + o[0] + '">' +
-          '<input type="radio" name="pay"' + (co.payment === o[0] ? ' checked' : '') + '><b>' + o[1] + '</b>' +
-          (o[2] ? '<span class="mono" style="margin-left:auto">' + o[2] + '</span>' : '') + '</label>';
-      }).join('') + '</div>' +
-      (co.payment === 'card' ? '<div class="panel" style="margin-top:16px"><p class="mono" style="text-transform:none;letter-spacing:0">' +
-        tc({ en: 'Card details are entered on the payment provider’s page — this site never sees them.',
-             hy: 'Քարտի տվյալները մուտքագրվում են վճարային համակարգի էջում։',
-             ru: 'Данные карты вводятся на странице платёжного провайдера.' }) + '</p></div>' : '');
+      '<div class="panel" style="border-color:var(--oxide)">' +
+      (online ? '<h3 class="h3">' + tc(PAY_ONLINE) + '</h3><p style="color:var(--ink-2)">' + tc(PAY_ONLINE_BODY) + '</p>'
+        : '<h3 class="h3">' + t('co.payOff') + '</h3><p style="color:var(--ink-2)">' + t('co.payOffBody') + '</p>') +
+      '<div class="contactrow">' +
+        (c.instagram ? '<a class="btn btn--sm" href="https://instagram.com/' + encodeURIComponent(String(c.instagram).replace(/^@/, '')) + '" target="_blank" rel="noopener">Instagram ' + U.esc(c.instagram) + '</a>' : '') +
+        (c.whatsapp ? '<a class="btn btn--sm btn--ghost" href="https://wa.me/' + String(c.whatsapp).replace(/\D/g, '') + '" target="_blank" rel="noopener">WhatsApp ' + U.esc(c.whatsapp) + '</a>' : '') +
+        (c.email ? '<a class="btn btn--sm btn--ghost" href="mailto:' + U.esc(c.email) + '">' + U.esc(c.email) + '</a>' : '') +
+      '</div></div>';
   }
-
-  var PAY_LABEL = { card: 'co.payCard', applePay: 'co.payApple', googlePay: 'co.payGoogle', manual: 'co.payManual' };
-  function paymentLabel(k) { return t(PAY_LABEL[k] || 'co.payManual'); }
 
   function stepReview() {
     var addr = co.address;
+    var dc = deliveryCost();
+    var where = co.delivery === 'pickup' ? tc({ en: 'Self-pickup', hy: 'Ինքնաառաքում', ru: 'Самовывоз' }) :
+      [addr.city, addr.street, addr.building, addr.apartment && ('#' + addr.apartment)].filter(Boolean).join(', ');
     return '<h2 class="h3" style="margin-bottom:18px">' + t('co.step.review') + '</h2>' +
-      S.state.cart.map(lineRow).join('') +
+      S.state.cart.map(function (l) { return lineRow(l, true); }).join('') +
       '<div class="panel" style="margin-top:20px">' +
         '<div class="srow"><span>' + t('co.name') + '</span><b>' + U.esc(co.customer.name || '—') + '</b></div>' +
+        '<div class="srow"><span>' + t('co.email') + '</span><b>' + U.esc(co.customer.email || '—') + '</b></div>' +
         '<div class="srow"><span>' + t('co.phone') + '</span><b>' + U.esc(co.customer.phone || '—') + '</b></div>' +
-        '<div class="srow"><span>' + t('co.step.address') + '</span><b style="text-align:right">' +
-          U.esc([addr.street, addr.building, addr.apartment && ('#' + addr.apartment)].filter(Boolean).join(', ') || '—') + '</b></div>' +
-        '<div class="srow"><span>' + t('co.slot') + '</span><b>' + U.esc(co.slot ? (co.day || '') + ' ' + co.slot : t('co.slotAny')) + '</b></div>' +
-        '<div class="srow"><span>' + t('co.step.payment') + '</span><b>' + U.esc(paymentLabel(co.payment)) + '</b></div>' +
-        '<div class="srow srow--total"><span>' + t('cart.total') + '</span><span class="num">' + U.money(S.cartTotal()) + '</span></div>' +
+        '<div class="srow"><span>' + t('co.step.address') + '</span><b style="text-align:right">' + U.esc(where || '—') + '</b></div>' +
+        (co.delivery === 'courier' ? '<div class="srow"><span>' + t('co.slot') + '</span><b>' + U.esc(co.slot ? [co.day, co.slot].filter(Boolean).join(' ') : t('co.slotAny')) + '</b></div>' : '') +
+        '<div class="srow"><span>' + t('cart.delivery') + '</span><b>' + (dc === null ? tc({ en: 'choose a zone', hy: 'ընտրեք գոտին', ru: 'выберите зону' }) : (dc ? U.money(dc) : tc({ en: 'Free', hy: 'Անվճար', ru: 'Бесплатно' }))) + '</b></div>' +
+        '<div class="srow"><span>' + t('co.step.payment') + '</span><b>' + (S.paymentOn() ? tc(PAY_ONLINE) : t('co.payManual')) + '</b></div>' +
+        '<div class="srow srow--total"><span>' + t('cart.total') + '</span><span class="num">' + U.money(S.cartTotal() + (dc || 0)) + '</span></div>' +
       '</div>' +
-      '<button class="btn btn--oxide btn--full" style="margin-top:18px" data-action="co-place">' +
-        (S.paymentOn() ? t('co.placeOrder') : t('co.sendOrder')) + ' · ' + U.money(S.cartTotal()) + '</button>' +
+      (co.error ? '<div class="note" role="alert" style="margin-top:16px;border-color:var(--oxide)">' + U.esc(co.error) + '</div>' : '') +
+      '<button class="btn btn--oxide btn--full" style="margin-top:18px" data-action="co-place"' + (placing ? ' disabled' : '') + '>' +
+        (placing ? tc({ en: 'Sending…', hy: 'Ուղարկվում է…', ru: 'Отправляем…' }) : t('co.sendOrder') + ' · ' + U.money(S.cartTotal() + (dc || 0))) + '</button>' +
       '<p class="mono" style="margin-top:12px;text-transform:none;letter-spacing:0">' +
-        tc({ en: 'This is the only button that charges you.', hy: 'Սա միակ կոճակն է, որ ավարտում է գնումը։', ru: 'Это единственная кнопка, которая завершает покупку.' }) + '</p>';
+        (S.paymentOn() ? tc(PAY_ONLINE_BODY) : tc({ en: 'Nothing is charged now: you pay by transfer after you see the bank details.', hy: 'Հիմա ոչինչ չի գանձվում. վճարում եք փոխանցումով՝ տեսնելով տվյալները։', ru: 'Сейчас ничего не списывается: вы оплачиваете переводом, увидев реквизиты.' })) + '</p>';
+  }
+
+  /* Someone who reached checkout and left — recorded for the owners, with consent noted (File 2). */
+  var attemptSent = false;
+  function reportAttempt() {
+    if (attemptSent || !co || !S.state.cart.length) return;
+    var email = co.customer.email, phone = co.customer.phone;
+    if (!email && !phone) return;
+    attemptSent = true;
+    var body = JSON.stringify({
+      name: co.customer.name, email: email, phone: phone, language: K.i18n.lang, consent_contact: !!co.consent,
+      lines: S.state.cart.filter(S.lineValid).map(function (l) {
+        return { code: l.productId, size: l.options.size, material: l.options.material, frame: l.options.frame, glass: l.options.glass, qty: l.qty };
+      })
+    });
+    try {
+      if (navigator.sendBeacon) navigator.sendBeacon(K.api.base + '/checkout-attempts', new Blob([body], { type: 'application/json' }));
+      else K.api.post('/checkout-attempts', JSON.parse(body)).catch(function () {});
+    } catch (e) { /* best effort */ }
+  }
+  window.addEventListener('pagehide', reportAttempt);
+
+  function validate(step) {
+    if (step === 0) {
+      if (!co.customer.name || !co.customer.phone) return tc({ en: 'Name and phone, please.', hy: 'Անուն և հեռախոս։', ru: 'Имя и телефон, пожалуйста.' });
+      if (!EMAIL.test(co.customer.email || '')) return tc({ en: 'A valid email, please — order updates go there.', hy: 'Գրեք ճիշտ էլ. հասցե։', ru: 'Укажите корректный email — туда приходят статусы заказа.' });
+      if (co.delivery === 'courier' && !co.address.street) return tc({ en: 'The street, please.', hy: 'Նշեք փողոցը։', ru: 'Укажите улицу.' });
+    }
+    if (step === 1 && co.delivery === 'courier' && deliveryCost() === null) return tc({ en: 'Choose a delivery zone.', hy: 'Ընտրեք առաքման գոտին։', ru: 'Выберите зону доставки.' });
+    return '';
+  }
+
+  function failure(err) {
+    if (err && err.code === 'price_changed') {
+      return tc({ en: 'Prices changed a moment ago. The cart now shows the new prices — please check and send again.',
+        hy: 'Գները հենց նոր փոխվել են։ Զամբյուղում արդեն նոր գներն են, ստուգեք և ուղարկեք կրկին։',
+        ru: 'Цены только что изменились. В корзине уже новые цены — проверьте и отправьте снова.' });
+    }
+    if (err && err.code === 'network') return tc({ en: 'No connection to the studio. Check your internet and try again.', hy: 'Կապ չկա։ Փորձեք կրկին։', ru: 'Нет связи. Проверьте интернет и попробуйте снова.' });
+    if (err && err.status === 429) return tc({ en: 'Too many attempts. Please wait a minute and try again.', hy: 'Չափազանց շատ փորձեր։ Սպասեք մեկ րոպե։', ru: 'Слишком много попыток. Подождите минуту и попробуйте снова.' });
+    var bad = err && err.data && err.data.errors && err.data.errors[0] && err.data.errors[0].loc;
+    var field = bad ? String(bad[1] || '') : '';
+    if (field === 'email') return tc({ en: 'This email cannot receive mail. Please check it.', hy: 'Այս էլ. հասցեն չի աշխատում։ Ստուգեք։', ru: 'На этот email нельзя отправить письмо. Проверьте адрес.' });
+    if (field === 'phone') return tc({ en: 'Please check the phone number.', hy: 'Ստուգեք հեռախոսահամարը։', ru: 'Проверьте номер телефона.' });
+    if (field === 'name' || field === 'address') return tc({ en: 'Please check your name and address.', hy: 'Ստուգեք անունը և հասցեն։', ru: 'Проверьте имя и адрес.' });
+    if (err && err.code === 'cart_invalid') return tc({ en: 'Something in your cart is no longer available. Please check the cart.', hy: 'Զամբյուղի ինչ-որ ապրանք այլևս հասանելի չէ։', ru: 'Что-то из корзины больше недоступно. Проверьте корзину.' });
+    if (err && err.code === 'invalid_order' && err.data && err.data.reason === 'delivery') {
+      return tc({ en: 'This delivery option is not available right now. Please choose another one.', hy: 'Առաքման այս տարբերակը հիմա հասանելի չէ։ Ընտրեք այլ տարբերակ։', ru: 'Этот способ доставки сейчас недоступен. Выберите другой.' });
+    }
+    if (err && (err.code === 'invalid_order' || /product|available|combination/i.test(String(err.detail || '')))) {
+      return tc({ en: 'Something in your cart is no longer available. Please check the cart.', hy: 'Զամբյուղի ինչ-որ ապրանք այլևս հասանելի չէ։', ru: 'Что-то из корзины больше недоступно. Проверьте корзину.' });
+    }
+    if (err && err.status === 422) return tc({ en: 'Some details are missing or invalid.', hy: 'Որոշ տվյալներ սխալ են։', ru: 'Некоторые данные заполнены неверно.' });
+    return tc({ en: 'The order could not be sent. Please try again.', hy: 'Պատվերը չուղարկվեց։ Փորձեք կրկին։', ru: 'Заказ не отправился. Попробуйте ещё раз.' });
   }
 
   K.views.checkout = {
     render: function () {
       if (!S.state.cart.length) return '<div class="wrap">' + K.vh.pageHead(t('cart.title')) + U.empty('cart.empty', '#/explore', t('cart.emptyCta')) + '</div>';
+      if (S.dropInvalid()) U.toast(tc({ en: 'Items that are no longer available were removed.', hy: 'Անհասանելի ապրանքները հեռացվեցին։', ru: 'Недоступные товары убраны из корзины.' }));
+      if (!S.state.cart.length) return '<div class="wrap">' + K.vh.pageHead(t('cart.title')) + U.empty('cart.empty', '#/explore', t('cart.emptyCta')) + '</div>';
       if (!co) co = freshCo();
+      if (!S.state.settings.delivery.enabled) co.delivery = 'pickup';
       U.setMeta({ title: t('cart.checkout') + ' — KADR', description: 'Checkout' });
       var body = [stepAddress, stepDelivery, stepPayment, stepReview][co.step]();
-      return '<div class="wrap" style="max-width:1100px">' + K.vh.pageHead(t('cart.checkout')) +
+      return '<div class="wrap" style="max-width:1100px">' + K.vh.pageHead(t('cart.checkout')) + priceNotice() +
         '<div class="cart"><div>' + stepNav() + body +
         '<div class="pillrow" style="margin-top:26px">' +
           (co.step > 0 ? '<button class="btn btn--ghost" data-action="co-back">← ' + t('ui.back') + '</button>' : '<a class="btn btn--ghost" href="#/cart">← ' + t('cart.title') + '</a>') +
@@ -3331,67 +3327,72 @@
         '</div></div>' + summary(false) + '</div></div>';
     },
     mount: function (root) {
-      var map = U.qs('#map', root);
-      if (map) {
-        map.addEventListener('click', function (e) {
-          var r = map.getBoundingClientRect();
-          var x = ((e.clientX - r.left) / r.width * 100).toFixed(1);
-          var y = ((e.clientY - r.top) / r.height * 100).toFixed(1);
-          var pin = U.qs('#pin', root);
-          pin.style.left = x + '%'; pin.style.top = y + '%';
-          co.address.lat = 40.13 + (100 - y) / 100 * 0.12;
-          co.address.lng = 44.44 + x / 100 * 0.14;
-        });
-      }
       function collect() {
-        var g = function (id) { var n = U.qs('#' + id, root); return n ? n.value.trim() : ''; };
+        var g = function (id) { var n = U.qs('#' + id, root); return n ? n.value.trim() : null; };
         if (U.qs('#cname', root)) {
           co.customer = { name: g('cname'), email: g('cemail'), phone: g('cphone') };
-          co.address = Object.assign(co.address, {
-            street: g('astreet'), building: g('abuilding'), entrance: g('aentrance'), floor: g('afloor'),
-            apartment: g('aapt'), intercom: g('aintercom'), courier: g('acourier'),
-            elevator: U.qs('#aelev', root) ? U.qs('#aelev', root).checked : true
-          });
-          co.saveAs = g('asave');
+          if (U.qs('#astreet', root)) {
+            co.address = Object.assign(co.address, {
+              city: g('acity'), street: g('astreet'), building: g('abuilding'), entrance: g('aentrance'), floor: g('afloor'),
+              apartment: g('aapt'), intercom: g('aintercom'), courier: g('acourier'),
+              elevator: U.qs('#aelev', root) ? U.qs('#aelev', root).checked : true
+            });
+            co.saveAs = g('asave') || '';
+          }
+          co.consent = !!(U.qs('#cconsent', root) && U.qs('#cconsent', root).checked);
         }
       }
       K.app.bind('change', function (e) {
         if (e.target.name === 'zone') co.address.zone = e.target.value;
+        if (e.target.name === 'dmethod') { co.delivery = e.target.value; K.app.rerender(); }
+        if (e.target.id === 'cconsent') co.consent = e.target.checked;
+      });
+      K.app.bind('input', function (e) {
+        if (e.target.id === 'cemail') co.customer.email = e.target.value.trim();
+        if (e.target.id === 'cphone') co.customer.phone = e.target.value.trim();
+        if (e.target.id === 'cname') co.customer.name = e.target.value.trim();
       });
       K.app.bind('click', function (e) {
         var b = e.target.closest('[data-action]'); if (!b) return;
         var a = b.dataset.action;
         if (a === 'co-next') {
           collect();
-          if (co.step === 0 && (!co.customer.name || !co.customer.phone)) { U.toast(tc({ en: 'Name and phone, please.', hy: 'Անուն և հեռախոս։', ru: 'Имя и телефон, пожалуйста.' })); return; }
+          var msg = validate(co.step);
+          if (msg) { U.toast(msg); return; }
           if (co.step === 0 && co.saveAs) { S.saveAddress(Object.assign({}, co.address, { label: co.saveAs })); }
-          if (co.step === 2 && S.paymentOn() && !co.payment) { U.toast(tc({ en: 'Choose a payment method.', hy: 'Ընտրեք վճարման եղանակ։', ru: 'Выберите способ оплаты.' })); return; }
           co.step++; K.app.rerender();
         }
-        if (a === 'co-back') { collect(); co.step--; K.app.rerender(); }
+        if (a === 'co-back') { collect(); co.step--; co.error = ''; K.app.rerender(); }
         if (a === 'co-day') { co.day = b.dataset.k; K.app.rerender(); }
         if (a === 'co-slot') { co.slot = b.dataset.k; K.app.rerender(); }
-        if (a === 'co-pay') { co.payment = b.dataset.k; K.app.rerender(); }
         if (a === 'use-addr') {
           var found = S.state.addresses.filter(function (x) { return x.label === b.dataset.l; })[0];
           if (found) { co.address = Object.assign({}, found); K.app.rerender(); }
         }
-        if (a === 'geo') {
-          if (!navigator.geolocation) { U.toast('Geolocation unavailable'); return; }
-          navigator.geolocation.getCurrentPosition(function (pos) {
-            co.address.lat = pos.coords.latitude; co.address.lng = pos.coords.longitude;
-            U.toast(tc({ en: 'Location set — drag the pin to fine-tune.', hy: 'Տեղը սահմանված է։', ru: 'Местоположение получено.' }));
-          }, function () { U.toast(tc({ en: 'Could not get location — place the pin manually.', hy: 'Չհաջողվեց։', ru: 'Не удалось — поставьте точку вручную.' })); });
-        }
-        if (a === 'co-place') {
-          var order = S.createOrder({
-            customer: co.customer, address: co.address,
-            slot: co.slot ? (co.day || '') + ' ' + co.slot : null,
-            paymentMethod: co.payment || 'manual',
-            paymentStatus: S.paymentOn() && co.payment && co.payment !== 'manual' ? 'paid' : 'pending'
+        if (a === 'co-place' && !placing) {
+          var zone = S.state.settings.delivery.zones.filter(function (z) { return z.id === co.address.zone; })[0];
+          if (co.delivery === 'courier' && !zone) { co.step = 1; co.error = ''; U.toast(validate(1) || ''); K.app.rerender(); return; }
+          placing = true; co.error = ''; K.app.rerender();
+          S.createOrder({
+            ref: co.ref, customer: co.customer, consent: co.consent,
+            delivery: co.delivery, zoneId: zone ? zone.backendId : null,
+            address: co.delivery === 'courier' ? {
+              city: co.address.city || '', street: co.address.street || '', building: co.address.building || '',
+              entrance: co.address.entrance || '', floor: co.address.floor || '', apartment: co.address.apartment || '',
+              intercom: co.address.intercom || '', lift: co.address.elevator !== false, courier_note: co.address.courier || ''
+            } : {},
+            slot: co.slot ? [co.day, co.slot].filter(Boolean).join(' ') : ''
+          }).then(function (order) {
+            placing = false; co = null; attemptSent = true;
+            location.hash = '#/order/' + order.id;
+          }, function (err) {
+            placing = false;
+            co.error = failure(err);
+            if (err && (err.code === 'price_changed' || err.code === 'invalid_order' || err.code === 'cart_invalid')) {
+              /* reload the catalogue so the cart shows the new prices, then let the customer confirm */
+              K.app.reloadCatalog().then(function () { K.app.rerender(); }, function () { K.app.rerender(); });
+            } else K.app.rerender();
           });
-          co = null;
-          location.hash = '#/order/' + order.id;
         }
       });
     }
@@ -3399,37 +3400,57 @@
 
   /* ---------- confirmation / tracking --------------------------------------- */
 
+  function orderBody(o) {
+    var steps = o.steps || ['awaiting_payment', 'paid', 'in_production', 'ready', 'in_delivery', 'delivered'].map(function (id) {
+      return { id: id, label: tc(S.STATUS_LABEL[id]) };
+    });
+    var at = o.status === 'accepted' ? 1 : steps.map(function (s) { return s.id; }).indexOf(o.status);
+    var awaiting = o.status === 'awaiting_payment';
+    return '<div style="text-align:center;padding:50px 0 26px">' +
+        '<p class="eyebrow" style="justify-content:center">' + (o.status === 'cancelled' ? tc(S.STATUS_LABEL.cancelled) : t('co.confirmed')) + '</p>' +
+        '<h1 class="h1" style="font-size:clamp(2rem,4vw,3rem);margin:16px 0 8px">' + U.esc(o.id) + '</h1>' +
+        '<p class="lede" style="margin:0 auto">' + (awaiting ? t('co.thanks') : U.esc(o.statusLabel || tc(S.STATUS_LABEL[o.status] || {}))) + '</p>' +
+        (o.promised && o.status !== 'cancelled' && o.status !== 'delivered' ? '<p class="mono" style="margin-top:12px">' +
+          tc({ en: 'Expected', hy: 'Ակնկալվում է', ru: 'Ожидаемая дата' }) + ': ' +
+          new Date(o.promised + 'T12:00:00').toLocaleDateString(K.i18n.lang === 'ru' ? 'ru-RU' : (K.i18n.lang === 'hy' ? 'hy-AM' : 'en-GB'), { day: 'numeric', month: 'long', year: 'numeric' }) + '</p>' : '') +
+      '</div>' +
+      (awaiting && o.bank ? '<div class="panel" style="border-color:var(--oxide)"><h3 class="h3">' +
+        tc({ en: 'To pay', hy: 'Վճարման ենթակա', ru: 'К оплате' }) + ': ' + U.money(o.total) + '</h3>' +
+        '<pre style="white-space:pre-wrap;font-family:var(--fm,monospace);font-size:13px;margin:10px 0">' + U.esc(o.bank) + '</pre>' +
+        '<p style="color:var(--ink-2)">' + tc({ en: 'Put the order code ', hy: 'Վճարման նպատակում նշեք կոդը՝ ', ru: 'Укажите код заказа ' }) +
+        '<b>' + U.esc(o.id) + '</b>' + tc({ en: ' in the payment purpose and send us a screenshot of the transfer.', hy: ', և ուղարկեք մեզ սքրինշոթը։', ru: ' в назначении платежа и пришлите нам скриншот перевода.' }) + '</p></div>' : '') +
+      (awaiting && !o.bank && o.online ? '<div class="panel" style="border-color:var(--oxide)"><h3 class="h3">' +
+        tc({ en: 'To pay', hy: 'Վճարման ենթակա', ru: 'К оплате' }) + ': ' + U.money(o.total) + '</h3><p style="color:var(--ink-2)">' + tc(PAY_ONLINE_BODY) + '</p></div>' : '') +
+      (o.status !== 'cancelled' ? '<div class="panel"><div class="steps-nav">' + steps.map(function (s, i) {
+        return '<i class="' + (i === at ? 'is-on' : (i < at ? 'is-done' : '')) + '">' + U.esc(s.label) + '</i>';
+      }).join('') + '</div>' : '<div class="panel">') +
+      (o.items || []).map(function (it) {
+        var p = S.byId(it.productId);
+        return '<div class="line">' + (p ? U.artImg(p, it.options, 200) : '<div></div>') +
+          '<div><b>' + U.esc(tc(it.title)) + '</b><div class="line__opts">' + (p ? U.optionSummary(p, it.options) : '') + '</div>' +
+          '<div class="line__sku">' + U.esc(it.sku) + ' · × ' + it.qty + '</div></div>' +
+          '<div class="num">' + U.money(it.unit * it.qty) + '</div></div>';
+      }).join('') +
+      (o.delivery ? '<div class="srow"><span>' + t('cart.delivery') + '</span><span class="num">' + U.money(o.delivery) + '</span></div>' : '') +
+      '<div class="srow srow--total"><span>' + t('cart.total') + '</span><span class="num">' + U.money(o.total) + '</span></div></div>' +
+      '<div class="pillrow" style="justify-content:center;margin-top:20px">' +
+        '<a class="btn btn--ghost" href="#/account/orders">' + t('acc.orders') + '</a>' +
+        '<a class="btn btn--ghost" href="#/explore">' + t('cart.continue') + '</a></div>';
+  }
+
   K.views.order = {
     render: function (params) {
       var o = S.state.orders.filter(function (x) { return x.id === params.id; })[0];
       if (!o) return '<div class="wrap">' + U.empty('err.404', '#/', t('err.404cta')) + '</div>';
       U.setMeta({ title: o.id + ' — KADR', description: 'Order status' });
-      var steps = ['new', 'confirmed', 'production', 'ready', 'shipped', 'out', 'delivered'];
-      var at = steps.indexOf(o.status);
-      return '<div class="wrap" style="max-width:900px">' +
-        '<div style="text-align:center;padding:50px 0 26px">' +
-          '<p class="eyebrow" style="justify-content:center">' + t('co.confirmed') + '</p>' +
-          '<h1 class="h1" style="font-size:clamp(2rem,4vw,3rem);margin:16px 0 8px">' + o.id + '</h1>' +
-          '<p class="lede" style="margin:0 auto">' + t('co.thanks') + '</p>' +
-        '</div>' +
-        (o.paymentStatus === 'pending' ? '<div class="note">' + t('co.payOff') + ' ' + t('co.payOffBody') + '</div>' : '') +
-        '<div class="panel"><div class="steps-nav">' + steps.map(function (s, i) {
-          return '<i class="' + (i === at ? 'is-on' : (i < at ? 'is-done' : '')) + '">' + tc(S.STATUS_LABEL[s]) + '</i>';
-        }).join('') + '</div>' +
-        o.items.map(function (it) {
-          var p = S.byId(it.productId);
-          return '<div class="line">' + (p ? U.artImg(p, it.options, 200) : '<div></div>') +
-            '<div><b>' + U.esc(tc(it.title)) + '</b><div class="line__opts">' + (p ? U.optionSummary(p, it.options) : '') + '</div>' +
-            '<div class="line__sku">' + it.sku + ' · × ' + it.qty + '</div></div>' +
-            '<div class="num">' + U.money(it.unit * it.qty) + '</div></div>';
-        }).join('') +
-        '<div class="srow srow--total"><span>' + t('cart.total') + '</span><span class="num">' + U.money(o.total) + '</span></div></div>' +
-        (!S.state.user ? '<div class="panel"><h3 class="h3">' + t('co.createAccount') + '</h3>' +
-          '<div class="pillrow"><a class="btn btn--sm" href="#/account">' + t('acc.register') + '</a></div></div>' : '') +
-        '<div class="pillrow" style="justify-content:center;margin-top:20px">' +
-          '<a class="btn btn--ghost" href="#/account/orders">' + t('acc.orders') + '</a>' +
-          '<a class="btn btn--ghost" href="#/explore">' + t('cart.continue') + '</a></div>' +
-        '</div>';
+      return '<div class="wrap" style="max-width:900px" id="orderview">' + orderBody(o) + '</div>';
+    },
+    mount: function (root, params) {
+      /* the live status comes from the back office */
+      S.refreshOrder(params.id).then(function (o) {
+        var host = U.qs('#orderview', root);
+        if (host && K.app.route.name === 'order') { host.innerHTML = orderBody(o); U.hydrateImages(host); }
+      }, function () { /* keep the saved copy */ });
     }
   };
 })(window.KADR = window.KADR || {});
@@ -3469,8 +3490,8 @@
     if (!S.state.orders.length) return U.empty('acc.noOrders', '#/shop', t('cart.emptyCta'));
     return S.state.orders.map(function (o) {
       return '<div class="panel"><div class="section__head" style="margin-bottom:12px">' +
-        '<div><p class="mono">' + new Date(o.at).toLocaleDateString() + '</p><h3 class="h3">' + o.id + '</h3></div>' +
-        '<span class="status status--' + o.status + '">' + tc(S.STATUS_LABEL[o.status]) + '</span></div>' +
+        '<div><p class="mono">' + new Date(o.at).toLocaleDateString(K.i18n.lang === 'ru' ? 'ru-RU' : (K.i18n.lang === 'hy' ? 'hy-AM' : 'en-GB'), { day: 'numeric', month: 'long', year: 'numeric' }) + '</p><h3 class="h3">' + o.id + '</h3></div>' +
+        '<span class="status status--' + o.status + '">' + U.esc(o.statusLabel || tc(S.STATUS_LABEL[o.status] || {})) + '</span></div>' +
         o.items.map(function (it) {
           var p = S.byId(it.productId);
           return '<div class="line">' + (p ? U.artImg(p, it.options, 180) : '<div></div>') +
@@ -3498,7 +3519,7 @@
       var tab = params.tab || '';
       U.setMeta({ title: t('acc.title') + ' — KADR', description: 'Your account' });
       var body;
-      if (tab === 'orders') body = ordersPanel();
+      if (tab === 'orders') body = '<div id="ordershost">' + ordersPanel() + '</div>';
       else if (tab === 'favorites') {
         var favs = S.state.favorites.map(S.byId).filter(Boolean);
         body = favs.length ? U.grid(favs) : U.empty('acc.noFavs', '#/explore', t('acc.emptyCta'));
@@ -3512,7 +3533,15 @@
       return '<div class="wrap">' + VH.pageHead(t('acc.title'), S.state.user ? S.state.user.email : t('co.guest')) +
         '<div class="split">' + sidenav(tab) + '<div>' + body + '</div></div></div>';
     },
-    mount: function (root) {
+    mount: function (root, params) {
+      if (params.tab === 'orders' && S.state.orders.length) {
+        /* statuses come from the back office */
+        Promise.all(S.state.orders.slice(0, 20).map(function (o) { return S.refreshOrder(o.id).catch(function () {}); }))
+          .then(function () {
+            var host = U.qs('#ordershost', root);
+            if (host && K.app.route.name === 'account') { host.innerHTML = ordersPanel(); U.hydrateImages(host); }
+          });
+      }
       K.app.bind('click', function (e) {
         var b = e.target.closest('[data-action]'); if (!b) return;
         if (b.dataset.action === 'signin') {
@@ -3649,28 +3678,53 @@
     payment: { title: 'foot.payment', body: { en: 'Card payments are processed by our provider. While online payment is switched off, orders are confirmed manually over Instagram, WhatsApp or email.', hy: 'Վճարումները մշակվում են մատակարարի կողմից։', ru: 'Платежи обрабатывает провайдер.' } }
   };
 
+  /* Pages are written in the back office (Settings → Site & email texts). A language
+     marked "final" there replaces the built-in placeholder here. */
+  var PAGE_SLUG = { privacy: 'privacy', terms: 'terms', delivery: 'delivery-returns', returns: 'delivery-returns', payment: 'payment', about: 'about' };
+
+  function backofficeText(slug) {
+    var pg = D.PAGES[slug];
+    if (!pg || !(pg.done[K.i18n.lang] || pg.done.en)) return null;
+    return K.api.get('/pages/' + slug + '?lang=' + K.i18n.lang).then(function (r) { return r.body || null; });
+  }
+  function paragraphs(text) {
+    return String(text).split(/\n\s*\n/).map(function (p) { return '<p>' + U.esc(p).replace(/\n/g, '<br>') + '</p>'; }).join('');
+  }
+  function fillFromBackoffice(root, slug, sel) {
+    var pr = backofficeText(slug);
+    if (!pr) return;
+    var hash = location.hash;
+    pr.then(function (body) {
+      if (location.hash !== hash) return;   /* the customer already moved to another page */
+      var host = U.qs(sel, root);
+      if (body && host) host.innerHTML = paragraphs(body);
+    }, function () { /* keep the built-in text */ });
+  }
+
   K.views.legal = {
     render: function (params) {
       var doc = LEGAL[params.id] || LEGAL.privacy;
       U.setMeta({ title: t(doc.title) + ' — KADR', description: tc(doc.body).slice(0, 150) });
       return '<div class="wrap">' + VH.pageHead(t(doc.title), t('foot.legal')) +
-        '<div class="prose"><p class="lede">' + U.esc(tc(doc.body)) + '</p>' +
+        '<div class="prose" id="pagebody"><p class="lede">' + U.esc(tc(doc.body)) + '</p>' +
         '<p class="mono" style="text-transform:none;letter-spacing:0;margin-top:26px">' +
         tc({ en: 'Placeholder text — final legal copy is supplied and approved by the company.',
              hy: 'Ժամանակավոր տեքստ։', ru: 'Черновой текст — финальные тексты предоставляет компания.' }) + '</p></div></div>';
-    }
+    },
+    mount: function (root, params) { fillFromBackoffice(root, PAGE_SLUG[params.id] || 'privacy', '#pagebody'); }
   };
 
   K.views.about = {
     render: function () {
       U.setMeta({ title: 'About — KADR', description: 'A made-to-order print studio in Yerevan.' });
       return '<div class="wrap">' + VH.pageHead(t('nav.about'), 'KADR') +
-        '<div class="two"><div class="prose"><p class="lede">' + t('home.brand.body') + '</p>' +
+        '<div class="two"><div class="prose" id="pagebody"><p class="lede">' + t('home.brand.body') + '</p>' +
         '<h3 class="h3">' + tc({ en: 'How it works', hy: 'Ինչպես է աշխատում', ru: 'Как это работает' }) + '</h3>' +
         '<p>' + tc({ en: 'You order, we print, a courier brings it. Nothing sits in a warehouse, which is why the catalogue can grow to fifty thousand pieces without a single shelf.',
           hy: 'Դուք պատվիրում եք, մենք տպում ենք, առաքիչը բերում է։', ru: 'Вы заказываете, мы печатаем, курьер привозит.' }) + '</p></div>' +
         '<div>' + VH.sceneCard(D.SCENES[5]) + '</div></div></div>';
-    }
+    },
+    mount: function (root) { fillFromBackoffice(root, 'about', '#pagebody'); }
   };
 
   K.views.contact = {
@@ -3680,9 +3734,9 @@
       return '<div class="wrap" style="max-width:760px">' + VH.pageHead(t('nav.contact'), 'Yerevan, Armenia') +
         '<div class="panel"><h3 class="h3">' + tc({ en: 'Fastest routes', hy: 'Ամենաարագ ուղիները', ru: 'Быстрее всего' }) + '</h3>' +
         '<div class="contactrow">' +
-          '<a class="btn btn--sm" href="https://instagram.com/" target="_blank" rel="noopener">Instagram ' + U.esc(c.instagram) + '</a>' +
-          '<a class="btn btn--sm btn--ghost" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp ' + U.esc(c.whatsapp) + '</a>' +
-          '<a class="btn btn--sm btn--ghost" href="mailto:' + U.esc(c.email) + '">' + U.esc(c.email) + '</a>' +
+          (c.instagram ? '<a class="btn btn--sm" href="https://instagram.com/' + encodeURIComponent(String(c.instagram).replace(/^@/, '')) + '" target="_blank" rel="noopener">Instagram ' + U.esc(c.instagram) + '</a>' : '') +
+          (c.whatsapp ? '<a class="btn btn--sm btn--ghost" href="https://wa.me/' + String(c.whatsapp).replace(/\D/g, '') + '" target="_blank" rel="noopener">WhatsApp ' + U.esc(c.whatsapp) + '</a>' : '') +
+          (c.email ? '<a class="btn btn--sm btn--ghost" href="mailto:' + U.esc(c.email) + '">' + U.esc(c.email) + '</a>' : '') +
         '</div></div>' +
         '<div class="panel"><h3 class="h3">' + tc({ en: 'Business & bulk orders', hy: 'Բիզնես պատվերներ', ru: 'Корпоративные заказы' }) + '</h3>' +
         '<label class="field"><span>' + t('co.name') + '</span><input placeholder="…"></label>' +
@@ -3694,551 +3748,6 @@
       K.app.bind('click', function (e) {
         if (e.target.closest('[data-action="contact-send"]')) {
           U.toast(tc({ en: 'Thanks — we reply within a day.', hy: 'Շնորհակալություն։', ru: 'Спасибо — ответим в течение дня.' }));
-        }
-      });
-    }
-  };
-})(window.KADR = window.KADR || {});
-
-/* ============================================================================
-   VIEW — admin panel
-   ============================================================================ */
-
-/* Admin panel. The point of the whole build: the company runs the site without
-   developers. Every switch here changes the storefront immediately. */
-(function (K) {
-  'use strict';
-  var D = K.data, S = K.store, U = K.ui, SR = K.search, VH = K.vh;
-  var t = function (k, v) { return K.i18n.t(k, v); }, tc = function (o) { return K.i18n.tc(o); };
-  K.views = K.views || {};
-
-  var SECTIONS = [
-    ['', 'Dashboard'], ['products', 'Products'], ['orders', 'Orders'], ['tags', 'Tags'],
-    ['attributes', 'Attributes'], ['collections', 'Collections'], ['inspiration', 'Inspiration'],
-    ['homepage', 'Homepage'], ['delivery', 'Delivery'], ['payments', 'Payments'],
-    ['features', 'Features'], ['analytics', 'Analytics'], ['seo', 'SEO'], ['customers', 'Customers']
-  ];
-
-  var prodFilter = { q: '', status: 'all', page: 1 };
-  var bulk = {};
-
-  function nav(active) {
-    return '<nav class="sidenav">' + SECTIONS.map(function (s) {
-      return '<a href="#/admin' + (s[0] ? '/' + s[0] : '') + '" class="' + (active === s[0] ? 'is-active' : '') + '">' + s[1] + '</a>';
-    }).join('') + '</nav>';
-  }
-  function tog(on, action, key) {
-    return '<button class="tog' + (on ? ' is-on' : '') + '" data-action="' + action + '" data-k="' + key + '" role="switch" aria-checked="' + on + '"></button>';
-  }
-  function row(label, sub, control) {
-    return '<div class="switch"><div><b>' + U.esc(label) + '</b>' + (sub ? '<small>' + U.esc(sub) + '</small>' : '') + '</div>' + control + '</div>';
-  }
-
-  /* ---------- dashboard ------------------------------------------------------ */
-
-  function dashboard() {
-    var ev = S.state.events;
-    var since = Date.now() - 7 * 86400000;
-    var recent = ev.filter(function (e) { return e.at > since; });
-    var counts = {};
-    recent.forEach(function (e) { counts[e.t] = (counts[e.t] || 0) + 1; });
-    var open = S.state.orders.filter(function (o) { return ['new', 'confirmed', 'production'].indexOf(o.status) >= 0; });
-    return '<div class="panel"><h3 class="h3">This week</h3><div class="stat">' +
-      '<div><b class="num">' + (counts.view || 0) + '</b><span>product views</span></div>' +
-      '<div><b class="num">' + (counts.search || 0) + '</b><span>searches</span></div>' +
-      '<div><b class="num">' + (counts.cart || 0) + '</b><span>cart adds</span></div>' +
-      '<div><b class="num">' + (counts.fav || 0) + '</b><span>favourites</span></div>' +
-      '<div><b class="num">' + S.state.orders.length + '</b><span>orders</span></div>' +
-      '<div><b class="num">' + open.length + '</b><span>need production</span></div>' +
-      '</div></div>' +
-      '<div class="panel"><h3 class="h3">Needs you now</h3>' +
-      (open.length ? '<table class="tbl"><tr><th>Order</th><th>Items</th><th>Total</th><th>Status</th><th></th></tr>' +
-        open.map(function (o) {
-          return '<tr><td class="num">' + o.id + '</td><td>' + o.items.length + '</td><td class="num">' + U.money(o.total) + '</td>' +
-            '<td><span class="status status--' + o.status + '">' + tc(S.STATUS_LABEL[o.status]) + '</span></td>' +
-            '<td><button class="chip" data-action="ad-order" data-id="' + o.id + '">Open</button></td></tr>';
-        }).join('') + '</table>'
-        : '<p style="color:var(--ink-3)">No open orders. Place one on the storefront to see the production flow.</p>') + '</div>' +
-      '<div class="panel"><h3 class="h3">Catalogue</h3><div class="stat">' +
-      '<div><b class="num">' + S.products.length + '</b><span>products</span></div>' +
-      '<div><b class="num">' + S.live().length + '</b><span>live</span></div>' +
-      '<div><b class="num">' + D.TAGS.length + '</b><span>tags</span></div>' +
-      '<div><b class="num">' + D.COLLECTIONS.length + '</b><span>collections</span></div>' +
-      '<div><b class="num">' + D.SCENES.length + '</b><span>room scenes</span></div>' +
-      '<div><b class="num">' + Object.keys(D.ATTRIBUTES).length + '</b><span>attributes</span></div>' +
-      '</div></div>';
-  }
-
-  /* ---------- products -------------------------------------------------------- */
-
-  function productList() {
-    var list = S.products.filter(function (p) {
-      if (prodFilter.status !== 'all' && p.status !== prodFilter.status) return false;
-      if (!prodFilter.q) return true;
-      var q = prodFilter.q.toLowerCase();
-      return (p.sku + ' ' + tc(p.title)).toLowerCase().indexOf(q) >= 0;
-    });
-    var shown = list.slice(0, prodFilter.page * 25);
-    var nBulk = Object.keys(bulk).filter(function (k) { return bulk[k]; }).length;
-    return '<div class="panel">' +
-      '<div class="toolbar" style="margin:0 0 14px">' +
-        '<div class="pillrow">' +
-          '<input class="select" id="pq" placeholder="Search SKU or title" value="' + U.esc(prodFilter.q) + '" style="padding:8px 14px;min-width:220px">' +
-          '<select class="select" id="pstatus"><option value="all">All</option><option value="live"' + (prodFilter.status === 'live' ? ' selected' : '') + '>Live</option><option value="draft"' + (prodFilter.status === 'draft' ? ' selected' : '') + '>Draft</option></select>' +
-        '</div>' +
-        '<div class="pillrow"><button class="chip" data-action="ad-csv">Export CSV</button>' +
-        '<button class="chip" data-action="ad-new">+ New product</button></div>' +
-      '</div>' +
-      (nBulk ? '<div class="note"><b>' + nBulk + ' selected</b> — ' +
-        '<button class="chip" data-action="bulk-live">Publish</button> ' +
-        '<button class="chip" data-action="bulk-draft">Unpublish</button> ' +
-        '<button class="chip" data-action="bulk-price">Price ±10%</button> ' +
-        '<button class="chip" data-action="bulk-tag">Add tag…</button> ' +
-        '<button class="chip" data-action="bulk-clear">Clear</button></div>' : '') +
-      '<div style="overflow-x:auto"><table class="tbl">' +
-      '<tr><th><input type="checkbox" data-action="bulk-all"></th><th></th><th>SKU</th><th>Title</th><th>Type</th><th>Price from</th><th>Tags</th><th>Status</th><th></th></tr>' +
-      shown.map(function (p) {
-        return '<tr><td><input type="checkbox" class="bulkbox" data-id="' + p.id + '"' + (bulk[p.id] ? ' checked' : '') + '></td>' +
-          '<td>' + U.artImg(p, null, 120) + '</td>' +
-          '<td class="num">' + p.sku + '</td>' +
-          '<td><b>' + U.esc(tc(p.title)) + '</b></td>' +
-          '<td>' + U.esc(tc(D.PRODUCT_TYPES[p.typeId].name)) + '</td>' +
-          '<td class="num">' + U.money(D.priceRange(p).min) + '</td>' +
-          '<td>' + p.tags.slice(0, 3).map(function (id) { var g = D.tagById(id); return g ? U.esc(tc(g.name)) : ''; }).join(', ') + '</td>' +
-          '<td><span class="status status--' + (p.status === 'live' ? 'delivered' : 'new') + '">' + p.status + '</span></td>' +
-          '<td><button class="chip" data-action="ad-edit" data-id="' + p.id + '">Edit</button></td></tr>';
-      }).join('') + '</table></div>' +
-      (list.length > shown.length ? '<div style="text-align:center;margin-top:16px"><button class="btn btn--sm btn--ghost" data-action="ad-more">Load more (' + (list.length - shown.length) + ')</button></div>' : '') +
-      '</div>';
-  }
-
-  function editModal(p) {
-    U.modal({
-      title: p.sku,
-      body: '<div class="two"><div>' + U.artImg(p, null, 320) + '</div><div>' +
-        '<label class="field"><span>Title (EN)</span><input id="e-en" value="' + U.esc(p.title.en) + '"></label>' +
-        '<label class="field"><span>Title (HY)</span><input id="e-hy" value="' + U.esc(p.title.hy) + '"></label>' +
-        '<label class="field"><span>Title (RU)</span><input id="e-ru" value="' + U.esc(p.title.ru) + '"></label>' +
-        '<label class="field field--half"><span>Base price (AMD)</span><input id="e-price" type="number" value="' + p.basePrice + '"></label>' +
-        '<label class="field field--half"><span>Status</span><select id="e-status"><option value="live"' + (p.status === 'live' ? ' selected' : '') + '>live</option><option value="draft"' + (p.status === 'draft' ? ' selected' : '') + '>draft</option></select></label>' +
-        '<label class="field field--half"><span>Production days</span><input id="e-prod" value="' + p.productionDays.join('-') + '"></label>' +
-        '<label class="field field--half"><span>Delivery days</span><input id="e-del" value="' + p.deliveryDays.join('-') + '"></label>' +
-        '</div></div>' +
-        '<p class="mono">Production files</p><ul style="font-size:13px;color:var(--ink-2)">' +
-        p.files.map(function (f) { return '<li>' + U.esc(f.name) + ' — ' + f.kind + ', ' + f.size + '</li>'; }).join('') + '</ul>' +
-        '<p class="mono">Variant SKUs generated automatically — e.g. ' + S.skuFor(p, D.PRODUCT_TYPES[p.typeId].defaults) + '</p>',
-      footer: '<button class="btn btn--ghost" data-action="modal-close">' + t('ui.cancel') + '</button>' +
-        '<button class="btn btn--oxide" data-action="ad-save" data-id="' + p.id + '">' + t('ui.save') + '</button>'
-    });
-  }
-
-  /* ---------- orders / production --------------------------------------------- */
-
-  function orderList() {
-    if (!S.state.orders.length) return '<div class="panel"><p style="color:var(--ink-3)">No orders yet — place one on the storefront.</p></div>';
-    return '<div class="panel"><table class="tbl"><tr><th>Order</th><th>Date</th><th>Customer</th><th>Items</th><th>Total</th><th>Payment</th><th>Status</th><th></th></tr>' +
-      S.state.orders.map(function (o) {
-        return '<tr><td class="num">' + o.id + '</td><td>' + new Date(o.at).toLocaleDateString() + '</td>' +
-          '<td>' + U.esc(o.customer.name || '—') + '<br><span class="mono">' + U.esc(o.customer.phone || '') + '</span></td>' +
-          '<td>' + o.items.length + '</td><td class="num">' + U.money(o.total) + '</td>' +
-          '<td><span class="status">' + o.paymentStatus + '</span></td>' +
-          '<td><span class="status status--' + o.status + '">' + tc(S.STATUS_LABEL[o.status]) + '</span></td>' +
-          '<td><button class="chip" data-action="ad-order" data-id="' + o.id + '">Open</button></td></tr>';
-      }).join('') + '</table></div>';
-  }
-
-  /* The production brief: everything the factory needs, nothing to look up. */
-  function factoryBrief(o) {
-    var lines = o.items.map(function (it) {
-      var p = S.byId(it.productId);
-      var file = (it.files && it.files[0] && it.files[0].name) || '—';
-      return [
-        'SKU        : ' + it.sku,
-        'ITEM       : ' + tc(it.title),
-        'SPEC       : ' + (p ? U.optionSummary(p, it.options) : ''),
-        'QTY        : ' + it.qty,
-        'PRINT FILE : ' + file
-      ].join('\n');
-    }).join('\n\n');
-    return 'ORDER      : ' + o.id + '\n' +
-      'DATE       : ' + new Date(o.at).toLocaleString() + '\n' +
-      'DELIVER TO : ' + [o.address.street, o.address.building, o.address.apartment && ('apt ' + o.address.apartment)].filter(Boolean).join(', ') + '\n' +
-      'CONTACT    : ' + (o.customer.name || '') + ' ' + (o.customer.phone || '') + '\n' +
-      'WINDOW     : ' + (o.slot || 'any') + '\n' +
-      '--------------------------------------------\n' + lines;
-  }
-
-  function orderModal(o) {
-    U.modal({
-      title: o.id,
-      body: '<div class="pillrow" style="margin-bottom:14px">' + S.STATUSES.map(function (s) {
-          return '<button class="chip' + (o.status === s ? ' is-on' : '') + '" data-action="ad-status" data-id="' + o.id + '" data-s="' + s + '">' + tc(S.STATUS_LABEL[s]) + '</button>';
-        }).join('') + '</div>' +
-        '<p class="mono">Production brief — copy straight to the factory</p>' +
-        '<div class="factory" id="brief">' + U.esc(factoryBrief(o)) + '</div>' +
-        '<div class="pillrow" style="margin-top:12px"><button class="chip" data-action="ad-copy">' + t('ui.copy') + '</button></div>' +
-        '<hr class="hr"><p class="mono">Items</p>' +
-        o.items.map(function (it) {
-          var p = S.byId(it.productId);
-          return '<div class="line">' + (p ? U.artImg(p, it.options, 160) : '<div></div>') +
-            '<div><b>' + U.esc(tc(it.title)) + '</b><div class="line__sku">' + it.sku + '</div>' +
-            '<div class="line__opts">' + (p ? U.optionSummary(p, it.options) : '') + '</div>' +
-            '<div class="mono">' + (it.files || []).map(function (f) { return f.name; }).join(' · ') + '</div></div>' +
-            '<div class="num">× ' + it.qty + '</div></div>';
-        }).join(''),
-      footer: '<button class="btn btn--ghost" data-action="modal-close">' + t('nav.close') + '</button>'
-    });
-  }
-
-  /* ---------- other sections --------------------------------------------------- */
-
-  function tagsPanel() {
-    var counts = {};
-    S.products.forEach(function (p) { p.tags.forEach(function (id) { counts[id] = (counts[id] || 0) + 1; }); });
-    return '<div class="panel"><h3 class="h3">Tags</h3>' +
-      '<div class="pillrow" style="margin-bottom:14px"><input class="select" id="newtag" placeholder="New tag name" style="padding:8px 14px">' +
-      '<button class="chip" data-action="tag-new">Create</button>' +
-      '<button class="chip" data-action="tag-merge">Merge two tags…</button></div>' +
-      '<table class="tbl"><tr><th>Tag</th><th>Group</th><th>Products</th><th>Page</th></tr>' +
-      D.TAGS.map(function (tg) {
-        return '<tr><td><b>' + U.esc(tc(tg.name)) + '</b></td><td>' + tg.group + '</td><td class="num">' + (counts[tg.id] || 0) + '</td>' +
-          '<td><a class="link" href="#/tag/' + tg.slug + '">/tags/' + tg.slug + '</a></td></tr>';
-      }).join('') + '</table></div>';
-  }
-
-  function attributesPanel() {
-    return Object.keys(D.ATTRIBUTES).map(function (k) {
-      var a = D.ATTRIBUTES[k];
-      return '<div class="panel"><div class="section__head" style="margin-bottom:10px"><h3 class="h3">' + U.esc(tc(a.name)) + '</h3>' +
-        '<span class="mono">' + a.type + (a.filterable ? ' · filterable' : '') + '</span></div>' +
-        '<table class="tbl"><tr><th>Value</th><th>Price effect</th><th>Used by</th></tr>' +
-        a.values.map(function (v) {
-          var used = Object.keys(D.PRODUCT_TYPES).filter(function (tk) { return D.PRODUCT_TYPES[tk].components.indexOf(k) >= 0; })
-            .map(function (tk) { return tc(D.PRODUCT_TYPES[tk].name); }).join(', ');
-          return '<tr><td>' + U.esc(tc(v.label)) + '</td><td class="num">' + (v.factor ? '× ' + v.factor : (v.add ? '+ ' + U.money(v.add) : '—')) + '</td><td>' + U.esc(used) + '</td></tr>';
-        }).join('') + '</table></div>';
-    }).join('') +
-    '<div class="panel"><h3 class="h3">Rules</h3><table class="tbl"><tr><th>Type</th><th>When</th><th>Disables</th></tr>' +
-    Object.keys(D.PRODUCT_TYPES).map(function (k) {
-      return (D.PRODUCT_TYPES[k].rules || []).map(function (r) {
-        return '<tr><td>' + tc(D.PRODUCT_TYPES[k].name) + '</td><td class="mono">' + U.esc(JSON.stringify(r.when)) + '</td><td class="mono">' + U.esc(JSON.stringify(r.disable)) + '</td></tr>';
-      }).join('');
-    }).join('') + '</table></div>';
-  }
-
-  function homepagePanel() {
-    return '<div class="panel"><h3 class="h3">Homepage blocks</h3>' +
-      '<p style="color:var(--ink-3);font-size:13px">Switch a block off and it disappears from the storefront — no empty space left behind.</p>' +
-      S.state.settings.homepage.map(function (b, i) {
-        return '<div class="switch"><div><b>' + U.esc(tc(b.label)) + '</b><small>' + b.id + '</small></div>' +
-          '<div class="pillrow">' +
-          '<button class="chip" data-action="hp-up" data-i="' + i + '">↑</button>' +
-          '<button class="chip" data-action="hp-down" data-i="' + i + '">↓</button>' +
-          tog(b.on, 'hp-toggle', b.id) + '</div></div>';
-      }).join('') + '</div>';
-  }
-
-  function deliveryPanel() {
-    var d = S.state.settings.delivery;
-    return '<div class="panel"><h3 class="h3">Zones</h3>' +
-      d.zones.map(function (z) {
-        return row(tc(z.name), z.days[0] + '–' + z.days[1] + ' business days', tog(z.enabled, 'zone-toggle', z.id));
-      }).join('') + '</div>' +
-      '<div class="panel"><h3 class="h3">Time slots</h3>' +
-      row('Let customers pick a delivery window', 'When off, the whole control disappears from checkout', tog(S.state.settings.features.deliverySlots, 'feature-toggle', 'deliverySlots')) +
-      '<div class="chips" style="margin-top:12px">' + d.slots.map(function (s) { return '<span class="chip">' + s + '</span>'; }).join('') + '</div></div>' +
-      '<div class="panel"><h3 class="h3">Production time</h3>' +
-      '<label class="field field--half"><span>Min days</span><input id="pdmin" type="number" value="' + d.productionDays[0] + '"></label>' +
-      '<label class="field field--half"><span>Max days</span><input id="pdmax" type="number" value="' + d.productionDays[1] + '"></label>' +
-      '<button class="btn btn--sm" data-action="save-prod">' + t('ui.save') + '</button></div>';
-  }
-
-  function paymentsPanel() {
-    var p = S.state.settings.payments;
-    var on = S.paymentOn();
-    return '<div class="panel"><h3 class="h3">Payment methods</h3>' +
-      '<p style="color:var(--ink-3);font-size:13px">With every online method off, checkout switches to manual contact mode automatically.</p>' +
-      row('Bank card', 'via payment provider', tog(p.card, 'pay-toggle', 'card')) +
-      row('Apple Pay', '', tog(p.applePay, 'pay-toggle', 'applePay')) +
-      row('Google Pay', '', tog(p.googlePay, 'pay-toggle', 'googlePay')) +
-      row('Manual / contact us', 'Instagram, WhatsApp, email', tog(p.manual, 'pay-toggle', 'manual')) +
-      '<div class="note" style="margin-top:16px">Checkout is currently in <b>' + (on ? 'online payment' : 'manual contact') + '</b> mode.</div></div>' +
-      '<div class="panel"><h3 class="h3">Contacts shown when payment is off</h3>' +
-      '<label class="field field--half"><span>Instagram</span><input id="c-ig" value="' + U.esc(S.state.settings.contact.instagram) + '"></label>' +
-      '<label class="field field--half"><span>WhatsApp</span><input id="c-wa" value="' + U.esc(S.state.settings.contact.whatsapp) + '"></label>' +
-      '<label class="field"><span>Email</span><input id="c-em" value="' + U.esc(S.state.settings.contact.email) + '"></label>' +
-      '<button class="btn btn--sm" data-action="save-contact">' + t('ui.save') + '</button></div>';
-  }
-
-  function featuresPanel() {
-    var f = S.state.settings.features;
-    return '<div class="panel"><h3 class="h3">Features</h3>' +
-      row('Product Builder', 'Full configurator. Off = predefined variants only.', tog(f.productBuilder, 'feature-toggle', 'productBuilder')) +
-      row('Complete Your Room', 'The wall composition tool', tog(f.completeYourRoom, 'feature-toggle', 'completeYourRoom')) +
-      row('Delivery time slots', '', tog(f.deliverySlots, 'feature-toggle', 'deliverySlots')) +
-      row('Personalisation', 'Behavioural feed ranking', tog(f.personalization, 'feature-toggle', 'personalization')) +
-      row('Guest checkout', '', tog(f.guestCheckout, 'feature-toggle', 'guestCheckout')) +
-      '</div>' +
-      '<div class="panel"><h3 class="h3">Languages</h3>' +
-      K.i18n.langs.map(function (l) { return row(l.label, l.code, tog(S.state.settings.languages[l.code], 'lang-toggle', l.code)); }).join('') + '</div>' +
-      '<div class="panel"><h3 class="h3">Currencies</h3>' +
-      Object.keys(D.CURRENCIES).map(function (c) {
-        return row(c, '1 AMD = ' + D.CURRENCIES[c].rate + ' ' + c, tog(S.state.settings.currencies[c], 'cur-toggle', c));
-      }).join('') + '</div>' +
-      '<div class="panel"><button class="btn btn--sm btn--ghost" data-action="reset-settings">Reset all settings to defaults</button></div>';
-  }
-
-  function analyticsPanel() {
-    var ev = S.state.events;
-    var byTag = {}, searches = {}, byType = {};
-    ev.forEach(function (e) {
-      byType[e.t] = (byType[e.t] || 0) + 1;
-      if (e.t === 'search' && e.p.q) searches[e.p.q] = (searches[e.p.q] || 0) + 1;
-      if (e.p.productId) {
-        var p = S.byId(e.p.productId);
-        if (p) p.tags.forEach(function (id) { byTag[id] = (byTag[id] || 0) + 1; });
-      }
-      if (e.p.tag) byTag[e.p.tag] = (byTag[e.p.tag] || 0) + 1;
-    });
-    var funnel = [['view', 'Product views'], ['fav', 'Favourites'], ['cart', 'Cart adds'], ['purchase', 'Purchases']];
-    var maxF = Math.max(1, byType.view || 1);
-    return '<div class="panel"><h3 class="h3">Funnel (this browser)</h3>' +
-      funnel.map(function (f) {
-        var v = byType[f[0]] || 0;
-        return '<div style="margin:10px 0"><div class="switch" style="border:0;padding:2px 0"><b>' + f[1] + '</b><span class="num">' + v + '</span></div>' +
-          '<div style="height:6px;background:var(--paper-3);border-radius:3px"><div style="height:6px;width:' + Math.round(v / maxF * 100) + '%;background:var(--oxide);border-radius:3px"></div></div></div>';
-      }).join('') + '</div>' +
-      '<div class="panel"><h3 class="h3">Top tags</h3><div class="chips">' +
-      Object.keys(byTag).sort(function (a, b) { return byTag[b] - byTag[a]; }).slice(0, 14).map(function (id) {
-        var g = D.tagById(id); return g ? '<span class="chip">' + U.esc(tc(g.name)) + ' <em class="mono">' + byTag[id] + '</em></span>' : '';
-      }).join('') + '</div></div>' +
-      '<div class="panel"><h3 class="h3">Searches</h3>' +
-      (Object.keys(searches).length ? '<div class="chips">' + Object.keys(searches).map(function (q) {
-        return '<a class="chip" href="#/shop?q=' + encodeURIComponent(q) + '">' + U.esc(q) + ' <em class="mono">' + searches[q] + '</em></a>';
-      }).join('') + '</div>' : '<p style="color:var(--ink-3)">No searches recorded yet.</p>') + '</div>' +
-      '<div class="panel"><h3 class="h3">Wire-up</h3><p style="color:var(--ink-2);font-size:13.5px">' +
-      'These counters come from the same event stream that feeds personalisation. In production the same calls fan out to Google Analytics, Meta Pixel and TikTok Pixel.</p>' +
-      '<div class="factory">track(' + "'view'" + ', { productId })\ntrack(' + "'search'" + ', { q })\ntrack(' + "'cart'" + ', { productId })\ntrack(' + "'purchase'" + ', { tags })</div></div>';
-  }
-
-  function seoPanel() {
-    var s = S.state.settings.seo;
-    return '<div class="panel"><h3 class="h3">Site metadata</h3>' +
-      '<label class="field"><span>Title</span><input id="seo-t" value="' + U.esc(s.title) + '"></label>' +
-      '<label class="field"><span>Meta description</span><textarea id="seo-d" rows="3">' + U.esc(s.description) + '</textarea></label>' +
-      '<button class="btn btn--sm" data-action="save-seo">' + t('ui.save') + '</button></div>' +
-      '<div class="panel"><h3 class="h3">Indexable URLs</h3><div class="factory">' +
-      ['/products/{slug}', '/categories/{slug}', '/tags/{slug}', '/collections/{slug}', '/rooms/{slug}'].join('\n') +
-      '\n\nsitemap.xml   ' + (S.live().length + D.TAGS.length + D.COLLECTIONS.length + D.SCENES.length + D.CATEGORIES.length) + ' URLs' +
-      '\nrobots.txt    allow all, disallow /admin, /cart, /checkout' +
-      '\nschema.org    Product · Organization · BreadcrumbList</div></div>';
-  }
-
-  function customersPanel() {
-    var u = S.state.user;
-    return '<div class="panel"><h3 class="h3">Customers</h3>' +
-      (u ? '<table class="tbl"><tr><th>Email</th><th>Since</th><th>Orders</th><th>Favourites</th></tr>' +
-        '<tr><td>' + U.esc(u.email) + '</td><td>' + new Date(u.since).toLocaleDateString() + '</td><td>' + S.state.orders.length + '</td><td>' + S.state.favorites.length + '</td></tr></table>'
-        : '<p style="color:var(--ink-3)">No account signed in on this browser. Guests can order without registering.</p>') +
-      '<p class="mono" style="margin-top:16px;text-transform:none;letter-spacing:0">Personal data access is role-gated in production: Owner and Order Manager see contact details, Content Manager does not.</p></div>' +
-      '<div class="panel"><h3 class="h3">Roles</h3><table class="tbl"><tr><th>Role</th><th>Can</th></tr>' +
-      [['Owner', 'everything, including settings and payments'],
-       ['Administrator', 'catalogue, orders, content'],
-       ['Content manager', 'products, images, tags, collections, inspiration'],
-       ['Order manager', 'orders and production only'],
-       ['Designer', 'images and room scenes']].map(function (r) {
-        return '<tr><td><b>' + r[0] + '</b></td><td>' + r[1] + '</td></tr>';
-      }).join('') + '</table></div>';
-  }
-
-  function collectionsPanel() {
-    return '<div class="panel"><h3 class="h3">Collections</h3><table class="tbl"><tr><th>Name</th><th>Rule</th><th>Products</th><th>On homepage</th></tr>' +
-      D.COLLECTIONS.map(function (c) {
-        return '<tr><td><a class="link" href="#/collection/' + c.id + '">' + U.esc(tc(c.title)) + '</a></td>' +
-          '<td class="mono">tags: ' + c.tags.join(', ') + (c.maxPrice ? ' · max ' + c.maxPrice : '') + '</td>' +
-          '<td class="num">' + SR.collectionProducts(c.id).length + '</td>' +
-          '<td>' + (c.featured ? '✓' : '—') + '</td></tr>';
-      }).join('') + '</table>' +
-      '<p class="mono" style="margin-top:12px;text-transform:none;letter-spacing:0">Collections are rule-based: assign a tag to a product and it joins every matching collection automatically.</p></div>';
-  }
-
-  function inspirationPanel() {
-    return '<div class="panel"><h3 class="h3">Room scenes</h3><table class="tbl"><tr><th></th><th>Title</th><th>Room</th><th>Style</th><th>Linked products</th><th></th></tr>' +
-      D.SCENES.map(function (s) {
-        return '<tr><td><img src="' + VH.sceneUrl(s, 160, 110) + '" alt=""></td>' +
-          '<td><b>' + U.esc(tc(s.title)) + '</b></td><td>' + s.room + '</td><td>' + s.style + '</td>' +
-          '<td class="num">' + SR.sceneProducts(s).length + '</td>' +
-          '<td><a class="chip" href="#/room/' + s.id + '">View</a></td></tr>';
-      }).join('') + '</table></div>';
-  }
-
-  /* ---------- shell ------------------------------------------------------------ */
-
-  K.views.admin = {
-    render: function (params) {
-      var sec = params.section || '';
-      U.setMeta({ title: 'Admin — KADR', description: '' });
-      var body =
-        sec === 'products' ? productList() :
-        sec === 'orders' ? orderList() :
-        sec === 'tags' ? tagsPanel() :
-        sec === 'attributes' ? attributesPanel() :
-        sec === 'collections' ? collectionsPanel() :
-        sec === 'inspiration' ? inspirationPanel() :
-        sec === 'homepage' ? homepagePanel() :
-        sec === 'delivery' ? deliveryPanel() :
-        sec === 'payments' ? paymentsPanel() :
-        sec === 'features' ? featuresPanel() :
-        sec === 'analytics' ? analyticsPanel() :
-        sec === 'seo' ? seoPanel() :
-        sec === 'customers' ? customersPanel() : dashboard();
-      return '<div class="wrap">' +
-        '<header style="padding:34px 0 18px"><p class="eyebrow">Admin panel</p>' +
-        '<h1 class="h2" style="margin-top:12px">' + (SECTIONS.filter(function (s) { return s[0] === sec; })[0] || SECTIONS[0])[1] + '</h1>' +
-        '<p class="mono" style="text-transform:none;letter-spacing:0;margin-top:8px">Changes here take effect on the storefront immediately and persist in this browser.</p></header>' +
-        '<div class="split">' + nav(sec) + '<div>' + body + '</div></div></div>';
-    },
-    mount: function (root) {
-      K.app.bind('input', function (e) {
-        if (e.target.id === 'pq') { prodFilter.q = e.target.value; prodFilter.page = 1; K.app.rerender(); }
-      });
-      K.app.bind('change', function (e) {
-        if (e.target.id === 'pstatus') { prodFilter.status = e.target.value; K.app.rerender(); }
-        if (e.target.classList.contains('bulkbox')) bulk[e.target.dataset.id] = e.target.checked;
-        if (e.target.dataset.action === 'bulk-all') {
-          U.qsa('.bulkbox', root).forEach(function (b) { b.checked = e.target.checked; bulk[b.dataset.id] = e.target.checked; });
-          K.app.rerender();
-        }
-      });
-      K.app.bind('click', function (e) {
-        var b = e.target.closest('[data-action]'); if (!b) return;
-        var a = b.dataset.action, k = b.dataset.k;
-        var st = S.state.settings;
-
-        if (a === 'feature-toggle') { var f = {}; f[k] = !st.features[k]; S.updateSettings({ features: f }); K.app.rerender(); }
-        if (a === 'pay-toggle') { var p = {}; p[k] = !st.payments[k]; S.updateSettings({ payments: p }); K.app.rerender(); }
-        if (a === 'cur-toggle') { var c = {}; c[k] = !st.currencies[k]; S.updateSettings({ currencies: c }); K.app.rerender(); }
-        if (a === 'lang-toggle') { var l = {}; l[k] = !st.languages[k]; S.updateSettings({ languages: l }); K.app.rerender(); }
-        if (a === 'zone-toggle') {
-          var zones = st.delivery.zones.map(function (z) { return z.id === k ? Object.assign({}, z, { enabled: !z.enabled }) : z; });
-          S.updateSettings({ delivery: { zones: zones } }); K.app.rerender();
-        }
-        if (a === 'hp-toggle') {
-          var hp = st.homepage.map(function (x) { return x.id === k ? Object.assign({}, x, { on: !x.on }) : x; });
-          S.updateSettings({ homepage: hp }); K.app.rerender();
-        }
-        if (a === 'hp-up' || a === 'hp-down') {
-          var i = parseInt(b.dataset.i, 10), arr = st.homepage.slice();
-          var j = a === 'hp-up' ? i - 1 : i + 1;
-          if (j >= 0 && j < arr.length) { var tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp; S.updateSettings({ homepage: arr }); K.app.rerender(); }
-        }
-        if (a === 'save-prod') {
-          S.updateSettings({ delivery: { productionDays: [parseInt(U.qs('#pdmin', root).value, 10), parseInt(U.qs('#pdmax', root).value, 10)] } });
-          U.toast('Saved');
-        }
-        if (a === 'save-contact') {
-          S.updateSettings({ contact: { instagram: U.qs('#c-ig', root).value, whatsapp: U.qs('#c-wa', root).value, email: U.qs('#c-em', root).value } });
-          U.toast('Saved');
-        }
-        if (a === 'save-seo') {
-          S.updateSettings({ seo: { title: U.qs('#seo-t', root).value, description: U.qs('#seo-d', root).value } });
-          U.toast('Saved');
-        }
-        if (a === 'reset-settings') { S.resetSettings(); U.toast('Settings reset'); K.app.rerender(); }
-
-        if (a === 'ad-more') { prodFilter.page++; K.app.rerender(); }
-        if (a === 'ad-edit') editModal(S.byId(b.dataset.id));
-        if (a === 'ad-save') {
-          var id = b.dataset.id;
-          var prod = U.qs('#e-prod').value.split('-').map(Number);
-          S.patchProduct(id, {
-            title: { en: U.qs('#e-en').value, hy: U.qs('#e-hy').value, ru: U.qs('#e-ru').value },
-            basePrice: parseInt(U.qs('#e-price').value, 10) || 0,
-            status: U.qs('#e-status').value,
-            productionDays: prod.length === 2 ? prod : [2, 4],
-            deliveryDays: U.qs('#e-del').value.split('-').map(Number)
-          });
-          K.search.build();
-          U.closeModal(); U.toast('Product saved'); K.app.rerender();
-        }
-        if (a === 'ad-new') {
-          U.modal({ title: 'New product', body: '<p style="color:var(--ink-2)">In production this opens the full create form: title, images, category, tags, attributes, variants, production files, times. ' +
-            'The prototype generates its catalogue, so use <b>Edit</b> on an existing row to see the field set and the CSV export for bulk import.</p>',
-            footer: '<button class="btn btn--ghost" data-action="modal-close">' + t('nav.close') + '</button>' });
-        }
-        if (a === 'ad-csv') {
-          var rows = [['sku', 'title_en', 'title_hy', 'title_ru', 'type', 'category', 'base_price_amd', 'tags', 'status', 'production_days']]
-            .concat(S.products.map(function (p) {
-              return [p.sku, p.title.en, p.title.hy, p.title.ru, p.typeId, p.categoryId, p.basePrice, p.tags.join('|'), p.status, p.productionDays.join('-')];
-            }));
-          var csv = rows.map(function (r) { return r.map(function (c) { return '"' + String(c).replace(/"/g, '""') + '"'; }).join(','); }).join('\n');
-          U.modal({ title: 'CSV export — ' + S.products.length + ' products', body: '<div class="factory" style="max-height:340px;overflow:auto">' + U.esc(csv.slice(0, 4000)) + (csv.length > 4000 ? '\n… (' + (csv.length - 4000) + ' more characters)' : '') + '</div>',
-            footer: '<button class="btn btn--ghost" data-action="modal-close">' + t('nav.close') + '</button>' });
-        }
-        if (a === 'bulk-clear') { bulk = {}; K.app.rerender(); }
-        if (a === 'bulk-live' || a === 'bulk-draft') {
-          Object.keys(bulk).filter(function (x) { return bulk[x]; }).forEach(function (id) {
-            S.patchProduct(id, { status: a === 'bulk-live' ? 'live' : 'draft' });
-          });
-          bulk = {}; K.search.build(); U.toast('Updated'); K.app.rerender();
-        }
-        if (a === 'bulk-price') {
-          Object.keys(bulk).filter(function (x) { return bulk[x]; }).forEach(function (id) {
-            var pr = S.byId(id); S.patchProduct(id, { basePrice: Math.round(pr.basePrice * 1.1 / 50) * 50 });
-          });
-          bulk = {}; U.toast('Prices +10%'); K.app.rerender();
-        }
-        if (a === 'bulk-tag') {
-          U.modal({ title: 'Add tag to selection', body: '<div class="chips">' + D.TAGS.slice(0, 24).map(function (tg) {
-            return '<button class="chip" data-action="bulk-tag-do" data-id="' + tg.id + '">' + U.esc(tc(tg.name)) + '</button>';
-          }).join('') + '</div>', footer: '<button class="btn btn--ghost" data-action="modal-close">' + t('ui.cancel') + '</button>' });
-        }
-        if (a === 'bulk-tag-do') {
-          Object.keys(bulk).filter(function (x) { return bulk[x]; }).forEach(function (id) {
-            var pr = S.byId(id);
-            if (pr.tags.indexOf(b.dataset.id) < 0) S.patchProduct(id, { tags: pr.tags.concat([b.dataset.id]) });
-          });
-          bulk = {}; K.search.build(); U.closeModal(); U.toast('Tag applied'); K.app.rerender();
-        }
-        if (a === 'tag-new') {
-          var name = U.qs('#newtag', root).value.trim();
-          if (!name) return;
-          var id = name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-          D.TAGS.push({ id: id, slug: id, group: 'theme', name: { en: name, hy: name, ru: name } });
-          K.search.build(); U.toast('Tag created'); K.app.rerender();
-        }
-        if (a === 'tag-merge') {
-          U.modal({ title: 'Merge tags', body: '<p style="color:var(--ink-2)">Pick the tag to keep, then the duplicate to fold into it. Every product moves over and the old tag page redirects.</p>' +
-            '<div class="two"><label class="field"><span>Keep</span><select id="mk">' + D.TAGS.map(function (g) { return '<option value="' + g.id + '">' + U.esc(tc(g.name)) + '</option>'; }).join('') + '</select></label>' +
-            '<label class="field"><span>Merge & remove</span><select id="mr">' + D.TAGS.map(function (g) { return '<option value="' + g.id + '">' + U.esc(tc(g.name)) + '</option>'; }).join('') + '</select></label></div>',
-            footer: '<button class="btn btn--ghost" data-action="modal-close">' + t('ui.cancel') + '</button><button class="btn btn--oxide" data-action="tag-merge-do">Merge</button>' });
-        }
-        if (a === 'tag-merge-do') {
-          var keep = U.qs('#mk').value, drop = U.qs('#mr').value;
-          if (keep !== drop) {
-            S.products.forEach(function (pr) {
-              if (pr.tags.indexOf(drop) >= 0) {
-                var next = pr.tags.filter(function (x) { return x !== drop; });
-                if (next.indexOf(keep) < 0) next.push(keep);
-                S.patchProduct(pr.id, { tags: next });
-              }
-            });
-            var i2 = D.TAGS.findIndex(function (g) { return g.id === drop; });
-            if (i2 >= 0) D.TAGS.splice(i2, 1);
-            K.search.build();
-          }
-          U.closeModal(); U.toast('Merged'); K.app.rerender();
-        }
-        if (a === 'ad-order') orderModal(S.state.orders.filter(function (o) { return o.id === b.dataset.id; })[0]);
-        if (a === 'ad-status') {
-          S.setOrderStatus(b.dataset.id, b.dataset.s);
-          orderModal(S.state.orders.filter(function (o) { return o.id === b.dataset.id; })[0]);
-          K.app.rerender();
-        }
-        if (a === 'ad-copy') {
-          var text = U.qs('#brief').textContent;
-          if (navigator.clipboard) navigator.clipboard.writeText(text).then(function () { U.toast(t('ui.copied')); }, function () { U.toast(text.slice(0, 40) + '…'); });
-          else U.toast(t('ui.copied'));
         }
       });
     }
@@ -4276,8 +3785,7 @@
     [/^\/account(?:\/([^/]+))?$/, 'account', ['tab']],
     [/^\/about$/, 'about'],
     [/^\/contact$/, 'contact'],
-    [/^\/legal\/([^/]+)$/, 'legal', ['id']],
-    [/^\/admin(?:\/([^/]+))?$/, 'admin', ['section']]
+    [/^\/legal\/([^/]+)$/, 'legal', ['id']]
   ];
 
   var current = { name: 'home', params: {} };
@@ -4316,11 +3824,20 @@
 
   /* ---------- chrome ---------------------------------------------------------- */
 
+  /* Language, currency and theme: in the header on wide screens, in the menu drawer on phones. */
+  function prefControls(cls) {
+    var langs = K.i18n.langs.filter(function (l) { return S.state.settings.languages[l.code]; });
+    var curs = Object.keys(D.CURRENCIES).filter(function (c) { return S.state.settings.currencies[c]; });
+    return '<select class="pill ' + cls + '" data-action="lang-sel" aria-label="' + t('ui.language') + '">' +
+        langs.map(function (l) { return '<option value="' + l.code + '"' + (K.i18n.lang === l.code ? ' selected' : '') + '>' + l.short + '</option>'; }).join('') + '</select>' +
+      '<select class="pill ' + cls + '" data-action="cur-sel" aria-label="' + t('ui.currency') + '">' +
+        curs.map(function (c) { return '<option value="' + c + '"' + (S.state.currency === c ? ' selected' : '') + '>' + c + '</option>'; }).join('') + '</select>' +
+      '<button class="iconbtn ' + cls + '" data-action="theme" aria-label="' + t('nav.theme') + '">' + U.icon(S.state.theme === 'dark' ? 'sun' : 'moon') + '</button>';
+  }
+
   function header() {
     var cart = S.cartCount();
     var favs = S.state.favorites.length;
-    var langs = K.i18n.langs.filter(function (l) { return S.state.settings.languages[l.code]; });
-    var curs = Object.keys(D.CURRENCIES).filter(function (c) { return S.state.settings.currencies[c]; });
     var nav = [['#/shop', 'nav.shop'], ['#/explore', 'nav.explore'], ['#/collections', 'nav.collections'],
       ['#/rooms', 'nav.rooms'], ['#/shop?sort=new', 'nav.new']];
     if (S.state.settings.features.completeYourRoom) nav.push(['#/composer', 'nav.builder']);
@@ -4331,14 +3848,9 @@
       '<nav class="nav">' + nav.map(function (n) {
         return '<a href="' + n[0] + '" class="' + (hash === n[0] ? 'is-active' : '') + '">' + t(n[1]) + '</a>';
       }).join('') + '</nav>' +
-      '<div class="head__tools">' +
-        '<select class="pill" data-action="lang-sel" aria-label="' + t('ui.language') + '">' +
-          langs.map(function (l) { return '<option value="' + l.code + '"' + (K.i18n.lang === l.code ? ' selected' : '') + '>' + l.short + '</option>'; }).join('') + '</select>' +
-        '<select class="pill" data-action="cur-sel" aria-label="' + t('ui.currency') + '">' +
-          curs.map(function (c) { return '<option value="' + c + '"' + (S.state.currency === c ? ' selected' : '') + '>' + c + '</option>'; }).join('') + '</select>' +
-        '<button class="iconbtn" data-action="theme" aria-label="' + t('nav.theme') + '">' + U.icon(S.state.theme === 'dark' ? 'sun' : 'moon') + '</button>' +
+      '<div class="head__tools">' + prefControls('head__opt') +
         '<a class="iconbtn" href="#/search" aria-label="' + t('nav.search') + '">' + U.icon('search') + '</a>' +
-        '<a class="iconbtn" href="#/favorites" aria-label="' + t('nav.favorites') + '">' + U.heart() +
+        '<a class="iconbtn head__opt" href="#/favorites" aria-label="' + t('nav.favorites') + '">' + U.heart() +
           (favs ? '<span class="count">' + favs + '</span>' : '') + '</a>' +
         '<a class="iconbtn" href="#/account" aria-label="' + t('nav.account') + '">' + U.icon('user') + '</a>' +
         '<a class="iconbtn" href="#/cart" aria-label="' + t('nav.cart') + '">' + U.icon('cart') +
@@ -4349,13 +3861,14 @@
   function menuDrawer() {
     var links = [['#/shop', 'nav.shop'], ['#/explore', 'nav.explore'], ['#/collections', 'nav.collections'],
       ['#/rooms', 'nav.rooms'], ['#/composer', 'nav.builder'], ['#/favorites', 'nav.favorites'],
-      ['#/account', 'nav.account'], ['#/about', 'nav.about'], ['#/contact', 'nav.contact'], ['#/admin', 'nav.admin']];
+      ['#/account', 'nav.account'], ['#/about', 'nav.about'], ['#/contact', 'nav.contact']];
     return '<div class="drawer__scrim" data-action="menu-close"></div><div class="drawer__panel">' +
       '<div class="drawer__head"><span class="logo">KADR</span>' +
       '<button class="iconbtn" data-action="menu-close" aria-label="' + t('nav.close') + '">' + U.icon('close') + '</button></div>' +
       '<div class="drawer__body">' + links.map(function (l) {
         return '<a href="' + l[0] + '" data-action="menu-close" style="display:block;padding:13px 0;border-bottom:1px solid var(--line-soft);font-family:var(--fd);font-size:20px">' + t(l[1]) + '</a>';
-      }).join('') + '</div></div>';
+      }).join('') +
+      '<div class="pillrow drawer__prefs" style="margin-top:20px;align-items:center">' + prefControls('') + '</div></div></div>';
   }
 
   function footer() {
@@ -4364,13 +3877,10 @@
       '<div><a class="logo" href="#/">KADR<sup>studio</sup></a>' +
       '<p class="lede" style="font-size:14px;margin-top:14px;max-width:34ch">' + t('home.hero.sub') + '</p>' +
       '<div class="pillrow" style="margin-top:16px">' +
-        '<a class="chip" href="https://instagram.com/" target="_blank" rel="noopener">' + U.esc(c.instagram) + '</a>' +
-        '<a class="chip" href="mailto:' + U.esc(c.email) + '">' + U.esc(c.email) + '</a></div></div>' +
+        (c.instagram ? '<a class="chip" href="https://instagram.com/' + encodeURIComponent(String(c.instagram).replace(/^@/, '')) + '" target="_blank" rel="noopener">' + U.esc(c.instagram) + '</a>' : '') +
+        (c.email ? '<a class="chip" href="mailto:' + U.esc(c.email) + '">' + U.esc(c.email) + '</a>' : '') + '</div></div>' +
       '<div><h4>' + t('nav.shop') + '</h4>' +
-        '<a href="#/shop?cat=posters">' + tc(D.catById('posters').name) + '</a>' +
-        '<a href="#/shop?cat=framed">' + tc(D.catById('framed').name) + '</a>' +
-        '<a href="#/shop?cat=flags">' + tc(D.catById('flags').name) + '</a>' +
-        '<a href="#/shop?cat=objects">' + tc(D.catById('objects').name) + '</a>' +
+        D.CATEGORIES.map(function (cat) { return '<a href="#/shop?cat=' + encodeURIComponent(cat.id) + '">' + U.esc(tc(cat.name)) + '</a>'; }).join('') +
         '<a href="#/collections">' + t('nav.collections') + '</a></div>' +
       '<div><h4>' + t('foot.help') + '</h4>' +
         '<a href="#/about">' + t('nav.about') + '</a>' +
@@ -4381,10 +3891,9 @@
       '<div><h4>' + t('foot.legal') + '</h4>' +
         '<a href="#/legal/privacy">' + t('foot.privacy') + '</a>' +
         '<a href="#/legal/terms">' + t('foot.terms') + '</a>' +
-        '<a href="#/legal/payment">' + t('foot.payment') + '</a>' +
-        '<a href="#/admin">' + t('nav.admin') + '</a></div>' +
+        '<a href="#/legal/payment">' + t('foot.payment') + '</a></div>' +
       '</div><div class="foot__bottom"><span>© ' + new Date().getFullYear() + ' KADR — ' + t('foot.rights') + '</span>' +
-      '<span>' + (S.paymentOn() ? 'Online payment enabled' : t('co.payOff')) + '</span></div></div></footer>';
+      '<span>' + (S.paymentOn() ? tc({ en: 'Card payment available', hy: 'Քարտով վճարում', ru: 'Оплата картой доступна' }) : t('co.payOff')) + '</span></div></div></footer>';
   }
 
   /* ---------- render ---------------------------------------------------------- */
@@ -4396,12 +3905,19 @@
     var view = K.views[r.name];
     var root = U.qs('#app');
     U.qs('#head').innerHTML = header();
+    U.qs('#menu').innerHTML = menuDrawer();   /* language may have changed */
 
     if (!view) {
       root.innerHTML = '<div class="wrap">' + U.empty('err.404', '#/', t('err.404cta')) + '</div>';
     } else {
-      root.innerHTML = view.render(r.params) || '';
-      if (view.mount) view.mount(root, r.params);
+      try {
+        root.innerHTML = view.render(r.params) || '';
+        if (view.mount) view.mount(root, r.params);
+      } catch (e) {
+        /* one broken block must never leave the customer on a blank page */
+        if (window.console) console.error(e);
+        root.innerHTML = '<div class="wrap">' + U.empty('err.404', '#/', t('err.404cta')) + '</div>';
+      }
     }
     U.qs('#foot').innerHTML = footer();
     U.hydrateImages(document);
@@ -4432,7 +3948,7 @@
       if (a === 'menu') U.drawer('menu', true);
       if (a === 'menu-close') U.drawer('menu', false);
       if (a === 'modal-close') U.closeModal();
-      if (a === 'theme') { S.setTheme(S.state.theme === 'dark' ? 'light' : 'dark'); U.qs('#head').innerHTML = header(); }
+      if (a === 'theme') { S.setTheme(S.state.theme === 'dark' ? 'light' : 'dark'); U.qs('#head').innerHTML = header(); U.qs('#menu').innerHTML = menuDrawer(); }
       if (a === 'lang') { S.setLang(b.dataset.k); render(); }
       if (a === 'cur') { S.setCurrency(b.dataset.k); render(); }
       if (a === 'tagclick') S.track('tag', { tag: b.dataset.id });
@@ -4464,6 +3980,38 @@
 
   /* ---------- boot -------------------------------------------------------------- */
 
+  /* ---------- catalogue from the back office ------------------------------------ */
+
+  var lastLoad = 0;
+  function loadCatalog() {
+    return K.api.bootstrap().then(function (boot) {
+      S.setCatalog(D.load(boot));
+      K.search.build();
+      lastLoad = Date.now();
+    });
+  }
+  function loadingScreen() {
+    U.qs('#app').innerHTML = '<div class="wrap" style="padding:80px 0">' + U.skeleton(8) + '</div>';
+  }
+  function errorScreen() {
+    U.qs('#app').innerHTML = '<div class="wrap"><div class="empty">' +
+      '<p class="empty__title">' + tc({ en: 'The shop could not load.', hy: 'Խանութը չբեռնվեց։', ru: 'Магазин не загрузился.' }) + '</p>' +
+      '<p class="lede" style="margin:0 auto 18px">' + tc({ en: 'Check your connection and try again.', hy: 'Ստուգեք կապը և փորձեք կրկին։', ru: 'Проверьте подключение и попробуйте снова.' }) + '</p>' +
+      '<button class="btn btn--ghost" data-action="retry-load">' + tc({ en: 'Try again', hy: 'Կրկին', ru: 'Повторить' }) + '</button></div></div>';
+  }
+  function start() {
+    loadingScreen();
+    loadCatalog().then(render, errorScreen);
+  }
+  /* Back-office changes reach an open tab too: refresh when the customer comes back to it. */
+  function refreshIfStale() {
+    if (document.visibilityState !== 'visible' || !lastLoad || Date.now() - lastLoad < 60000) return;
+    loadCatalog().then(function () {
+      if (['checkout', 'builder', 'composer'].indexOf(current.name) < 0) rerender();
+      else U.qs('#head').innerHTML = header();
+    }, function () { /* keep what is on screen */ });
+  }
+
   function boot() {
     K.i18n.set(S.state.lang);
     if (!S.state.theme) {
@@ -4473,9 +4021,10 @@
     }
     document.documentElement.dataset.theme = S.state.theme;
     U.qs('#menu').innerHTML = menuDrawer();
-    K.search.build();
     bindGlobal();
-    render();
+    document.addEventListener('click', function (e) { if (e.target.closest('[data-action="retry-load"]')) start(); });
+    document.addEventListener('visibilitychange', refreshIfStale);
+    start();
 
     /* the storefront reflects admin changes without a reload */
     S.on(function (what) {
@@ -4484,7 +4033,7 @@
     });
   }
 
-  K.app = { render: render, rerender: rerender, boot: boot, bind: bind, get route() { return current; } };
+  K.app = { render: render, rerender: rerender, boot: boot, bind: bind, reloadCatalog: loadCatalog, get route() { return current; } };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
   else boot();
 })(window.KADR = window.KADR || {});
