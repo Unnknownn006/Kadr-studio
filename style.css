@@ -132,6 +132,13 @@ main{min-height:70vh;padding-bottom:120px}
   background:var(--oxide);color:#fff;font-size:10px;line-height:16px;text-align:center;font-variant-numeric:tabular-nums;
 }
 .nav--mob{display:none}
+.drawer__prefs{display:none}
+@media(max-width:600px){
+  .head__opt{display:none}
+  .drawer__prefs{display:flex}
+  .head__in{gap:8px}
+  .head__tools{gap:0}
+}
 
 /* ---------- buttons ------------------------------------------------------- */
 .btn{
@@ -502,3 +509,6 @@ main{min-height:70vh;padding-bottom:120px}
   .field--half + .field--half{margin-left:0}
   main{padding-bottom:80px}
 }
+
+/* long emails and addresses in the checkout summary wrap instead of widening the page */
+.srow b{overflow-wrap:anywhere;min-width:0}
